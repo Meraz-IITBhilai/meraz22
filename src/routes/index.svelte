@@ -33,11 +33,8 @@
 </div> -->
 <div class="section1">
   <!-- <img class = "bg3" src="/assets/bg3.png" alt="" srcset=""> -->
-  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-  </p>
+  <h1 class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  </h1>
   <video  class="video" autoplay loop muted>
       <source src="assets/LostStories.mp4" type="video/mp4">
     </video>    
@@ -46,33 +43,21 @@
 
 <div class="section2">
   <video  class="video1" autoplay loop muted>
-    <source src="assets/Neophilis.mp4" type="video/mp4">
+    <source src="assets/vipul.mp4" type="video/mp4">
   </video> 
-  <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-  </p>   
+  <h1 class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </h1>   
 </div>
 <div class="section3">
   <video  class="video2" autoplay loop muted>
-    <source src="assets/vipul.mp4" type="video/mp4">
-  </video> 
-  <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-  </p>   
-</div>
-<div class="section2">
-  <video  class="video1" autoplay loop muted>
     <source src="assets/Neophilis.mp4" type="video/mp4">
   </video> 
-  <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-  </p>   
+  <h1 class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </h1>   
+</div>
+<div class="section2">
+  <img class="tata" src="assets/ratan.png">
+  <img class="mohan" src="assets/mohan.jpg">
 </div>
 <div class="section3">
   <video  class="video2" autoplay loop muted>
@@ -128,50 +113,56 @@
   }
   .video{
     position:absolute;
-    width:620px;
-    height:100%;
-    left:5%;
+    width:40vw;
+    top: 3%;
+    left:5%
   }
   .video1{
     position:absolute;
-    width:620px;
-    height:100%;
+    width:40vw;
+    top: 10%;
+    // height:100%;
     right:5%  ;
   }
   .video2{
     position:absolute;
-    width:620px;
-    height:100%;
-    left:5%;
+    width:40vw;
+    top: 15%;
+    left:5%
   }
   .text{
     position: absolute;
     color: white;
-    top:250px;
     right:0px;
+    top: 10%;
     width: 40%;
-    height: 100%;
+    // height: 100%;
     align-items: center;
   }
   .text1{
     position: absolute;
     color: black;
-    top:100px;
-    left:0px;
     width: 40%;
-    height: 100%;
+    left: 10%;
+    top: 14%;
+    // height: 100%;
     align-items: center;
   }
   .text2{
     position: absolute;
     color: white;
-    top:250px;
     right:0px;
+    top: 20%;
     width: 40%;
-    height: 100%;
+    // height: 100%;
     align-items: center;
   }
-  
+  .tata{
+    width: 20vw;
+  }
+  .mohan{
+    width: 20vw;
+  }
 
 // 	.full {
 // 		background-color: #040406;
@@ -343,7 +334,7 @@
 .section1{
   position: relative;
   width: 100%;
-  height: 130vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -355,9 +346,9 @@
 }
 .section2{
   position: relative;
-  top:-80px;
+  // top:-80px;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,13 +361,13 @@
   position: relative;
   top: -50px;
   width: 100%;
-  height: 130vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background:url("assets/bg3.png") center top/auto 100% no-repeat;
+  background:url("assets/bg2.png") center top/auto 100% no-repeat;
   overflow: visible; 
-  background-image: url("assets/bg3.png");
+  background-image: url("assets/bg2.png");
   background-size: contain;
 }
 @media (max-width: 900px) {
