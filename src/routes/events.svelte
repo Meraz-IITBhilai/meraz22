@@ -15,10 +15,10 @@
 	<div class="mains">
 		<h1 class="event">EVENTS</h1>
 		<div class="background">
-			<a href="/pronite"><img class="img1" src="assets/pronites.png"></a>
-			<a href="/culturals"><img class="img2" src="assets/cultural.png"></a>
-			<a href="/scitech"><img class="img3" src="assets/scitech.png"></a>
-			<a href="/informal"><img class="img4" src="assets/informal.png"> </a>
+			<a href="/pronite"><img class="img1 imag" src="assets/pronites.png"></a>
+			<a href="/culturals"><img class="img2 imag" src="assets/cultural.png"></a>
+			<a href="/scitech"><img class="img3 imag" src="assets/scitech.png"></a>
+			<a href="/informal"><img class="img4 imag" src="assets/informal.png"> </a>
 		</div>
 		
 		<div class="background2">
@@ -62,6 +62,21 @@
 		border-radius: 40px;
 		left:10%;
 	}
+	.imag{
+		transition: .2s all;
+
+	}
+	
+	.imag:hover{
+
+			// -webkit-filter: brightness(30%);
+
+		
+		// content: 'hey i am a text';
+		border: 2px solid rgb(117, 255, 227);
+		transform: scale(1.2);
+
+}
 	.img1{
 		// border-radius: 40px 0 0 40px;
 	}
@@ -120,6 +135,7 @@
 	// }
 	.poster{
 		object-fit:cover;
+		
 	}
 	@media (max-width: 900px) {
 	

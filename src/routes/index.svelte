@@ -1,6 +1,7 @@
 <script>
 	import Hero from './_Hero.svelte';
 	import 'lite-youtube-embed/src/lite-yt-embed.css';
+	import Timer from './_Timer.svelte';
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
 
 	<div class="video-container">
 		<div class="color-overlay"></div>
-		<video class="vidd" autoplay loop muted>
+		<video class="vidd " autoplay loop muted>
 			<source src="assets/bggg.mp4" type="video/mp4">
 		</video>
 	</div>
@@ -123,7 +124,7 @@
 
 <style lang="scss">
   .vidd{
-    transform: translate(-7.5%);
+    transform: translate(-10%,-10%);
   }
   .video{
     position:absolute;
@@ -268,7 +269,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1; 
 }
 
 .color-overlay {
@@ -279,6 +280,7 @@
   width: 100%;
   height: 100vh;
   opacity: 0.7;
+  z-index: 38;
 }
 
 //Colours
