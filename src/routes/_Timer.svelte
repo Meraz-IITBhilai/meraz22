@@ -58,18 +58,18 @@
 
 	.complete-message,
 	.parent {
-		color: var(--primary);
-		font-family: 'Metal Mania', cursive;
-
+		background-color: #31E1F7;
+		font-family: 'Oswald', sans-serif;
+		z-index: 3;
 		letter-spacing: 3px;
-
+		
 		// font-family: nouty;
 		// letter-spacing: 3px;
 
-		background-image: url('/assets/gold-texture.jpg');
-		background-repeat: repeat-x;
-		background-position: 0 0;
-		font-size: 1.9rem;
+		// background-image: url('/assets/gold-texture.jpg');
+		// background-repeat: repeat-x;
+		// background-position: 0 0;
+		font-size: 30%;
 		text-transform: uppercase;
 		text-align: center;
 		color: transparent;
@@ -78,13 +78,6 @@
 		background-clip: text;
 		-webkit-background-clip: text;
 		-moz-background-clip: text;
-		-webkit-text-fill-color: transparent;
-
-		-webkit-animation: BackgroundAnimated 10s linear infinite;
-		-moz-animation: BackgroundAnimated 10s linear infinite;
-		-ms-animation: BackgroundAnimated 10s linear infinite;
-		-o-animation: BackgroundAnimated 10s linear infinite;
-		animation: BackgroundAnimated 10s linear infinite;
 	}
 
 	.complete-message {
@@ -125,12 +118,12 @@
 	}
 
 	.box {
-		font-size: 1.9rem;
+		font-size: 2.5rem;
 		display: flex;
 		flex-direction: column;
 		padding: 5px;
 	}
 	.box > span {
-		font-size: 1.1rem;
+		font-size: 70%;
 	}
 </style>
