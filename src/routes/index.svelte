@@ -19,6 +19,10 @@
 			<source src="assets/bggg.mp4" type="video/mp4">
 		</video>
 	</div>
+  <div class="timer">
+    <Timer />
+  </div>
+  
 	<img style="display: inline-block" class="newmeraz" src="assets/newmeraz.png" alt="" srcset="">
 	<button class="btn third">Register</button>
 </div>
@@ -231,6 +235,7 @@
 .newmeraz{
 	width: 80%;
 	z-index: 2;
+  margin-bottom: 10%;
 }
 
 .section {
@@ -283,12 +288,16 @@
 
 
  
-
+.timer{
+  z-index : 3;
+  position: absolute;
+  bottom: 30%;
+}
 
 // Basic Button Style
 .btn {
 	position: absolute;
-	bottom: 20%;
+	bottom: 10%;
 	z-index: 3;
   box-sizing: border-box;
   appearance: none;
