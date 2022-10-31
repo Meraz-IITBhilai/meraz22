@@ -126,4 +126,9 @@
 	.box > span {
 		font-size: 70%;
 	}
+	@media(max-width:900px){
+		.box{
+			font-size: 1.5rem;
+		}
+	}
 </style>
