@@ -16,7 +16,7 @@
 
 	$: display = $sidebarOpen ? 'none' : 'flex';
 </script>
-
+<svelte:head><link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"></svelte:head>
 <svelte:window bind:scrollY />
 
 
@@ -111,7 +111,7 @@
 	}
 	li {
 		// background-image: url('/assets/gold-texture.jpg');
-		font-family: 'slant', cursive;
+		font-family: 'Staatliches', cursive;
 		// background-color: black;
 		font-size: 1.1em;
 		letter-spacing: 1px;
@@ -160,7 +160,7 @@
 		margin: 10px;
 		position: relative;
 		padding-left: 110px;
-		font-family: 'slant', cursive;
+		font-family: 'Staatliches', cursive;
 		font-weight: normal;
 		letter-spacing: 1px;
 		background: -webkit-linear-gradient(rgb(244, 242, 235), rgb(96, 162, 255), rgb(254, 177, 247));
