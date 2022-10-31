@@ -25,7 +25,7 @@
 			<a href="/pronite"><img class="img1" src="assets/pron.png"></a>
 			<a href="/culturals"><img class="img2" src="assets/dancenew.png"></a>
 			<a href="/scitech"><img class="img3" src="assets/sciencetech.png"></a>
-			<a href><img class="img4" src="assets/informals.png"> </a>
+			<a ><img class="img4" src="assets/informals.png"> </a>
 		</div>
 	
 	</div>
