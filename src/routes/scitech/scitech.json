@@ -1,85 +1,47 @@
 [
     {
-        "name":"Ad11",
-        "tagline":"Ye mai kar leta hu aap ad11 ke liye ad banao"
+        "name":"Aviatya",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Artville",
-        "tagline":"This is a tagline"
+        "name":"Break-the-blocks",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Attire-spectra"
+        "name":"Captcha-breaking",
+        "tagline":"Meraz is cool"
+
     },
     {
-        "name":"Biz-sci-tech-quiz"
+        "name":"Matched",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Cinemaestro"
+        "name":"Over-flow",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Depth-of-dance"
+        "name":"Planetarium",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Euphony"
+        "name":"Robo-kabaddi",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Fiction-on-canvs"
+        "name":"Robo-soccer",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Final-masquerade"
+        "name":"Skrypted",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Hue-tube"
+        "name":"VR-Flynn",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"In10sity"
-    },
-    {
-        "name":"Mimic"
-    },
-    {
-        "name":"Motification"
-    },
-    {
-        "name":"Mun"
-    },
-    {
-        "name":"Murder Mystery"
-    },
-    {
-        "name":"Nsfw-quiz"
-    },
-    {
-        "name":"Nukkad-natak"
-    },
-    {
-        "name":"Phantom"
-    },
-    {
-        "name":"Photostory"
-    },
-    {
-        "name":"Pixel-files"
-    },
-    {
-        "name":"Poetry-slam"
-    },
-    {
-        "name":"Potdf"
-    },
-    {
-        "name":"Shredded"
-    },
-    {
-        "name":"Surreal"
-    },
-    {
-        "name":"Time-capsule-quiz"
-    },
-    {
-        "name":"Versify-letterate"
-    },
-    {
-        "name":"Versify-prompt-writing"
+        "name":"Zapricon",
+        "tagline":"Meraz is cool"
     }
 ]

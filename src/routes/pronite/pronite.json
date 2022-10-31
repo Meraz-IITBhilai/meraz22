@@ -1,85 +1,27 @@
 [
     {
-        "name":"Ad11",
-        "tagline":"Ye mai kar leta hu aap ad11 ke liye ad banao"
+        "name":"Vipul",
+        "tagline":"to tickle your funny bones"
     },
     {
-        "name":"Artville",
-        "tagline":"This is a tagline"
+        "name":"Anuv Jain",
+        "tagline":"To step up the music meter"
     },
     {
-        "name":"Attire-spectra"
+        "name":"Lost stories",
+        "tagline":"Lost yourself in the found stories"
     },
     {
-        "name":"Biz-sci-tech-quiz"
+        "name":"Nemophilis",
+        "tagline":"Rock off Rave on"
     },
     {
-        "name":"Cinemaestro"
+        "name":"Ratan Tata",
+        "tagline":"The True Titan"
     },
     {
-        "name":"Depth-of-dance"
-    },
-    {
-        "name":"Euphony"
-    },
-    {
-        "name":"Fiction-on-canvs"
-    },
-    {
-        "name":"Final-masquerade"
-    },
-    {
-        "name":"Hue-tube"
-    },
-    {
-        "name":"In10sity"
-    },
-    {
-        "name":"Mimic"
-    },
-    {
-        "name":"Motification"
-    },
-    {
-        "name":"Mun"
-    },
-    {
-        "name":"Murder Mystery"
-    },
-    {
-        "name":"Nsfw-quiz"
-    },
-    {
-        "name":"Nukkad-natak"
-    },
-    {
-        "name":"Phantom"
-    },
-    {
-        "name":"Photostory"
-    },
-    {
-        "name":"Pixel-files"
-    },
-    {
-        "name":"Poetry-slam"
-    },
-    {
-        "name":"Potdf"
-    },
-    {
-        "name":"Shredded"
-    },
-    {
-        "name":"Surreal"
-    },
-    {
-        "name":"Time-capsule-quiz"
-    },
-    {
-        "name":"Versify-letterate"
-    },
-    {
-        "name":"Versify-prompt-writing"
+        "name":"Mohandas Pai",
+        "tagline":"Meet the business giant"
     }
+    
 ]

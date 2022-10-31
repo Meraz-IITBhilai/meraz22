@@ -18,7 +18,7 @@
 			<a href="/pronite"><img class="img1 imag" src="assets/pronites.png"></a>
 			<a href="/culturals"><img class="img2 imag" src="assets/cultural.png"></a>
 			<a href="/scitech"><img class="img3 imag" src="assets/scitech.png"></a>
-			<a href="/informal"><img class="img4 imag" src="assets/informal.png"> </a>
+			<a><img class="img4 imag" src="assets/informal.png"> </a>
 		</div>
 		
 		<div class="background2">

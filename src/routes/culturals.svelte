@@ -20,7 +20,7 @@
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-					<a class="event-item" href={`/culturals/${name.name}`} style="cursor: pointer;">
+					<a class="event-item" style="cursor: pointer;">
 						<div class="content-overlay" />
 						<img class="event-img" src={`assets/event-images/${name.name}.jpg`} alt="" />
 						<div class="content-details fadeIn-top">

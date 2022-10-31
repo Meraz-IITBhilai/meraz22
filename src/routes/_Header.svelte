@@ -96,7 +96,7 @@
 		transition: transform .2s;
 	}
 	@font-face {
-		font-family: valorant;
+		font-family: slant;
 		src: url('assets/SLANT.TTF');
 	}
 
@@ -111,7 +111,7 @@
 	}
 	li {
 		// background-image: url('/assets/gold-texture.jpg');
-		font-family: 'valorant', cursive;
+		font-family: 'slant', cursive;
 		// background-color: black;
 		font-size: 1.1em;
 		letter-spacing: 1px;
@@ -160,7 +160,7 @@
 		margin: 10px;
 		position: relative;
 		padding-left: 110px;
-		font-family: 'valorant', cursive;
+		font-family: 'slant', cursive;
 		font-weight: normal;
 		letter-spacing: 1px;
 		background: -webkit-linear-gradient(rgb(244, 242, 235), rgb(96, 162, 255), rgb(254, 177, 247));

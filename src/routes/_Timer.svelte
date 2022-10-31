@@ -59,7 +59,7 @@
 	.complete-message,
 	.parent {
 		background-color: #31E1F7;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'Metal Mania', sans-serif;
 		z-index: 3;
 		letter-spacing: 3px;
 		

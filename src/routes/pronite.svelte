@@ -20,7 +20,7 @@
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-					<a class="event-item" href={`/culturals/${name.name}`} style="cursor: pointer;">
+					<a class="event-item" style="cursor: pointer;">
 						<div class="content-overlay" />
 						<img class="event-img" src={`assets/event-images/${name.name}.jpg`} alt="" />
 						<div class="content-details fadeIn-top">
@@ -52,14 +52,13 @@
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-	}
-	.event{
+	}.event{
 		font-family: 'Oswald', sans-serif;
 		font-weight: bolder;
 		font-size: 100px;
 		position: absolute;
-		left:35%;
-		top:2%;
+		left:40%;
+		top:7%;
 		margin:0%;
 	}
 	.content {
@@ -239,7 +238,7 @@
 		font-family: 'Audiowide', cursive;
 		color: transparent;
 		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
-		background: black;
+		background: white;
 		background-clip: text;
 		padding-left: 2vw;
 		-webkit-background-clip: text;
@@ -291,7 +290,7 @@
 		top:7%;
 		height:100vh;
 		width:200px;
-		background-color: #01313F;
+		background-color: #502b8c;
 	}
 	@media (max-width: 900px) {
 		.bodyy{

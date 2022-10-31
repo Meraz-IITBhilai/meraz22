@@ -8,7 +8,7 @@
 	<title>Meraz '22</title>
 </svelte:head>
 
-<div style="background-color:white">
+<div style="background-color:#98B0D2">
 <div class="section">
 
 	<!-- <h1>Meraz 22</h1> -->
@@ -37,8 +37,9 @@
 </div> -->
 <div class="section1">
   <!-- <img class = "bg3" src="/assets/bg3.png" alt="" srcset=""> -->
-  <h1 class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  <h1 class="text">Lose your self in found stories
   </h1>
+  <img class="lost" src="assets/loststories.png">
   <video  class="video" autoplay loop muted>
       <source src="assets/LostStories.mp4" type="video/mp4">
     </video>    
@@ -49,40 +50,39 @@
   <video  class="video1" autoplay loop muted>
     <source src="assets/vipul.mp4" type="video/mp4">
   </video> 
-  <h1 class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </h1>   
+  <h1 class="text1">To tickle your funny bones.
+  </h1>
+    <img class="vipul" src="assets/vipulgoyal.png">   
 </div>
 <div class="section3">
   <video  class="video2" autoplay loop muted>
     <source src="assets/Neophilis.mp4" type="video/mp4">
   </video> 
-  <h1 class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </h1>   
+  <h1 class="text2"> Rock off Rave on
+  </h1>  
+  <img class="lost" src="assets/nemophilis.png">  
 </div>
-<div class="section2">
-  <img class="tata" src="assets/ratan.png">
-  <img class="mohan" src="assets/mohan.jpg">
+<div class="section4">
+  <h1 class="tat" style=" position: absolute;
+  color: black;
+  top:0%;
+  align-items: center;">Meet our guest speakers</h1>
+  <img class="tata" src="assets/tata.png">
 </div>
-<div class="section3">
+<div class="section5">
   <video  class="video2" autoplay loop muted>
-    <source src="assets/vipul.mp4" type="video/mp4">
+    <source src="assets/Anuv Jain.mp4" type="video/mp4">
   </video> 
-  <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-  </p>   
+  <h1 class="text2">To step up the music meter
+  </h1>   
+  <img class="lost" src="assets/anuvjain.png">  
 </div>
 <div class="section2">
-  <video  class="video1" autoplay loop muted>
-    <source src="assets/Neophilis.mp4" type="video/mp4">
-  </video> 
-  <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-  </p>   
+  <h1 class="eve"> WHEN THE TIMER HITS ZERO,TIME TO GET YOUR GAME FACE ON.
+  </h1>
+  <a class="but" href="/events"><button class="btn third">Events</button></a>
 </div>
+
 </div>
   <!-- <Hero /> -->
 <!-- <div class="full">
@@ -112,6 +112,12 @@
 </div> -->
 
 <style lang="scss">
+  .but{
+    // align-self: center;
+    top:90%;
+    left: 43%;
+    position: absolute;
+  }
   .vidd{
     transform: translate(-10%,-10%);
   }
@@ -123,16 +129,31 @@
   }
   .video1{
     position:absolute;
-    width:40vw;
+    width:30vw;
     top: 10%;
     // height:100%;
-    right:5%  ;
+    right:15%  ;
   }
   .video2{
     position:absolute;
     width:40vw;
     top: 15%;
     left:5%
+  }
+  .eve{
+    color: black;
+  }
+  .lost{
+    position: relative;
+    left: 20%;
+    width: 20vw;
+    top: 0%;
+  }
+  .vipul{
+    position: relative;
+    right: 20%;
+    width: 20vw;
+    top: -3%;
   }
   .text{
     position: absolute;
@@ -147,8 +168,8 @@
     position: absolute;
     color: black;
     width: 40%;
-    left: 10%;
-    top: 14%;
+    left: 20%;
+    top: 0%;
     // height: 100%;
     align-items: center;
   }
@@ -156,13 +177,13 @@
     position: absolute;
     color: white;
     right:0px;
-    top: 20%;
+    top: 30%;
     width: 40%;
     // height: 100%;
     align-items: center;
   }
   .tata{
-    width: 20vw;
+    width: 60vw;
   }
   .mohan{
     width: 20vw;
@@ -248,6 +269,15 @@
   overflow: hidden;
 }
 
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
 .section h1 {
   text-align: center;
   font-size: 6rem;
@@ -357,20 +387,20 @@
   position: relative;
   // top:-80px;
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  background-color: white;
+  background-color: #98B0D2;
   background-size: contain;
   background-repeat: no-repeat;
-}
+} 
 .section3{
   position: relative;
   top: -50px;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -379,56 +409,126 @@
   background-image: url("assets/bg2.png");
   background-size: contain;
 }
+.section4{
+  position: relative;
+  // top:-80px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  background-color: #98B0D2;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section5{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  background:url("assets/bg4.png") center top/auto 100% no-repeat;
+
+  background-size: contain;
+  // background-repeat: no-repeat;
+}
+
 @media (max-width: 900px) {
   .video{
-    width:420px;
-    height:80%;
-    left:10%;
-    right: 10%;
-    top: 10%;
-  }
-  .video1{
-    width:420px;
+    width:80vw;
     height:80%;
     left:10%;
     right: 10%;
     top: 30%;
   }
+  .video1{
+    width:80vw;
+    // height:80%;
+    left:10%;
+    right: 10%;
+    top: 55%;
+  }
   .video2{
-    width:420px;
+    width:80vw;
     height:80%;
     left:10%;
     right: 10%;
     top: 20%;
   }
     .text{
-    top: 10px;
+    top: 4%;
     width: 100%;
     height: 100%;
+    padding: 4%;
+    text-align: justify;
+  }
+  .lost{
+    position: absolute;
+    width: 70vw;
+    top: 30%;
+    left: 15%;
+    // margin-bottom: 140px;
+  }
+  .vipul{
+    position: absolute;
+    width: 70vw;
+    top: 25%;
+    right: 20%;
+    // margin-bottom: 140px;
   }
   .text1{
-    top: 10px;
-    width: 100%;
-    height: 100%;
+    top: 0%;
+    width: 100vw;
+    // height: 100%;
+    left: 6%;
+    padding-right: 10%;
+    text-align: justify;
   }
   .text2{
-    top:10px;
-    width: 100%;
-    height: 100%;
+    top:10%;
+    left: 12%;
+    width: 80vw;
+    // height: 100%;
   }
   .section1{
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
   }
   .section2{
-    height: 60vh;
+    height: 80vh;
     background-size: cover;
 
   }
   .section3{
     height:80vh;
     background-size: cover;
+  }  .section4{
+    height: 60vh;
+    background-size: cover;
+
   }
+  .tata{
+    padding-top: 30%;
+    width: 90vw;
+  }
+  .section5{
+    height:80vh;
+    background-size: cover;
+  }
+  .tat {
+    left: 4%;
+    font-size: 3rem;
+  }
+  .eve{
+    
+    font-size: 2rem;
+    // text-align: justify;
+    padding: 8%;
+  }
+
 	}
 
 </style>

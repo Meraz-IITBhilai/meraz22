@@ -91,8 +91,11 @@
 
 <style lang="scss">
 	.bodyy {
-		background-color: hotpink;
-		height: 160rem;
+		background-image: url(/assets/about_bg.png);
+		padding-bottom: 170%;
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat:no-repeat ;
 	}
 	.empty {
 		height: 40px;
@@ -135,7 +138,7 @@
 		top: 7%;
 		height: 100vh;
 		width: 200px;
-		background-color: #58899a;
+		background-color: #5E305A;
 	}
 	.event {
 		font-family: 'Oswald', sans-serif;
@@ -165,6 +168,10 @@
 		height: 80vh;
 	}
 	@media (max-width: 900px) {
+
+		p{
+			font-size: 1rem;
+		}
 		.empty {
 			height: 100px;
 		}
@@ -177,15 +184,15 @@
 			left: 10%;
 			top: 5%;
 		}
-		.meraz {
+		.meraz{
 			position: absolute;
-			width: 45px;
-			top: 0;
-			left: 1%;
+			width:30px;
+			top:0;
+			left:0;
 			height: 100%;
 			// z-index: ;
 		}
-		.merazimg {
+		.merazimg{
 			display: none;
 		}
 		.event {
