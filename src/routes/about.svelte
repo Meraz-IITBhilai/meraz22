@@ -216,7 +216,7 @@
 		.event {
 			// font-size: ;
 			// margin-right: -0%;top: ;
-			font-size: 300%;
+			font-size: 270%;
 			left: 15%;
 			top:4%;
 			text-align: center;
