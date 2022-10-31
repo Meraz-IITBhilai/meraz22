@@ -169,7 +169,7 @@
     color: black;
     width: 40%;
     left: 20%;
-    top: 0%;
+    top: 5%;
     // height: 100%;
     align-items: center;
   }
@@ -388,7 +388,7 @@
   position: relative;
   // top:-80px;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
