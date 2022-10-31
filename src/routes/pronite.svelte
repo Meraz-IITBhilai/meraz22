@@ -99,68 +99,7 @@
 		transition: 0.5s color ease-in-out;
 
 		// Change text color to $yellow on hover
-		&:hover {
-			color: $yellow;
-		}
-
-		// Start ::after in same position as ::before
-		&::before,
-		&::after {
-			box-sizing: inherit;
-			content: '';
-			position: absolute;
-			border: $border-width solid transparent;
-			border-radius: 0px;
-			width: 0;
-			height: 0;
-			top: 0;
-			left: 0;
-		}
-
-		//   Change dimensions on hovering
-		&:hover::before,
-		&:hover::after {
-			width: 100%;
-			height: 100%;
-		}
-
-		&::before,
-		&::after {
-			width: 0%;
-			height: 0%;
-
-			border-width: 0px;
-			border-style: solid;
-			border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
-		}
-
-		&::before {
-			transition: width 0.25s ease-out 0.25s,
-				// Width expands first
-				height 0.25s ease-out,
-				border-width 0.5s ease-out 0.25s;
-		}
-
-		&::after {
-			transition: // Animate height first, then width
-				height 0.25s ease-out 0.25s, width 0.25s ease-out, border-width 0.25s ease-out 0.25s;
-		}
-		// Change colors
-		&:hover::before {
-			border-width: $border-width $border-width 0px 0px;
-			// -webkit-transition: border-radius 1s;
-			// Commented for now transition
-			transition: width 0.25s ease-out,
-				// Width expands first
-				height 0.25s ease-out 0.25s;
-			//   border-radius 0.6s; // And then height
-		}
-
-		&:hover::after {
-			border-width: 0px 0px $border-width $border-width;
-			transition: // Animate height first, then width
-				height 0.25s ease-out, width 0.25s ease-out 0.25s;
-		}
+		
 	}
 
 	.content-image {

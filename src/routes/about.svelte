@@ -13,6 +13,7 @@
 		href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@500&family=Silkscreen&display=swap"
 		rel="stylesheet"
 	/>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
 	<!-- <div class="empty">
@@ -21,8 +22,9 @@
 	<div class="meraz">
 		<img class="merazimg" src="assets/meraz_white.png" />
 	</div>
+	<h1 class="event">ABOUT MERAZ</h1>
+
 	<div class="mains">
-		<h1 class="event">ABOUT MERAZ</h1>
 		<div class="background">
 			<p align="justify">Discover A new YOU.</p>
 			<p align="justify">
@@ -85,8 +87,12 @@
 					allowfullscreen
 				/>
 			</section>
+			<div class="empty2">
+
+			</div>
 		</div>
 	</div>
+
 </div>
 
 <style lang="scss">
@@ -103,7 +109,7 @@
     
 	.mains {
 		position: absolute;
-		top: 2%;
+		top: 10%;
 		left: 22%;
 		margin-bottom: 30px;
 		margin-right: 0px;
@@ -140,11 +146,15 @@
 		width: 200px;
 		background-color: #5E305A;
 	}
+	.title{
+		font-family: 'Josefin Sans', sans-serif;
+	}
 	.event {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'Oswald', 'cursive';
 		font-size: 500%;
 		// position: absolute;
-		position: relative;
+		position: absolute;
+		top:2%;
 		left: 20%;
 		width: 70%;
 		margin-bottom: 5%;
@@ -167,6 +177,9 @@
 		width: 75vw;
 		height: 80vh;
 	}
+	p{
+		font-family: 'Josefin Sans', sans-serif;
+	}
 	@media (max-width: 900px) {
 
 		p{
@@ -182,7 +195,8 @@
 		}
 		.mains {
 			left: 10%;
-			top: 5%;
+			top: 12%;
+			
 		}
 		.meraz{
 			position: absolute;
@@ -192,14 +206,19 @@
 			height: 100%;
 			// z-index: ;
 		}
+		.empty2{
+			height: 40px;
+		}
 		.merazimg{
 			display: none;
 		}
+
 		.event {
 			// font-size: ;
 			// margin-right: -0%;top: ;
 			font-size: 300%;
 			left: 15%;
+			top:4%;
 			text-align: center;
 		}
 		.bodyy {
@@ -218,5 +237,6 @@
 		.glimpses {
 			height: 25vh;
 		}
+		
 	}
 </style>

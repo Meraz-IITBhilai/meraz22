@@ -51,7 +51,7 @@
 				<a href="/contact">Contact </a>
 			</li>
 			<li style={`background-color: ${txtColor}; `} class="part6"> 
-				<a href="/contact">Register </a>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register </a>
 			</li>
 
 		<!-- <button class="btn third"> Register</button> -->

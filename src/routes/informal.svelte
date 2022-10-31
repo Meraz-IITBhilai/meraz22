@@ -8,16 +8,19 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald&family=Silkscreen&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="bodyy">
 	<div class="meraz">
 		<img class="merazimg" src="assets/meraz_white.png">
 	</div>
-	<h1 class="event">INFORMAL</h1>
+	<h1 class="event">INFORMALS</h1>
+	<h2 class="coming" >COMING SOON!</h2>
+
 	<div class="parent">
 		
-		{#each culturals as name}
+		<!-- {#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
 					<a class="event-item" style="cursor: pointer;">
@@ -31,7 +34,7 @@
 				</div>
 				
 			</div>
-		{/each}
+		{/each} -->
 	</div>
 
 </div>
@@ -53,14 +56,26 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-	.event{
+	.event {
 		font-family: 'Oswald', sans-serif;
 		font-weight: bolder;
 		font-size: 100px;
 		position: absolute;
-		left:35%;
-		top:2%;
-		margin:0%;
+		left: 35%;
+		top: 10%;
+		margin: 0%;
+	}
+	.coming{
+
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bolder;
+		font-size: 60px;
+		position: absolute;
+		left: 35%;
+		top: 50%;
+		letter-spacing: 5px;
+		margin: 0%;
+	
 	}
 	.content {
 		position: relative;
@@ -69,8 +84,8 @@
 		margin: auto;
 		margin-top: 50px;
 		overflow: hidden;
-		left:30%;
-		top:20%
+		left: 30%;
+		top: 20%;
 	}
 
 	.content .content-overlay {
@@ -214,6 +229,7 @@
 		width: 100%;
 		position: relative;
 		left: 10%;
+		height: 80vh;
 		// margin-right: 15%;
 		// margin-left: 10%;
 		padding-top:10%;
@@ -308,9 +324,9 @@
 		}
 		.event{
 			position: absolute;
-				left:2%;
+				left:12%;
 				padding-top: 10%;
-				top:1%;
+				top:5%;
 				font-size: 70px;
 		}
 		$border-width: 0px;
@@ -329,6 +345,18 @@
 		}
 		.merazimg{
 			display: none;
+		}
+		.coming{
+			position: absolute;
+				left:10%;
+				// font-size: 50px;
+				font-weight: lighter;
+				letter-spacing: 0;
+				// padding: -2%;
+				text-align: center;
+				padding-top: 10%;
+				top:30%;
+				font-size: 70px;
 		}
 		.content{
 			margin-top: 30px;
