@@ -301,7 +301,7 @@
 		left:20%;
 	}
 	.meraz{
-		
+		z-index: 9;
 		position: fixed;
 		left:2%;
 		top:7%;
