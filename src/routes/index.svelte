@@ -16,14 +16,14 @@
 	<div class="video-container">
 		<div class="color-overlay"></div>
 		<video class="vidd " autoplay loop muted>
-			<source src="assets/bggg.mp4" type="video/mp4">
+			<source src="/assets/bggg.mp4" type="video/mp4">
 		</video>
 	</div>
   <div class="timer">
     <Timer />
   </div>
   
-	<img style="display: inline-block" class="newmeraz" src="assets/newmeraz.png" alt="" srcset="">
+	<img style="display: inline-block" class="newmeraz" src="/assets/newmeraz.png" alt="" srcset="">
 	<button class="btn third" ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register</a></button>
 </div>
 
@@ -32,52 +32,55 @@
 </div>
 <div style="height:200px">
   <video  autoplay loop muted>
-    <source src="assets/bggg.mp4" type="video/mp4">
+    <source src="/assets/bggg.mp4" type="video/mp4">
   </video>
 </div> -->
-<div class="section1">
-  <!-- <img class = "bg3" src="/assets/bg3.png" alt="" srcset=""> -->
+
+
+<!-- <div class="section1">
   <h1 class="text">Lose your self in found stories
   </h1>
-  <img class="lost" src="assets/loststories.png">
+  <img class="lost lost2" src="/assets/loststories.png">
   <video  class="video" autoplay loop muted>
-      <source src="assets/LostStories.mp4" type="video/mp4">
+      <source src="/assets/LostStories.mp4" type="video/mp4">
     </video>    
-</div>
+</div> -->
 
 
 <div class="section2">
   <video  class="video1" autoplay loop muted>
-    <source src="assets/vipul.mp4" type="video/mp4">
+    <source src="/assets/vipul.mp4" type="video/mp4">
   </video> 
   <h1 class="text1">To tickle your funny bones.
   </h1>
-    <img class="vipul" src="assets/vipulgoyal.png">   
+    <img class="vipul" src="/assets/vipulgoyal.png">   
 </div>
 <div class="section3">
   <video  class="video2" autoplay loop muted>
-    <source src="assets/Neophilis.mp4" type="video/mp4">
+    <source src="/assets/Neophilis.mp4" type="video/mp4">
   </video> 
   <h1 class="text2"> Rock off Rave on
   </h1>  
-  <img class="lost" src="assets/nemophilis.png">  
+  <img class="lost" src="/assets/nemophilis.png">  
 </div>
 <div class="section4">
   <h1 class="tat" style=" position: absolute;
   color: black;
-  top:0%;
+  top:-3%;
   align-items: center;">Meet our guest speakers</h1>
-  <img class="tata" src="assets/tata.png">
+  <img class="tata" src="/assets/tata.png">
 </div>
-<div class="section5">
+
+<!-- <div class="section5">
   <video  class="video2" autoplay loop muted>
-    <source src="assets/Anuv Jain.mp4" type="video/mp4">
+    <source src="/assets/Anuv Jain.mp4" type="video/mp4">
   </video> 
   <h1 class="text2">To step up the music meter
   </h1>   
-  <img class="lost" src="assets/anuvjain.png">  
-</div>
-<div class="section2">
+  <img class="lost" src="/assets/anuvjain.png">  
+</div> -->
+
+<div class="section2 hitzero">
   <h1 class="eve"> WHEN THE TIMER HITS ZERO,TIME TO GET YOUR GAME FACE ON.
   </h1>
   <a class="but" href="/events"><button class="btn third">Events</button></a>
@@ -130,6 +133,7 @@
   .video1{
     position:absolute;
     width:30vw;
+    // z-index: ;
     top: 10%;
     // height:100%;
     right:15%  ;
@@ -141,6 +145,7 @@
     left:5%
   }
   .eve{
+    top: 0;
     color: black;
   }
   .lost{
@@ -188,7 +193,6 @@
   .mohan{
     width: 20vw;
   }
-
 // 	.full {
 // 		background-color: #040406;
 // 	}
@@ -372,14 +376,15 @@
 
 .section1{
   position: relative;
+  // margin-top: 2%;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  background-color: black;
-  // background:url("assets/bg3.png") center top/auto 100% no-repeat;
+  // background-color: black;
+  background:url("/assets/bg3.png") center top/auto 100% no-repeat;
 
   background-size: contain;
   // background-repeat: no-repeat;
@@ -401,21 +406,21 @@
   position: relative;
   top: -50px;
   width: 100%;
-  height: 70vh;
+  height:80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  // background:url("assets/bg2.png") center top/auto 100% no-repeat;
-  background-color: black;
+  background:url("/assets/bg2.png") center top/auto 100% no-repeat;
+  // background-color: black;
   overflow: visible; 
-  // background-image: url("assets/bg2.png");
+  background-image: url("/assets/bg2.png");
   background-size: contain;
 }
 .section4{
   position: relative;
-  // top:-80px;
+  top:-10%;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -427,17 +432,26 @@
 .section5{
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  // background:url("assets/bg4.png") center top/auto 100% no-repeat;
-  background-color: black;
+  background:url("/assets/bg4.png") center top/auto 100% no-repeat;
+  // background-color: black;
   background-size: contain;
   // background-repeat: no-repeat;
 }
-
+.lost2{
+  top:-10%;
+}
+.hitzero{
+  height: 30vh;
+}
+.eve{
+  position: relative;
+  top:-20% ;
+}
 @media (max-width: 900px) {
   .video{
     width:80vw;
@@ -530,7 +544,13 @@
     // text-align: justify;
     padding: 8%;
   }
-
+.hitzero{
+  height: 35vh;
+}
+.but{
+  top:100%;
+    left: 20%;
+}
 	}
 
 </style>

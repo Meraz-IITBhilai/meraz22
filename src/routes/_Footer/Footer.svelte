@@ -39,6 +39,7 @@
 		scroll-padding-top: 75px;
 		background-color: var(--bg-primary);
 		color: var(--secondary);
+		z-index: 8;
 	}
 	.footer-content {
 		text-align: center;
