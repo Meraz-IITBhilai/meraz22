@@ -378,8 +378,8 @@
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  background-color: black;
-  // background:url("/assets/bg3.png") center top/auto 100% no-repeat;
+  // background-color: black;
+  background:url("/assets/bg3.png") center top/auto 100% no-repeat;
 
   background-size: contain;
   // background-repeat: no-repeat;
@@ -405,10 +405,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // background:url("/assets/bg2.png") center top/auto 100% no-repeat;
-  background-color: black;
+  background:url("/assets/bg2.png") center top/auto 100% no-repeat;
+  // background-color: black;
   overflow: visible; 
-  // background-image: url("/assets/bg2.png");
+  background-image: url("/assets/bg2.png");
   background-size: contain;
 }
 .section4{
@@ -432,8 +432,8 @@
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  // background:url("/assets/bg4.png") center top/auto 100% no-repeat;
-  background-color: black;
+  background:url("/assets/bg4.png") center top/auto 100% no-repeat;
+  // background-color: black;
   background-size: contain;
   // background-repeat: no-repeat;
 }
