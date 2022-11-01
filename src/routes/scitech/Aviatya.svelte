@@ -8,7 +8,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/overflow.png" alt="overflow" border="0">
+            <img class="poster1" src="/assets/poster/Avaitya.png" alt="overflow" border="0">
         </div>
         
         <div class="text-container">
@@ -17,7 +17,7 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    OVERFLOW
+                    AVIATYA
                 </h1>
                 <h2 class="club-name">
                     SES
@@ -255,9 +255,10 @@ img{
 
 
 @media screen and (max-width:900px){
-    .bodyy {
+.bodyy{
+height: 250vh;
 		// background-image: url(/assets/about_bg.png);
-        height: 150vh;
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
