@@ -10,22 +10,22 @@
 
 	</div> -->
 	<div class="meraz">
-		<img class="merazimg" src="assets/meraz_white.png">
+		<img class="merazimg" src="/assets/meraz_white.png">
 	</div>
 	<div class="mains">
 		<h1 class="event">EVENTS</h1>
 		<div class="background">
-			<a href="/pronite"><img class="img1 imag" src="assets/pronites.png"></a>
-			<a href="/culturals"><img class="img2 imag" src="assets/cultural.png"></a>
-			<a href="/scitech"><img class="img3 imag" src="assets/scitech.png"></a>
-			<a href="/informal"><img class="img4 imag" src="assets/informal.png"> </a>
+			<a href="/pronite"><img class="img1 imag" src="/assets/pronites.png"></a>
+			<a href="/culturals"><img class="img2 imag" src="/assets/cultural.png"></a>
+			<a href="/scitech"><img class="img3 imag" src="/assets/scitech.png"></a>
+			<a href="/informal"><img class="img4 imag" src="/assets/informal.png"> </a>
 		</div>
 		
 		<div class="background2">
-			<a href="/pronite"><img class="img1" src="assets/pron.png"></a>
-			<a href="/culturals"><img class="img2" src="assets/dancenew.png"></a>
-			<a href="/scitech"><img class="img3" src="assets/sciencetech.png"></a>
-			<a href="/informal"><img class="img4" src="assets/informals.png"> </a>
+			<a href="/pronite"><img class="img1" src="/assets/pron.png"></a>
+			<a href="/culturals"><img class="img2" src="/assets/dancenew.png"></a>
+			<a href="/scitech"><img class="img3" src="/assets/sciencetech.png"></a>
+			<a href="/informal"><img class="img4" src="/assets/informals.png"> </a>
 		</div>
 	
 	</div>

@@ -20,7 +20,7 @@
 
 	</div> -->
 	<div class="meraz">
-		<img class="merazimg" src="assets/meraz_white.png" />
+		<img class="merazimg" src="/assets/meraz_white.png" />
 	</div>
 	<h1 class="event">ABOUT MERAZ</h1>
 
