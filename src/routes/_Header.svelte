@@ -32,30 +32,36 @@
 >
 
 
-		<div class="links">
+	<div class="links">
 
-			<li  class="part1" style={`background-color: ${txtColor}; `}> 
-				<a href="/" >Home </a>
-			</li>
-			<li  style={`background-color: ${txtColor}; `} class="part2"> 
-				<a href="/events">Events </a>
-			</li>
-			<li style={`background-color: ${txtColor}; `} class="part3"> 
-				<a href="/contact">Accomodation </a>
-			</li>
+		<li  class="part1" style={`background-color: ${txtColor}; `}> 
+			<a href="/" >Home </a>
+		</li>
+		<li  style={`background-color: ${txtColor}; `} class="part2"> 
+			<a href="/events">Events </a>
+		</li>
+		<li style={`background-color: ${txtColor}; `} class="part3"> 
+			<a href="/contact">Accomodation </a>
+		</li>
+		<li style={`background-color: ${txtColor}; `} class="part7"> 
+			<a href="/">Sponsors </a>
+		</li>
+		<li style={`background-color: ${txtColor}; `} class="part4"> 
+			<a href="/about">About</a>
+		</li>
+		<li style={`background-color: ${txtColor}; `} class="part8"> 
+			<a href="/startup">Startups </a>
+		</li>
+		<li style={`background-color: ${txtColor}; `} class="part5"> 
+			<a href="/contact">Contact </a>
+		</li>
+		
+		<li style={`background-color: ${txtColor}; `} class="part6"> 
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register </a>
+		</li>
 
-			<li style={`background-color: ${txtColor}; `} class="part4"> 
-				<a href="/about">About</a>
-			</li>
-			<li style={`background-color: ${txtColor}; `} class="part5"> 
-				<a href="/contact">Contact </a>
-			</li>
-			<li style={`background-color: ${txtColor}; `} class="part6"> 
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register </a>
-			</li>
-
-		<!-- <button class="btn third"> Register</button> -->
-		</div>
+	<!-- <button class="btn third"> Register</button> -->
+	</div>
 </nav>
 <div class="box">
 
@@ -265,25 +271,32 @@
 	}
 
 
-.part1{
+	.part1{
 	margin-left: 2%;
 }
 
 
 .part2{
-	margin-left: 15%;
+	margin-left: 11%;
 }
 .part3{
-	margin-left: 29%;
+	margin-left: 21%;
 }
 .part4{
-	margin-left: 60%;
+	margin-left: 58%;
 }
 .part5{
-	margin-left: 76%;
+	margin-left: 79%;
 }
 .part6{
 	margin-left: 90%;
+}
+
+.part7{
+	margin-left: 35%;
+}
+.part8{
+margin-left: 67%;
 }
 
 	
