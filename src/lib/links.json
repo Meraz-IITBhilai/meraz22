@@ -1,6 +1,7 @@
 [
 	{ "text": "Home", "href": "/" },
 	{ "text": "Events", "href": "/events" },
-	{ "text": "Accomodation", "href": "/contact" }
+	{ "text": "Accomodation", "href": "/contact" },
+	{ "text": "Sponsors", "href": "/" }
 
 ]
