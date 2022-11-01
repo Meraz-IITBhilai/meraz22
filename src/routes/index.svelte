@@ -39,7 +39,7 @@
   <!-- <img class = "bg3" src="/assets/bg3.png" alt="" srcset=""> -->
   <h1 class="text">Lose your self in found stories
   </h1>
-  <img class="lost" src="/assets/loststories.png">
+  <img class="lost lost2" src="/assets/loststories.png">
   <video  class="video" autoplay loop muted>
       <source src="/assets/LostStories.mp4" type="video/mp4">
     </video>    
@@ -130,7 +130,8 @@
   .video1{
     position:absolute;
     width:30vw;
-    top: 10%;
+    // z-index: ;
+    top: 0%;
     // height:100%;
     right:15%  ;
   }
@@ -372,8 +373,9 @@
 
 .section1{
   position: relative;
+  // margin-top: 2%;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -388,7 +390,7 @@
   position: relative;
   // top:-80px;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -401,7 +403,7 @@
   position: relative;
   top: -50px;
   width: 100%;
-  height: 70vh;
+  height:80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -427,7 +429,7 @@
 .section5{
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -436,6 +438,9 @@
   // background-color: black;
   background-size: contain;
   // background-repeat: no-repeat;
+}
+.lost2{
+  top:-10%;
 }
 
 @media (max-width: 900px) {
