@@ -287,6 +287,7 @@
 	.meraz{
 		
 		position: fixed;
+		z-index: 9;
 		left:2%;
 		top:7%;
 		height:100vh;

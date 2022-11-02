@@ -289,6 +289,7 @@
 		position: fixed;
 		left:2%;
 		top:7%;
+		z-index: 9;
 		height:100vh;
 		width:200px;
 		background-color: #003253;
