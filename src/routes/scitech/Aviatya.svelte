@@ -35,7 +35,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a href="https://docs.google.com/document/d/1s_CVE1m-JJyBNFdYIKyRpx8k6J4Slw2GBKmS542YBRs/edit"> <button class="glow-on-hover">Rulebook</button> </a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
 		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
-        height: 100vh;
+        height: 120vh;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{
