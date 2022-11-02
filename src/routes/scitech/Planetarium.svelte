@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/poster_sci.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_sci.png" alt="overflow" border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -26,7 +26,7 @@
                     SES
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
                     <p>Planets, stars, galaxies and all other space elements in the universe are showcased in domed shaped 3d projection in a mobile planetarium. Students from our iit Bhilai and other school students from Raipur are welcomed to enjoy the show.</p>
@@ -44,10 +44,10 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                                         
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -57,7 +57,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>

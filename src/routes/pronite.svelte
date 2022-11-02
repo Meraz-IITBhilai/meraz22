@@ -12,7 +12,7 @@
 
 <div class="bodyy">
 	<div class="meraz">
-		<img class="merazimg" src="/assets/meraz_white.png">
+		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
 	</div>
 	<h1 class="event">PRONITE</h1>
 	<div class="parent">
@@ -22,7 +22,7 @@
 				<div class="content" id={name.name}>
 					<a class="event-item" style="cursor: pointer;">
 						<div class="content-overlay" />
-						<img class="event-img" src={`/assets/event-images/${name.name}.jpg`} alt="" />
+						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`} alt="" />
 						<div class="content-details fadeIn-top">
 							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
 						</div>

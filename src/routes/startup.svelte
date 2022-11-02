@@ -20,13 +20,13 @@
 
 	</div> -->
 	<div class="meraz">
-		<img class="merazimg" src="assets/meraz_white.png" />
+		<img alt="not found" class="merazimg" src="assets/meraz_white.png" />
 	</div>
 	<h1 class="event">STARTUP</h1>
 
 
     <div class="startup">
-        <img src="assets/startups.png" alt="" srcset="">
+        <img alt="not found" src="assets/startups.png" alt="" srcset="">
     </div>
     <div class="start">
     <p>

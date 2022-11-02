@@ -66,7 +66,7 @@
 <div class="box">
 
 	<a href="/">
-		<img class="logoo" src="/assets/glitcherr.png" alt="" srcset=""/> 
+		<img alt="not found" class="logoo" src="/assets/glitcherr.png" alt="" srcset=""/> 
 	
 	</a>
 	
@@ -75,7 +75,7 @@
 
 
 <!-- <div class="nav-graphic">
-	<img src="/assets/nav_img.png" alt="" />
+	<img alt="not found" src="/assets/nav_img.png" alt="" />
 	<hr />
 </div> -->
 

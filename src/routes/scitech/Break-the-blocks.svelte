@@ -9,7 +9,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/poster_sci.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_sci.png" alt="overflow" border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -23,7 +23,7 @@
                     BIB
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
                     <p>A blockchain based treasure hunt where the users will be given an image with some hints on the <br> website link. The image should be decrypted to find the link and hint for the answers in that website. <br> The participants will then be asked to use this answer as a key for opening the next image. The First person to break all the encryptions and reach the final website will be the winner.</p>
@@ -41,7 +41,7 @@
             </div>            
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;5000 <br>
@@ -49,7 +49,7 @@
                     &#8377;2000 <br>
                     
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -59,7 +59,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
