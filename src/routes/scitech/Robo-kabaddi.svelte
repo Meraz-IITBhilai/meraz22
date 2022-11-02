@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Robo kabaddi | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     ROBO KABADDI
                 </h1>
+                <Register link="https://forms.gle/kZ9g5tgZzFdEeTDTA" />
                 <h2 class="club-name">
                     EPSILON
                 </h2>
@@ -224,7 +228,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;

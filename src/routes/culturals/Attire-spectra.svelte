@@ -22,10 +22,11 @@
                 <h1 class="event-title">
                     ATTIRE-SPECTRA
                 </h1>
+                <Register link="https://www.google.com/"/>
+
                 <h2 class="club-name">
                     NEERPASSE
                 </h2>
-                <Register link="https://www.google.com/"/>
             </div>
             <img class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
@@ -168,7 +169,7 @@ img{
 }
 
 /* ----------------- button animation begins ---------------------- */
-.top-text{
+.event-title{
     display: flex;
 }
 .glow-on-hover {

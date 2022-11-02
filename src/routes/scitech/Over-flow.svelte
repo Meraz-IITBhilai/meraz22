@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>OverFlow | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     OVERFLOW
                 </h1>
+                <Register link="https://forms.gle/U3e3g1MwWCqfL4XBA"/>
                 <h2 class="club-name">
                     Google Developement Student Club
                 </h2>
@@ -224,6 +228,9 @@ img{
 
 /* ----------------- button animation ends ---------------------- */
 
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;

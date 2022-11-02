@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>TIme capsule  quiz| Meraz '22</title>
 </svelte:head>
@@ -20,6 +23,7 @@
                 <h1 class="event-title">
                     TIME CAPSULE QUIZ
                 </h1>
+                <Register link="https://forms.gle/hNTLr5HqDFYJSH1D6 "/>
                 <h2 class="club-name">
                     QUIZZOTICA
                 </h2>

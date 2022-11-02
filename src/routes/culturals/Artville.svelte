@@ -1,3 +1,7 @@
+
+<script>
+    import Register from "./_Register.svelte"; 
+</script>
 <svelte:head>
 	<title>Artville | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,10 +22,10 @@
                 <h1 class="event-title">
                     ARTVILLE
                 </h1>
+                <Register link=" https://forms.gle/4Ld2GRxcYw7Zq7699 "/> 
                 <h2 class="club-name">
                     DESIGNX
                 </h2>
-                <button class="custom-btn btn-7"><span> <a class="registertext">Register</a></span></button>  
 
             </div>
             <img class="top-design-class" src="/assets/top-design-use-dark.png">
@@ -228,7 +232,7 @@ img{
 
 
 /* 7 */
-.top-text{
+.event-title{
     display: flex;
 }
 .custom-btn {

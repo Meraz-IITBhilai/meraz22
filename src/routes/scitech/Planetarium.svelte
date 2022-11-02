@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>STARGAZING | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     STARGAZING
                 </h1>
+                <Register link="https://forms.gle/PFkfZS5LTpDqJFeT8"/>
                 <h2 class="club-name">
                     SES
                 </h2>
@@ -219,7 +223,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;

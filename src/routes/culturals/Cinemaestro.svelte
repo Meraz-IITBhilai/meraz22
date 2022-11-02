@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Cinemaestro| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     CINEMAESTRO
                 </h1>
+                <Register link="https://forms.gle/mSyXNbMMop5aPiD29  "/>
                 <h2 class="club-name">
                     FPS
                 </h2>
