@@ -269,7 +269,7 @@ img{
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
-        height: 200vh;
+        // height: 200vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
