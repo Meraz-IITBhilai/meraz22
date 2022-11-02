@@ -206,7 +206,7 @@ margin-left: 20%;
 			text-align: center;
 		}
 		.bodyy {
-			height: 95rem;
+			height: 110rem;
 		}
       .startup{
         width: 60%;

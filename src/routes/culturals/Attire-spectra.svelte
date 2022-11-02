@@ -1,3 +1,7 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
+
 <svelte:head>
 	<title>Attire-spectra | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -21,6 +25,7 @@
                 <h2 class="club-name">
                     NEERPASSE
                 </h2>
+                <Register link="https://www.google.com/"/>
             </div>
             <img class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
@@ -163,7 +168,9 @@ img{
 }
 
 /* ----------------- button animation begins ---------------------- */
-
+.top-text{
+    display: flex;
+}
 .glow-on-hover {
     width: 10vw;
     height: 2vw;
