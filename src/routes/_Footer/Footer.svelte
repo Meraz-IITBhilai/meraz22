@@ -40,6 +40,9 @@
 		background-color: var(--bg-primary);
 		color: var(--secondary);
 		z-index: 8;
+		// position: fixed;
+    bottom: 0;
+    width: 100%;
 	}
 	.footer-content {
 		text-align: center;

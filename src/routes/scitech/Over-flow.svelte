@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>OverFlow | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/overflow.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/overflow.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +21,12 @@
                 <h1 class="event-title">
                     OVERFLOW
                 </h1>
+                <Register link="https://forms.gle/U3e3g1MwWCqfL4XBA"/>
                 <h2 class="club-name">
                     Google Developement Student Club
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
                     <p>Every participant will be given a set of problems along with their solutions albeit consisting of logical bugs and discrepancies. The questions will be varying in difficulty and under the constraints of time will you be able to debug the code and arrive at that long awaited AC?</p>
@@ -40,7 +44,7 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;2,500 <br>
@@ -48,7 +52,7 @@
                     &#8377;1,000<br>
 
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -57,7 +61,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -224,6 +228,9 @@ img{
 
 /* ----------------- button animation ends ---------------------- */
 
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;

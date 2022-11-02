@@ -1,3 +1,7 @@
+
+<script>
+    import Register from "./_Register.svelte"; 
+</script>
 <svelte:head>
 	<title>Artville | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/poster_cult.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +22,13 @@
                 <h1 class="event-title">
                     ARTVILLE
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe2pLyYgvOFsPgVkiKGTC4PSJza9PzCNO4Mb8Bgbz_PN_Ua9Q/viewform"/> 
                 <h2 class="club-name">
                     DESIGNX
                 </h2>
+
             </div>
-            <img class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
                     <p>
@@ -41,13 +47,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;15000 <br>
                    
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -57,7 +63,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use-dark.png">
         </div>
     </div>
 </div>
@@ -224,6 +230,115 @@ img{
 
 /* ----------------- button animation ends ---------------------- */
 
+
+/* 7 */
+.event-title{
+    display: flex;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-7 {
+background: black;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  margin-left: 50%;
+  float: right;
+//   float: right;
+
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: black;
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover{
+  color:black;
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: black;
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+.registertext{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    letter-spacing:0.15rem;
+}
+
+
+
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -293,5 +408,14 @@ img{
     min-width:17vw;
     min-height:2.3vh;
    }
+   .btn-7{
+    float: left;
+    margin-bottom: 5%;
+    // margin-right: 100%;
+    left: -50%;
+}
+.top-text{
+    display: inline;
+}
 }
 </style>

@@ -10,7 +10,7 @@
 	<h1>{name}</h1>
 	<div style="display: flex; flex-wrap: wrap;">
 		<div style="flex:0.8;">
-			<img src={`/assets/event-images/${image}`} alt="Event" />
+			<img alt="not found" src={`/assets/event-images/${image}`} alt="Event" />
 		</div>
 		<div class="description" style="flex:1">
 			<div>

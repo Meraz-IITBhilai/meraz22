@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Ad11 | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/Ad11.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Ad11.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +21,14 @@
                 <h1 class="event-title">
                     AD11
                 </h1>
+               
+                <Register link="https://www.google.com"/>
                 <h2 class="club-name">
                     FPS
                 </h2>
-            </div>
-            <img class="top-design-class" src="/assets/top-design-use-dark.png">
+                <!-- <button class="custom-btn btn-7"><span> <a class="registertext">Register</a></span></button>   -->
+                </div>
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
                     <p>
@@ -41,13 +47,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;8000 <br>
                    
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -57,7 +63,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use-dark.png">
         </div>
     </div>
 </div>
@@ -224,6 +230,15 @@ img{
 
 /* ----------------- button animation ends ---------------------- */
 
+
+/* 7 */
+.event-title{
+    display: flex;
+}
+
+
+
+
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -256,7 +271,11 @@ img{
     text-align:center;
 }
 
-
+.registertext{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    letter-spacing:0.15rem;
+}
 @media screen and (max-width:900px){
     .event-title{
         padding-bottom: 10%;
@@ -294,5 +313,7 @@ height: 250vh;
     min-width:17vw;
     min-height:2.3vh;
    }
+
 }
+
 </style>

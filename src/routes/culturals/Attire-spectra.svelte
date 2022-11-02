@@ -1,3 +1,7 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
+
 <svelte:head>
 	<title>Attire-spectra | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/poster_cult.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +22,13 @@
                 <h1 class="event-title">
                     ATTIRE-SPECTRA
                 </h1>
+                <Register link="https://www.google.com/"/>
+
                 <h2 class="club-name">
                     NEERPASSE
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
                     <p>
@@ -41,13 +47,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;10000 <br>
                    
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -59,7 +65,7 @@
                     Harshita Sankhla: +91 7568335745<br>
                 </div>
             </div>
-            <img class="bottom-design" src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" class="bottom-design" src="/assets/bottom-design-use-dark.png">
         </div>
     </div>
 </div>
@@ -163,7 +169,9 @@ img{
 }
 
 /* ----------------- button animation begins ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .glow-on-hover {
     width: 10vw;
     height: 2vw;

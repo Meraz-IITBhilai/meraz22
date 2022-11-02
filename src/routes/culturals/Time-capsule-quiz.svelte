@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>TIme capsule  quiz| Meraz '22</title>
 </svelte:head>
@@ -9,7 +12,7 @@
     </div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/poster_cult.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
         </div>
         <div class="text-container">
             
@@ -20,11 +23,12 @@
                 <h1 class="event-title">
                     TIME CAPSULE QUIZ
                 </h1>
+                <Register link="https://forms.gle/hNTLr5HqDFYJSH1D6 "/>
                 <h2 class="club-name">
                     QUIZZOTICA
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
                     <p>
@@ -43,13 +47,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;12000 <br>
                    
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -57,7 +61,7 @@
                     Shreyash Khairnar: +91 9405835389<br>
                     </div>
             </div>
-            <img src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use-dark.png">
         </div>
     </div>
 </div>

@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Aviatya | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/Avaitya.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Avaitya.png"  border="0">
         </div>
         
         <div class="text-container">
@@ -19,11 +22,12 @@
                 <h1 class="event-title">
                     AVIATYA
                 </h1>
+                <Register link="https://forms.gle/ChDKhDXPjpDGpGRJ8"/>
                 <h2 class="club-name">
                     SES
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
                     <p>Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules for which will be discussed on the same day. 1 trial run will be given before actual event and top 3 people with least number of penalties win.</p>
@@ -41,13 +45,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;5000 <br>
                     
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -57,7 +61,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -220,7 +224,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;

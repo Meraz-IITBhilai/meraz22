@@ -5,9 +5,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
 </svelte:head>
 <div class="hero" style="font-size: 2rem;">
-	<img class="logo" src="/assets/Logo_glitch.png" alt="" />
+	<img alt="not found" class="logo" src="/assets/Logo_glitch.png"  />
 	<div class="container">
-		<img class="build" src="/assets/gg.png" alt="" />	
+		<img alt="not found" class="build" src="/assets/gg.png"  />	
 		<div class="days">39</div>
 	</div>
 	<div class="bottom">

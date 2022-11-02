@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Cinemaestro| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/Cinematography.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Cinematography.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +21,12 @@
                 <h1 class="event-title">
                     CINEMAESTRO
                 </h1>
+                <Register link="https://forms.gle/mSyXNbMMop5aPiD29  "/>
                 <h2 class="club-name">
                     FPS
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
                     <p>
@@ -41,13 +45,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;15000 <br>
                    
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -55,7 +59,7 @@
                     Abhishek Yadav: +91 7081800894<br>
                     </div>
             </div>
-            <img src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use-dark.png">
         </div>
     </div>
 </div>

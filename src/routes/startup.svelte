@@ -20,13 +20,13 @@
 
 	</div> -->
 	<div class="meraz">
-		<img class="merazimg" src="assets/meraz_white.png" />
+		<img alt="not found" class="merazimg" src="assets/meraz_white.png" />
 	</div>
 	<h1 class="event">STARTUP</h1>
 
 
     <div class="startup">
-        <img src="assets/startups.png" alt="" srcset="">
+        <img alt="not found" src="assets/startups.png"  srcset="">
     </div>
     <div class="start">
     <p>
@@ -206,7 +206,7 @@ margin-left: 20%;
 			text-align: center;
 		}
 		.bodyy {
-			height: 95rem;
+			height: 110rem;
 		}
       .startup{
         width: 60%;

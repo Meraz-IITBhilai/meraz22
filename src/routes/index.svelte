@@ -23,7 +23,7 @@
     <Timer />
   </div>
   
-	<img style="display: inline-block" class="newmeraz" src="/assets/newmeraz.png" alt="" srcset="">
+	<img alt="not found" style="display: inline-block" class="newmeraz" src="/assets/newmeraz.png"  srcset="">
 	<button class="btn third" ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register</a></button>
 </div>
 
@@ -40,7 +40,7 @@
 <!-- <div class="section1">
   <h1 class="text">Lose your self in found stories
   </h1>
-  <img class="lost lost2" src="/assets/loststories.png">
+  <img alt="not found" class="lost lost2" src="/assets/loststories.png">
   <video  class="video" autoplay loop muted>
       <source src="/assets/LostStories.mp4" type="video/mp4">
     </video>    
@@ -53,7 +53,7 @@
   </video> 
   <h1 class="text1">To tickle your funny bones.
   </h1>
-    <img class="vipul" src="/assets/vipulgoyal.png">   
+    <img alt="not found" class="vipul" src="/assets/vipulgoyal.png">   
 </div>
 <div class="section3">
   <video  class="video2" autoplay loop muted>
@@ -61,14 +61,14 @@
   </video> 
   <h1 class="text2"> Rock off Rave on
   </h1>  
-  <img class="lost" src="/assets/nemophilis.png">  
+  <img alt="not found" class="lost" src="/assets/nemophilis.png">  
 </div>
 <div class="section4">
   <h1 class="tat" style=" position: absolute;
   color: black;
   top:-3%;
   align-items: center;">Meet our guest speakers</h1>
-  <img class="tata" src="/assets/tata.png">
+  <img alt="not found" class="tata" src="/assets/tata.png">
 </div>
 
 <!-- <div class="section5">
@@ -77,7 +77,7 @@
   </video> 
   <h1 class="text2">To step up the music meter
   </h1>   
-  <img class="lost" src="/assets/anuvjain.png">  
+  <img alt="not found" class="lost" src="/assets/anuvjain.png">  
 </div> -->
 
 <div class="section2 hitzero">

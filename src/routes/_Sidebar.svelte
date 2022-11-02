@@ -14,7 +14,7 @@
 
 	<nav class="app-bar sidebar" class:open={$sidebarOpen} id="sidebar">
 		<ul class="links">
-			<img class="logoo" src="/assets/glitcherr.png" alt="" srcset=""/>
+			<img alt="not found" class="logoo" src="/assets/glitcherr.png"  srcset=""/>
 			{#each links as { href, text }}
 				<li>
 					<a {href} class:active={href === '/' ? $page.url.pathname === href : $page.url.pathname.includes(href)}

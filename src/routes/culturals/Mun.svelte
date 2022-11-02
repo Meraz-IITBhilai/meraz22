@@ -8,7 +8,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/MUN1.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/MUN1.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -22,7 +22,7 @@
                     GOALS
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
                     <p>
@@ -41,13 +41,13 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;10000 <br>
                    
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -56,7 +56,7 @@
                     Sohail Faizan:9783907221<br>
                 </div>
             </div>
-            <img src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use-dark.png">
         </div>
     </div>
 </div>

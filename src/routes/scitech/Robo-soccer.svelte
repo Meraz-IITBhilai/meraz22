@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Robo soccer | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/RoboSoccer.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/RoboSoccer.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +21,12 @@
                 <h1 class="event-title">
                     ROBO SOCCER
                 </h1>
+                <Register link="https://forms.gle/snpeRiFfomRZ1Mc77"/>
                 <h2 class="club-name">
                     EPSILON
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
                     <p>Bring out The hidden Messi, Ronaldo in you and prove that ""No one plays soccer, better than engineers"". <br> The objective of this competition is to design a manual robot(wireless or wired) and which can compete in an arena designed for robotic soccer. Two robots will be placed in the arena, one bot will try to put ball in goal post and another bot will defend it.</p>
@@ -40,7 +44,7 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;7,000 INR + Bluetooth Speaker <br>
@@ -48,7 +52,7 @@
                     &#8377;3,000 INR  <br>
                     
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -58,7 +62,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -256,7 +260,9 @@ img{
     flex-direction: column;
     text-align:center;
 }
-
+.event-title{
+    display: flex;
+}
 
 @media screen and (max-width:900px){
     .event-title{

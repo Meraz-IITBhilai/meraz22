@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Robo kabaddi | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img class="poster1" src="/assets/poster/robokabaddi.jpg" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/robokabaddi.jpg"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,11 +21,12 @@
                 <h1 class="event-title">
                     ROBO KABADDI
                 </h1>
+                <Register link="https://forms.gle/kZ9g5tgZzFdEeTDTA" />
                 <h2 class="club-name">
                     EPSILON
                 </h2>
             </div>
-            <img class="top-design-class" src="/assets/top-design-use.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
                     <p>In this competition, 2 robots would be placed on either side of the arena. Each robot <br> will be given chances of ride and the task of riding robot is to transfer the cube placed in opponent’s arena and cross the partition line. Meanwhile task of The defending robot is to push the riding robot out of the arena</p>
@@ -40,7 +44,7 @@
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img src="event-template-assets/trophy-icon.png"> -->
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
                     &#8377;10,000 INR + Bluetooth Speaker <br>
@@ -48,7 +52,7 @@
                     &#8377;4,000 INR  <br>
                     
                 </div>
-                <img class="breaker-design" src="/assets/breaker-design-use.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
@@ -58,7 +62,7 @@
 
                 </div>
             </div>
-            <img src="/assets/bottom-design-use.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -224,7 +228,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
