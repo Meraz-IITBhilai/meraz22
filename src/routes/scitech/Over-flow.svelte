@@ -25,11 +25,7 @@
             <img class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>The participants will be given a buggy source code of a program and will be shown how the
-                        debugged
-                        program should work.They are expected to identify the bugs, debug the code and the one who does
-                        it
-                        first wins.</p>
+                    <p>Every participant will be given a set of problems along with their solutions albeit consisting of logical bugs and discrepancies. The questions will be varying in difficulty and under the constraints of time will you be able to debug the code and arrive at that long awaited AC?</p>
                 </div>
 
                 <div class="sub-container">
@@ -38,7 +34,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a href="https://docs.google.com/document/d/1f1VitCod6PIBbc9YIEqHiEfAQ9L_up-8DOD18yD8YL0/edit?usp=sharing"><button class="glow-on-hover">Rulebook</button></a>
                     </div>
                 </div>
             </div>
@@ -77,7 +73,7 @@
 		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
-        height: 100vh;
+        height: 120vh;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{
