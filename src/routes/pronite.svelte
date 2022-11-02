@@ -58,7 +58,7 @@
 		font-size: 100px;
 		position: absolute;
 		left:40%;
-		top:7%;
+		top:10%;
 		margin:0%;
 	}
 	.content {
@@ -188,7 +188,7 @@
 		height: 150%;
 		object-fit: contain;
 
-		border: #7ce7ec 2px ridge;
+		//border: #7ce7ec 2px ridge;
 		// border-radius: 10px;
 		cursor: pointer;
 	}
@@ -252,7 +252,7 @@
 			position: absolute;
 				left:20%;
 				padding-top: 10%;
-				top:1%;
+				top:5%;
 				font-size: 70px;
 		}
 		$border-width: 0px;

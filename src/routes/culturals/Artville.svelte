@@ -41,7 +41,9 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a  href="https://docs.google.com/document/d/1amWuPzKs2qDasQwlsfhiqwWnpkX0ae1t5JCtAPdLKLA/edit">
+                            <button class="glow-on-hover">Rulebook</button>
+                        </a>
                     </div>
                 </div>
             </div>

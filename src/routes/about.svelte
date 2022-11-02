@@ -99,6 +99,7 @@
 	.bodyy {
 		background-image: url(/assets/about_bg.png);
 		padding-bottom: 170%;
+		height: 350vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
@@ -115,8 +116,8 @@
 		margin-right: 0px;
 	}
     .youtube{
-        height: 30rem;
-        width: 52.5rem;
+        height: 70vh;
+        width: 60vw;
     }
 	.background {
 		position: relative;
@@ -226,8 +227,8 @@
 			height: 95rem;
 		}
         .youtube{
-        height: 12rem;
-        width: 19.5rem;
+        height: auto;
+        width: 80vw;
     }
 		lite-youtube {
 			height: 30vh;

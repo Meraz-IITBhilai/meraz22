@@ -22,7 +22,7 @@
                     AD11
                 </h1>
                
-                <Register link="https://www.google.com"/>
+                <!-- <Register link="https://www.google.com"/> -->
                 <h2 class="club-name">
                     FPS
                 </h2>
@@ -41,7 +41,9 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a  href="https://docs.google.com/document/d/1KV3gSy8N0dhOh8rzzT4iHgcEF4Sii-QypSZghOKUeH0/edit">
+                            <button class="glow-on-hover">Rulebook</button>
+                        </a>
                     </div>
                 </div>
             </div>

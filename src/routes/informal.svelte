@@ -266,7 +266,7 @@
 		height: 150%;
 		object-fit: contain;
 
-		border: #7ce7ec 2px ridge;
+		//border: #7ce7ec 2px ridge;
 		// border-radius: 10px;
 		cursor: pointer;
 	}

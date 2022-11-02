@@ -35,7 +35,9 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a href="https://docs.google.com/document/d/1rxJ7f1m8u1yUml9KBXFuCQziF6xZq8T3RGWS_50Iij8/edit">
+                            <button class="glow-on-hover">Rulebook</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -158,7 +160,7 @@ img{
     padding-left: 20%;
 }
 
-/* ----------------- button animation begins ---------------------- */
+/* -----------------  animation begins ---------------------- */
 
 .glow-on-hover {
     width: 10vw;
