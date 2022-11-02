@@ -23,7 +23,7 @@
     <Timer />
   </div>
   
-	<img alt="not found" style="display: inline-block" class="newmeraz" src="/assets/newmeraz.png" alt="" srcset="">
+	<img alt="not found" style="display: inline-block" class="newmeraz" src="/assets/newmeraz.png"  srcset="">
 	<button class="btn third" ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register</a></button>
 </div>
 

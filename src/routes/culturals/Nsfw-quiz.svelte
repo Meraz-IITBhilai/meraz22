@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/NSFW.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/NSFW.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -21,7 +21,7 @@
                 <h1 class="event-title">
                     NSFW QUIZ
                 </h1>
-                <Register link=" https://forms.gle/hNTLr5HqDFYJSH1D6 " />
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdzZMM72VeufzZrPL9FeY1-IqmOv2165nZuULIy1vfmH7Cl1Q/viewform" />
                 <h2 class="club-name">
                     QUIZZOTICA
                 </h2>

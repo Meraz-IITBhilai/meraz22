@@ -26,7 +26,7 @@
 
 
     <div class="startup">
-        <img alt="not found" src="assets/startups.png" alt="" srcset="">
+        <img alt="not found" src="assets/startups.png"  srcset="">
     </div>
     <div class="start">
     <p>

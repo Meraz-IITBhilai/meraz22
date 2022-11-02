@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1"  src="/assets/poster/VRFlying.jpg" alt="overflow" border="0">
+            <img alt="not found" class="poster1"  src="/assets/poster/VRFlying.jpg"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">

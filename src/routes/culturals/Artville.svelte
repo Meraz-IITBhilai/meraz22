@@ -12,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png" alt="overflow" border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -22,7 +22,7 @@
                 <h1 class="event-title">
                     ARTVILLE
                 </h1>
-                <Register link=" https://forms.gle/4Ld2GRxcYw7Zq7699 "/> 
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe2pLyYgvOFsPgVkiKGTC4PSJza9PzCNO4Mb8Bgbz_PN_Ua9Q/viewform"/> 
                 <h2 class="club-name">
                     DESIGNX
                 </h2>
