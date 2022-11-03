@@ -2,7 +2,7 @@
     import Register from "./Register.svelte";
 </script>
 <svelte:head>
-	<title>Stand Up | Meraz '22</title>
+	<title>Dare to Dare | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -20,7 +20,7 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    STAND UP COMEDY
+                    DARE TO DARE
                 </h1>
                 <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
@@ -30,10 +30,10 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>There will be a 2 hour event for stand up comedy in which every participant will be given 5-6 min <br> to present their performance. Initially, the contestants will have to upload a 2-3 minute video and <br> best will be chosen among them
-                        Around 16-17 participants will be chosen , then they will do their stand up in front of judges at meraz, and the best among them will get a prize and all of them will get momento or a gift. <br>
-                        
-                        Stand up will bring a smile to Meraz 22'.
+                    <br>
+                    
+                    <p>Dares are always interesting to be taken upon. So tie up your belts and lets see how many dares you people can go through!
+
                         </p>
                 </div>
 
@@ -42,27 +42,24 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <div class="button-container">
+                    <!-- <div class="button-container">
                         <button class="glow-on-hover">Rulebook</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <h3>Registration Fee :</h3> 200/-
 
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
 
-                    &#8377;5000 <br>
                     
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Swarup Mishra: +91 9337133412 <br>
-                    Ankita kumari: +91 9807935553 <br>
+                    Varshini : 8096567259 <br>
+                    Rajvardhan : 7898547042<br>
                     
 
                 </div>
@@ -102,7 +99,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
