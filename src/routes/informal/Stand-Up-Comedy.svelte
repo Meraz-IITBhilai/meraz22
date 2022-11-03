@@ -1,35 +1,40 @@
+<script>
+    import Register from "./Register.svelte";
+</script>
 <svelte:head>
-	<title>Circuit Disrupt | Meraz '22</title>
+	<title>Stand Up | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
-    <div class="empty">
+    	<div class="empty">
 
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1"  src="/assets/poster/captcha Breaking.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Avaitya.png"  border="0">
         </div>
+        
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    CIRCUIT DISRUPT
+                    STAND UP COMEDY
                 </h1>
+                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
-                    ELECTROMOS
+                    INFORMALS
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>An event where people in team of 2 would be given an incomplete
-                        circuit<br>to complete in the shortlisting round. The first 7 teams to
-                        complete would <br>be promoted to the next round.
-                        In the next round, circuits would be randomly <br>given to them. They have
-                        to code to implement the given problem statement</p>
+                    <p>There will be a 2 hour event for stand up comedy in which every participant will be given 5-6 min <br> to present their performance. Initially, the contestants will have to upload a 2-3 minute video and <br> best will be chosen among them
+                        Around 16-17 participants will be chosen , then they will do their stand up in front of judges at meraz, and the best among them will get a prize and all of them will get momento or a gift. <br>
+                        
+                        Stand up will bring a smile to Meraz 22'.
+                        </p>
                 </div>
 
                 <div class="sub-container">
@@ -38,7 +43,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                         <button class="glow-on-hover">Rulebook</button>
                     </div>
                 </div>
             </div>
@@ -54,8 +59,8 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Shubham Sahu: +91 8953615200  <br>
-                    Ayushi Bharti : +91 8102036440 <br>
+                    Swarup Mishra: +91 9337133412 <br>
+                    Ankita kumari: +91 9807935553 <br>
                     
 
                 </div>
@@ -73,10 +78,10 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/scitech_bg.png');
+		background-image: url('/assets/info_bg.png');
 		color: white;
 		padding-top: 5vw;
-        height: 130vh;
+        height: 120vh;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{
@@ -90,8 +95,7 @@
 
 .poster-container{
 flex-basis:70%;
-// height: 80vh;
-// padding-top: 2%;
+padding-top: 3%;
 /* flex-grow: 1; */
 }
 
@@ -109,7 +113,6 @@ flex-basis:70%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
-    
 }
 
 .club-name{
@@ -117,7 +120,6 @@ flex-basis:70%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
-    
 }
 
 img{
@@ -226,7 +228,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -261,15 +265,10 @@ img{
 
 
 @media screen and (max-width:900px){
-    .event-title{
-        padding-bottom: 10%;
-    }
-    .club-name{
-        padding-bottom: 10%;
-    }
 .bodyy{
-height: 230vh;
+height: 250vh;
 		// background-image: url(/assets/about_bg.png);
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
