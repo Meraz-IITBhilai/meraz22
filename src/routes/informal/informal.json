@@ -1,85 +1,40 @@
 [
     {
-        "name":"Ad11",
-        "tagline":"Ye mai kar leta hu aap ad11 ke liye ad banao"
+        "name":"Stand-Up-Comedy",
+        "tagline":"Meraz is Cool"
     },
     {
-        "name":"Artville",
-        "tagline":"This is a tagline"
+        "name":"Speed-Dating",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Attire-spectra"
+        "name":"Ring-Hoopla-Game"
     },
     {
-        "name":"Biz-sci-tech-quiz"
+        "name":"Dare-to-Dare"
     },
     {
-        "name":"Cinemaestro"
+        "name":"Glass-Pong"
     },
     {
-        "name":"Depth-of-dance"
+        "name":"Casino"
     },
     {
-        "name":"Euphony"
+        "name":"Lucky-Draw"
     },
     {
-        "name":"Fiction-on-canvs"
+        "name":"Box-Cricket"
     },
     {
-        "name":"Final-masquerade"
+        "name":"Housie"
     },
     {
-        "name":"Hue-tube"
+        "name":"Lips-Don't-Lie"
     },
     {
-        "name":"In10sity"
+        "name":"Beg-Borrow-Steal"
     },
     {
-        "name":"Mimic"
-    },
-    {
-        "name":"Motification"
-    },
-    {
-        "name":"Mun"
-    },
-    {
-        "name":"Murder Mystery"
-    },
-    {
-        "name":"Nsfw-quiz"
-    },
-    {
-        "name":"Nukkad-natak"
-    },
-    {
-        "name":"Phantom"
-    },
-    {
-        "name":"Photostory"
-    },
-    {
-        "name":"Pixel-files"
-    },
-    {
-        "name":"Poetry-slam"
-    },
-    {
-        "name":"Potdf"
-    },
-    {
-        "name":"Shredded"
-    },
-    {
-        "name":"Surreal"
-    },
-    {
-        "name":"Time-capsule-quiz"
-    },
-    {
-        "name":"Versify-letterate"
-    },
-    {
-        "name":"Versify-prompt-writing"
+        "name":"Buzzer-Game"
     }
 ]

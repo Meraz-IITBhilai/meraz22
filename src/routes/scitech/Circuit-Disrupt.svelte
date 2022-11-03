@@ -1,36 +1,40 @@
 <script>
-    import Register from "./_Register.svelte";
+    import Register from "./_Register.svelte"
 </script>
+
 <svelte:head>
-	<title>Aviatya | Meraz '22</title>
+	<title>Circuit Disrupt | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
-    	<div class="empty">
+    <div class="empty">
 
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/Avaitya.png"  border="0">
+            <img alt="not found" class="poster1"  src="/assets/poster/poster_sci.png"  border="0">
         </div>
-        
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    AVIATYA
+                    CIRCUIT DISRUPT
                 </h1>
-                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSfV5jYIHHgmMbLB_SmJRDVvY2auCZTDNSsRCEgnsEphJDmMzQ/viewform"/>
                 <h2 class="club-name">
-                    SES
+                    ELECTROMOS
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules for which will be discussed on the same day. 1 trial run will be given before actual event and top 3 people with least number of penalties win.</p>
+                    <p>An event where people in team of 2 would be given an incomplete
+                        circuit<br>to complete in the shortlisting round. The first 7 teams to
+                        complete would <br>be promoted to the next round.
+                        In the next round, circuits would be randomly <br>given to them. They have
+                        to code to implement the given problem statement</p>
                 </div>
 
                 <div class="sub-container">
@@ -39,7 +43,9 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1s_CVE1m-JJyBNFdYIKyRpx8k6J4Slw2GBKmS542YBRs/edit"> <button class="glow-on-hover">Rulebook</button> </a>
+                        <a href="https://docs.google.com/document/d/1GAY6lEqj_iJ6nwgsnDxZ3FrOWsLuhUBPXgHNlZ2Ovpk/edit">
+                        <button class="glow-on-hover">Rulebook</button>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -55,8 +61,8 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Mukta Tiwari: +91 84336723923 <br>
-                    Chirag: +91 8053530044 <br>
+                    Shubham Sahu: +91 8953615200  <br>
+                    Ayushi Bharti : +91 8102036440 <br>
                     
 
                 </div>
@@ -77,7 +83,7 @@
 		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
-        height: 120vh;
+        height: 130vh;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{
@@ -91,12 +97,13 @@
 
 .poster-container{
 flex-basis:70%;
-padding-top: 3%;
+// height: 80vh;
+// padding-top: 2%;
 /* flex-grow: 1; */
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -109,6 +116,7 @@ padding-top: 3%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
+    
 }
 
 .club-name{
@@ -116,6 +124,7 @@ padding-top: 3%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
+    
 }
 
 img{
@@ -224,9 +233,7 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-.event-title{
-    display: flex;
-}
+
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -261,10 +268,15 @@ img{
 
 
 @media screen and (max-width:900px){
+    .event-title{
+        padding-bottom: 10%;
+    }
+    .club-name{
+        padding-bottom: 10%;
+    }
 .bodyy{
-height: 250vh;
+height: 230vh;
 		// background-image: url(/assets/about_bg.png);
-        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;

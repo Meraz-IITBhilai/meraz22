@@ -1,8 +1,8 @@
 <script>
-    import Register from "./_Register.svelte";
+    import Register from "./Register.svelte";
 </script>
 <svelte:head>
-	<title>Aviatya | Meraz '22</title>
+	<title>Stand Up | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -20,17 +20,21 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    AVIATYA
+                    STAND UP COMEDY
                 </h1>
-                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/>
+                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
-                    SES
+                    INFORMALS
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules for which will be discussed on the same day. 1 trial run will be given before actual event and top 3 people with least number of penalties win.</p>
+                    <p>There will be a 2 hour event for stand up comedy in which every participant will be given 5-6 min <br> to present their performance. Initially, the contestants will have to upload a 2-3 minute video and <br> best will be chosen among them
+                        Around 16-17 participants will be chosen , then they will do their stand up in front of judges at meraz, and the best among them will get a prize and all of them will get momento or a gift. <br>
+                        
+                        Stand up will bring a smile to Meraz 22'.
+                        </p>
                 </div>
 
                 <div class="sub-container">
@@ -39,7 +43,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1s_CVE1m-JJyBNFdYIKyRpx8k6J4Slw2GBKmS542YBRs/edit"> <button class="glow-on-hover">Rulebook</button> </a>
+                         <button class="glow-on-hover">Rulebook</button>
                     </div>
                 </div>
             </div>
@@ -55,8 +59,8 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Mukta Tiwari: +91 84336723923 <br>
-                    Chirag: +91 8053530044 <br>
+                    Swarup Mishra: +91 9337133412 <br>
+                    Ankita kumari: +91 9807935553 <br>
                     
 
                 </div>
@@ -74,7 +78,7 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/scitech_bg.png');
+		background-image: url('/assets/info_bg.png');
 		color: white;
 		padding-top: 5vw;
         height: 120vh;
