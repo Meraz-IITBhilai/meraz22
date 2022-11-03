@@ -1,3 +1,8 @@
+<script>
+	import { faLink } from "@fortawesome/free-solid-svg-icons";
+import Register from "./_Register.svelte";
+
+</script>
 <svelte:head>
 	<title>Pixel Files | Meraz '22</title>
 </svelte:head>
@@ -19,6 +24,7 @@
                 <h1 class="event-title">
                     PIXEL FILES
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSfeVaM826BTKsZ2XMw6lUIitjAMoaWP3_DswWoPsa3cjK--pw/viewform"/>
                 <h2 class="club-name">
                     TPS
                 </h2>
@@ -36,7 +42,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1KqjDBF4dwEATzNp_rUEl-hY04AjiCDRg/edit">
+                        <a href="https://docs.google.com/document/d/1GC2wm-teMUNyEQRohKFx_8lWow_PiLjA/edit">
                             <button class="glow-on-hover">Rulebook</button>
                         </a>
                     </div>

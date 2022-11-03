@@ -22,7 +22,7 @@
                 <h1 class="event-title">
                     ATTIRE-SPECTRA
                 </h1>
-                <Register link="https://www.google.com/"/>
+                <!-- <Register link="https://www.google.com/"/> -->
 
                 <h2 class="club-name">
                     NEERPASSE

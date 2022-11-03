@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Shredded | Meraz '22</title>
 </svelte:head>
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     SHREDDED
                 </h1>
+                <Register link="https://docs.google.com/forms/d/112ZR-SxS6hl4wN3BO-O0-rVfEyk4yh56cJl70YzuGJE"/>
                 <h2 class="club-name">
                     SWARA
                 </h2>
