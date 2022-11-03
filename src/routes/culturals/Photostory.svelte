@@ -1,3 +1,7 @@
+<script>
+	import Register from "./_Register.svelte";
+
+</script>
 <svelte:head>
 	<title>Photostory | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +22,7 @@
                 <h1 class="event-title">
                     PHOTOSTORY
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLScw1FmV6236gXvutTTReYosCh5bOHWEBPgyTgc-chI8Ru37Ig/viewform"/>
                 <h2 class="club-name">
                     TPS
                 </h2>
@@ -35,9 +40,9 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a>
-                            <button class="glow-on-hover">Rulebook</button>
-                        </a>
+                            <a href="https://docs.google.com/document/d/1cq57J8RNAINeLCU3XwAOWW6sjpUoc4r2/edit">
+                                <button class="glow-on-hover">Rulebook</button>
+                            </a>
                     </div>
                 </div>
             </div>
