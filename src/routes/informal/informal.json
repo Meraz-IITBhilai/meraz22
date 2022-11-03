@@ -1,85 +1,54 @@
 [
     {
-        "name":"Ad11",
-        "tagline":"Ye mai kar leta hu aap ad11 ke liye ad banao"
+        "name":"Stand-Up-Comedy",
+        "tagline":"Meraz is Cool"
     },
     {
-        "name":"Artville",
-        "tagline":"This is a tagline"
+        "name":"Speed-Dating",
+        "tagline":"Meraz is cool"
+    },{
+        "name":"Balloon-shoot-dart",
+        "tagline":"Meraz is cool"
+    },
+    
+    {
+        "name":"Ring-Hoopla-Game",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Attire-spectra"
+        "name":"Dare-to-Dare",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Biz-sci-tech-quiz"
+        "name":"Glass-Pong",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Cinemaestro"
+        "name":"Casino",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Depth-of-dance"
+        "name":"Lucky-Draw",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Euphony"
+        "name":"Box-Cricket",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Fiction-on-canvs"
+        "name":"Housie",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Final-masquerade"
+        "name":"Lips-Don't-Lie",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Hue-tube"
+        "name":"Beg-Borrow-Steal",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"In10sity"
-    },
-    {
-        "name":"Mimic"
-    },
-    {
-        "name":"Motification"
-    },
-    {
-        "name":"Mun"
-    },
-    {
-        "name":"Murder Mystery"
-    },
-    {
-        "name":"Nsfw-quiz"
-    },
-    {
-        "name":"Nukkad-natak"
-    },
-    {
-        "name":"Phantom"
-    },
-    {
-        "name":"Photostory"
-    },
-    {
-        "name":"Pixel-files"
-    },
-    {
-        "name":"Poetry-slam"
-    },
-    {
-        "name":"Potdf"
-    },
-    {
-        "name":"Shredded"
-    },
-    {
-        "name":"Surreal"
-    },
-    {
-        "name":"Time-capsule-quiz"
-    },
-    {
-        "name":"Versify-letterate"
-    },
-    {
-        "name":"Versify-prompt-writing"
+        "name":"Buzzer-Game",
+        "tagline":"Meraz is cool"
     }
 ]

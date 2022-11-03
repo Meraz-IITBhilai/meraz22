@@ -23,7 +23,7 @@
 		<!-- {#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-					<a class="event-item" style="cursor: pointer;">
+					<a href={`/informal/${name.name}`} class="event-item" style="cursor: pointer;">
 						<div class="content-overlay" />
 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
 						<div class="content-details fadeIn-top">

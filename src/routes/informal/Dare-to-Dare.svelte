@@ -1,8 +1,8 @@
 <script>
-    import Register from "./_Register.svelte";
+    import Register from "./Register.svelte";
 </script>
 <svelte:head>
-	<title>Aviatya | Meraz '22</title>
+	<title>Dare to Dare | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/Avaitya.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
         </div>
         
         <div class="text-container">
@@ -20,17 +20,21 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    AVIATYA
+                    DARE TO DARE
                 </h1>
-                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/>
+                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
-                    SES
+                    INFORMALS
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules for which will be discussed on the same day. 1 trial run will be given before actual event and top 3 people with least number of penalties win.</p>
+                    <br>
+                    
+                    <p>Dares are always interesting to be taken upon. So tie up your belts and lets see how many dares you people can go through!
+
+                        </p>
                 </div>
 
                 <div class="sub-container">
@@ -38,25 +42,24 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1s_CVE1m-JJyBNFdYIKyRpx8k6J4Slw2GBKmS542YBRs/edit"> <button class="glow-on-hover">Rulebook</button> </a>
-                    </div>
+                    <!-- <div class="button-container">
+                        <button class="glow-on-hover">Rulebook</button>
+                    </div> -->
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
 
-                    &#8377;5000 <br>
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+
                     
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Mukta Tiwari: +91 84336723923 <br>
-                    Chirag: +91 8053530044 <br>
+                    Varshini : 8096567259 <br>
+                    Rajvardhan : 7898547042<br>
                     
 
                 </div>
@@ -74,7 +77,7 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/scitech_bg.png');
+		background-image: url('/assets/info_bg.png');
 		color: white;
 		padding-top: 5vw;
         height: 120vh;
@@ -96,7 +99,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
