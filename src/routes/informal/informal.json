@@ -6,35 +6,49 @@
     {
         "name":"Speed-Dating",
         "tagline":"Meraz is cool"
+    },{
+        "name":"Balloon-shoot-dart",
+        "tagline":"Meraz is cool"
+    },
+    
+    {
+        "name":"Ring-Hoopla-Game",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Ring-Hoopla-Game"
+        "name":"Dare-to-Dare",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Dare-to-Dare"
+        "name":"Glass-Pong",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Glass-Pong"
+        "name":"Casino",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Casino"
+        "name":"Lucky-Draw",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Lucky-Draw"
+        "name":"Box-Cricket",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Box-Cricket"
+        "name":"Housie",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Housie"
+        "name":"Lips-Don't-Lie",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Lips-Don't-Lie"
+        "name":"Beg-Borrow-Steal",
+        "tagline":"Meraz is cool"
     },
     {
-        "name":"Beg-Borrow-Steal"
-    },
-    {
-        "name":"Buzzer-Game"
+        "name":"Buzzer-Game",
+        "tagline":"Meraz is cool"
     }
 ]

@@ -2,7 +2,7 @@
     import Register from "./Register.svelte";
 </script>
 <svelte:head>
-	<title>Stand Up | Meraz '22</title>
+	<title>Speed Dating | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -20,7 +20,7 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    STAND UP COMEDY
+                    RING / HOOPLA GAME
                 </h1>
                 <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
@@ -30,10 +30,9 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>There will be a 2 hour event for stand up comedy in which every participant will be given 5-6 min <br> to present their performance. Initially, the contestants will have to upload a 2-3 minute video and <br> best will be chosen among them
-                        Around 16-17 participants will be chosen , then they will do their stand up in front of judges at meraz, and the best among them will get a prize and all of them will get momento or a gift. <br>
-                        
-                        Stand up will bring a smile to Meraz 22'.
+                    <br>
+                    <h3>AIM, TOSS AND WIN PRIZES !!!! </h3>
+                    <p>“RING IT AND WIN IT”. The objective of the game is to throw a hoop/ring over<br> some kind of prize that's conveniently propped up on a small target pedestal or block.
                         </p>
                 </div>
 
@@ -42,27 +41,30 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <div class="button-container">
+                    <!-- <div class="button-container">
                         <button class="glow-on-hover">Rulebook</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <h3>Registration Fee :</h3> 200/-
+                    <h3>Event Fees :</h3> 
+                    &#8377;25/- 
 
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
-                    &#8377;5000 <br>
+                     Amazing voucher, cookies and many more..
+                     <br>
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+
                     
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Swarup Mishra: +91 9337133412 <br>
-                    Ankita kumari: +91 9807935553 <br>
+                    Nikhil chiruvolu :9346785014 <br>
+                    Sankalp Raj: 9693266654<br>
                     
 
                 </div>
@@ -102,7 +104,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
