@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>In10sity| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     IN10SITY
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLScucqje2MSqrKji3JXMBQ2Agip4krWHXOECMEA81G6Kyo2UtA/viewform" />
                 <h2 class="club-name">
                     BEATHACKERS
                 </h2>
