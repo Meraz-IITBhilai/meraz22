@@ -35,9 +35,12 @@ But we want to discuss an exclusive event that will happen this year. We would l
 Now speaking about the event, we invite all the startups and ideas around Chhattisgarh state to participate in the conclave and present their ideas to everyone. The best startups might attract potential investment from investors. Also if the student is allowed to set the counter at Meraz-22 that student may get a prize money based on his/her/their performance. So, any student having a product or even an idea can register for the Entrepreneurship Conclave.
     </p>    
     <div class="button">
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSeCGymKHoU_UmXRFw9HsUJXJwnSUi9bY0QHCerV6g2vRGXRNA/viewform">
         <button   class="but">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCGymKHoU_UmXRFw9HsUJXJwnSUi9bY0QHCerV6g2vRGXRNA/viewform">Register</a>
+            Register
+		</a>
       </div>
+
     </div>
 
    
