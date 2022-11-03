@@ -16,11 +16,11 @@
 		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
 	</div>
 	<h1 class="event">INFORMALS</h1>
-	<!-- <h2 class="coming" >COMING SOON!</h2> -->
+	<h2 class="coming" >COMING SOON!</h2>
 
 	<div class="parent">
 		
-		{#each culturals as name}
+		<!-- {#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
 					<a href={`/informal/${name.name}`} class="event-item" style="cursor: pointer;">
@@ -34,7 +34,7 @@
 				</div>
 				
 			</div>
-		{/each}
+		{/each} -->
 	</div>
 
 </div>
