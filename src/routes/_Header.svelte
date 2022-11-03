@@ -41,7 +41,7 @@
 			<a href="/events">Events </a>
 		</li>
 		<li style={`background-color: ${txtColor}; `} class="part3"> 
-			<a href="/contact">Accomodation </a>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdVrwsIUO-_cpOIcANsYEnIkhzIroS8HoFADNup8s6DztpYRw/viewform">Accomodation </a>
 		</li>
 		<li style={`background-color: ${txtColor}; `} class="part7"> 
 			<a href="/">Sponsors </a>
