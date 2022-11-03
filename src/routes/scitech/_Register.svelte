@@ -3,7 +3,7 @@
 export let link    ;
 </script>
 
-<button class="custom-btn btn-7"><span> <a href={link} class="registertext">Register</a></span></button>  
+<a href={link} class="registertext"><button class="custom-btn btn-7"><span> Register</span></button>  </a>
 
 
 <style lang="scss">

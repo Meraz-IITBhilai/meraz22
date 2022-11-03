@@ -1,3 +1,7 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
+
 <svelte:head>
 	<title>Circuit Disrupt | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1"  src="/assets/poster/captcha Breaking.png"  border="0">
+            <img alt="not found" class="poster1"  src="/assets/poster/poster_sci.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,6 +22,7 @@
                 <h1 class="event-title">
                     CIRCUIT DISRUPT
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSfV5jYIHHgmMbLB_SmJRDVvY2auCZTDNSsRCEgnsEphJDmMzQ/viewform"/>
                 <h2 class="club-name">
                     ELECTROMOS
                 </h2>
@@ -38,7 +43,9 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
+                        <a href="https://docs.google.com/document/d/1GAY6lEqj_iJ6nwgsnDxZ3FrOWsLuhUBPXgHNlZ2Ovpk/edit">
                         <button class="glow-on-hover">Rulebook</button>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -96,7 +103,7 @@ flex-basis:70%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
