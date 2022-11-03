@@ -95,6 +95,7 @@
 
 	$border-width: 2px;
 
+
 	.event-item {
 		//   A duration of .5s in transition of text color (Effective when hovered)
 		transition: 0.5s color ease-in-out;
@@ -132,35 +133,35 @@
 
 			border-width: 0px;
 			border-style: solid;
-			border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+			border-image: linear-gradient(180deg, #ff2600, yellow, yellow, #ff2600) 1 round;
 		}
 
 		&::before {
-			transition: width 0.25s ease-out 0.25s,
+			transition: width 0s ease-out 0s,
 				// Width expands first
-				height 0.25s ease-out,
-				border-width 0.5s ease-out 0.25s;
+				height 0s ease-out,
+				border-width 0s ease-out 0s;
 		}
 
 		&::after {
 			transition: // Animate height first, then width
-				height 0.25s ease-out 0.25s, width 0.25s ease-out, border-width 0.25s ease-out 0.25s;
+				height 0s ease-out 0s, width 0s ease-out, border-width 0s ease-out 0s;
 		}
 		// Change colors
 		&:hover::before {
-			border-width: $border-width $border-width 0px 0px;
+			border-width: $border-width ;
 			// -webkit-transition: border-radius 1s;
 			// Commented for now transition
-			transition: width 0.25s ease-out,
+			transition: width 0s ease-out,
 				// Width expands first
-				height 0.25s ease-out 0.25s;
+				height 0s ease-out 0;
 			//   border-radius 0.6s; // And then height
 		}
 
 		&:hover::after {
-			border-width: 0px 0px $border-width $border-width;
+			border-width: $border-width $border-width $border-width $border-width;
 			transition: // Animate height first, then width
-				height 0.25s ease-out, width 0.25s ease-out 0.25s;
+				height 0s ease-out, width 0s ease-out 0s;
 		}
 	}
 
@@ -305,7 +306,7 @@
 			position: relative;
 			display:block;
 			top:10%;
-			width: 80%;
+			width: 90%;
 			padding-top: 60%;
 			// left:5%;
 
@@ -313,16 +314,16 @@
 		.event{
 			position: absolute;
 				left:20%;
-				padding-top: 10%;
+				padding-top: 20%;
 				top:1%;
 				font-size: 70px;
 		}
 		$border-width: 0px;
-		.event-item {
-			border-width: 2px;
-			border-style: solid;
-			border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
-		}
+		// .event-item {
+		// 	border-width: 2px;
+		// 	border-style: solid;
+		// 	border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+		// }
 		.meraz{
 			position: absolute;
 			width:30px;

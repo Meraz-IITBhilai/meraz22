@@ -75,7 +75,7 @@
 	.content .content-overlay {
 		background: rgba(0, 0, 0, 0.7);
 		position: absolute;
-		height: 99%;
+		height: 100%;
 		width: 100%;
 		left: 0;
 		top: 0;
@@ -243,7 +243,7 @@
 			position: relative;
 			display:block;
 			top:10%;
-			width: 80%;
+			width: 90%;
 			padding-top: 60%;
 			// left:5%;
 
@@ -256,11 +256,7 @@
 				font-size: 70px;
 		}
 		$border-width: 0px;
-		.event-item {
-			border-width: 2px;
-			border-style: solid;
-			border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
-		}
+		
 		.meraz{
 			position: absolute;
 			width:30px;
