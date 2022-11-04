@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/Ad11.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Ad11.jpg"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -22,7 +22,7 @@
                     AD11
                 </h1>
                
-                <!-- <Register link="https://www.google.com"/> -->
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSeNcylEKyk0vxbNaAicE4bsLcW12Uz3jWoESnkGH0bMg5hG2Q/viewform"/>
                 <h2 class="club-name">
                     FPS
                 </h2>

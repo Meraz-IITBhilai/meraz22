@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/Cinematography.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Cinematography.jpg"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -21,7 +21,7 @@
                 <h1 class="event-title">
                     CINEMAESTRO
                 </h1>
-                <Register link="https://forms.gle/mSyXNbMMop5aPiD29  "/>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLScjKqIzXFlF-ZAF0ANW15qvvKWq7XbfOPrtILVK0H--uzMhag/viewform  "/>
                 <h2 class="club-name">
                     FPS
                 </h2>
