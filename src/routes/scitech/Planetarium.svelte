@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_sci.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/planetorium.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -37,9 +37,9 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <div class="button-container">
+                    <!-- <div class="button-container">
                         <button class="glow-on-hover">Rulebook</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="details-container">

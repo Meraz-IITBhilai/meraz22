@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/casino.png"  border="0">
         </div>
         
         <div class="text-container">
@@ -44,7 +44,8 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a href="https://docs.google.com/document/d/1RUXoAPE-auxRXCUqqE7OFkuI2Ha_RBHbUVTxdCvt114/edit">
+                        <button class="glow-on-hover">Rulebook</button></a>
                     </div>
                 </div>
             </div>

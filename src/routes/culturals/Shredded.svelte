@@ -11,7 +11,7 @@
     </div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/shredded.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/shredded_final.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -60,7 +60,7 @@
                     Boppudi Sai Ashrith Vardhan: +91 8596922222 <br>
                     Satyam Sangwan: +91 9518026320<br>
                     Rohit Ashwani: +91 9260961237<br>
-                    Muttana Jashraj: +919490607603 <br>
+
                     </div>
             </div>
             <img alt="not found" src="/assets/bottom-design-use-dark.png">

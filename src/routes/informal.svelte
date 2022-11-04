@@ -16,7 +16,7 @@
 		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
 	</div>
 	<h1 class="event">INFORMALS</h1>
-	<h2 class="coming" >COMING SOON!</h2>
+	<!-- <h2 class="coming" >COMING SOON!</h2> -->
 
 	<div class="parent">
 		
@@ -40,12 +40,12 @@
 </div>
 
 <style lang="scss">
-	.bodyy{
-		background-image:url(/assets/info_bg.png);
+	.bodyy {
+		background-image: url(/assets/info_bg.png);
 		padding-bottom: 200px;
 		background-attachment: fixed;
 		background-size: cover;
-		background-repeat:no-repeat ;
+		background-repeat: no-repeat;
 	}
 	*,
 	*:before,
@@ -61,21 +61,9 @@
 		font-weight: bolder;
 		font-size: 100px;
 		position: absolute;
-		left: 35%;
-		top: 10%;
+		left: 40%;
+		top: 5%;
 		margin: 0%;
-	}
-	.coming{
-
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: bolder;
-		font-size: 60px;
-		position: absolute;
-		left: 35%;
-		top: 50%;
-		letter-spacing: 5px;
-		margin: 0%;
-	
 	}
 	.content {
 		position: relative;
@@ -230,7 +218,6 @@
 		width: 100%;
 		position: relative;
 		left: 10%;
-		height: 80vh;
 		// margin-right: 15%;
 		// margin-left: 10%;
 		padding-top:10%;
@@ -302,10 +289,11 @@
 		left:20%;
 	}
 	.meraz{
-		z-index: 9;
+		
 		position: fixed;
 		left:2%;
 		top:7%;
+		z-index: 9;
 		height:100vh;
 		width:200px;
 		background-color: #009a76;
@@ -328,13 +316,17 @@
 		}
 		.event{
 			position: absolute;
-				left:12%;
-				padding-top: 10%;
-				top:5%;
+				left:20%;
+				padding-top: 20%;
+				top:1%;
 				font-size: 70px;
 		}
 		$border-width: 0px;
-		
+		// .event-item {
+		// 	border-width: 2px;
+		// 	border-style: solid;
+		// 	border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+		// }
 		.meraz{
 			position: absolute;
 			width:30px;
@@ -346,18 +338,6 @@
 		.merazimg{
 			display: none;
 		}
-		.coming{
-			position: absolute;
-				left:10%;
-				// font-size: 50px;
-				font-weight: lighter;
-				letter-spacing: 0;
-				// padding: -2%;
-				text-align: center;
-				padding-top: 10%;
-				top:30%;
-				font-size: 70px;
-		}
 		.content{
 			margin-top: 30px;
 			left:0%;
@@ -366,3 +346,4 @@
 	}
 	// $border-width: 2px;
 </style>
+

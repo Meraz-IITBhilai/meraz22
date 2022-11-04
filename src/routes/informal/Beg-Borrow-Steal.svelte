@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/beg_borrow_steal.png"  border="0">
         </div>
         
         <div class="text-container">

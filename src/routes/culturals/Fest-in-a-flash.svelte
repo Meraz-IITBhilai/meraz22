@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Fest in a flash | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     FEST IN A FLASH
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSeEjtaByMW7xwOdp_UsC31Y6Mmz1_1khM96W52gG12QBrXoAw/viewform"/>
                 <h2 class="club-name">
                     FPS
                 </h2>
