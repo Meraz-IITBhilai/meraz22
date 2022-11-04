@@ -30,11 +30,12 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
+
                     <p>Come and show off your piloting skills and compete against fellow drone pilots.
-A perfect chance for you to try out the drone sims in real life!
+                   A perfect chance for you to try out the drone sims in real life!
 
 Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules are provided in the rule leaflet below.
-1 trial run will be given before actual event and the participant with least number of penalties wins</p>
+1 trial run will be given before actual event and the participant with least number of penalties wins
                 </div>
 
                 <div class="sub-container">
