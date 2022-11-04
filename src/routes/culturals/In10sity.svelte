@@ -1,10 +1,6 @@
 <script>
     import Register from "./_Register.svelte";
 </script>
-<<<<<<< HEAD
-
-=======
->>>>>>> d49344cc8f27b57be8e7cab42d225c7fe805c5fd
 <svelte:head>
 	<title>In10sity| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
