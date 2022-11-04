@@ -30,7 +30,11 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules for which will be discussed on the same day. 1 trial run will be given before actual event and top 3 people with least number of penalties win.</p>
+                    <p>Come and show off your piloting skills and compete against fellow drone pilots.
+A perfect chance for you to try out the drone sims in real life!
+
+Each person participating will have to fly the provided drones through an obstacle course, touch down on the ground or obstacle will cause a penalty, rules are provided in the rule leaflet below.
+1 trial run will be given before actual event and the participant with least number of penalties wins</p>
                 </div>
 
                 <div class="sub-container">
@@ -39,7 +43,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1s_CVE1m-JJyBNFdYIKyRpx8k6J4Slw2GBKmS542YBRs/edit"> <button class="glow-on-hover">Rulebook</button> </a>
+                        <a href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"> <button class="glow-on-hover">Rulebook</button> </a>
                     </div>
                 </div>
             </div>
