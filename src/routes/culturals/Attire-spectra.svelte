@@ -12,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Attire Spectra.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -22,7 +22,7 @@
                 <h1 class="event-title">
                     ATTIRE-SPECTRA
                 </h1>
-                <!-- <Register link="https://www.google.com/"/> -->
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSd6iJwL5jJR6UVvmRwC-hmyWqXRSQZA2W4gklLhW0SeJAicgw/viewform"/>
 
                 <h2 class="club-name">
                     NEERPASSE
@@ -61,10 +61,11 @@
 
                     Vaishnavi: +91 6307636996 <br>
                     Pranjal: +91 7839282055<br>
+                    Harshita Sankhla: +91 7568335745<br>
                     Sanskar: +91 7415756769<br>
                     Esha Jain: +91 9131007835<br>
                     Penti Ruchith: +91 9390763125<br>
-                    Harshita Sankhla: +91 7568335745<br>
+                    
                 </div>
             </div>
             <img alt="not found" class="bottom-design" src="/assets/bottom-design-use-dark.png">
