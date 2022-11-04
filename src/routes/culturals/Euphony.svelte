@@ -53,7 +53,7 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Konduri Naga Lakshmi Rekha: +91 9505374686 <br>
+                    Rekha: +91 9505974686 <br>
                     Piyush Paikra: +91 8817113300<br>
                     Aryan Tiwari: +91 8081070133<br>
                     </div>
