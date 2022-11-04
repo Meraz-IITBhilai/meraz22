@@ -1,69 +1,72 @@
 <script>
-    import Register from "./_Register.svelte";
+    import Register from "./Register.svelte";
 </script>
-
 <svelte:head>
-	<title>In10sity| Meraz '22</title>
+	<title>Lips Don't Lie | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
-    <div class="empty">
+    	<div class="empty">
 
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/in10sity.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
         </div>
+        
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    IN10SITY
+                    Lips Don't Lie
                 </h1>
-                <Register link="https://docs.google.com/forms/d/e/1FAIpQLScucqje2MSqrKji3JXMBQ2Agip4krWHXOECMEA81G6Kyo2UtA/viewform">Register</Register>
+                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
-                    BEATHACKERS
+                    INFORMALS
                 </h2>
             </div>
-            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>
-                        Team coming together is a beginning. Keeping together is a progress. <br> Working together is a success. Together, Dance is the hidden language of the soul.<br> The strength of the team is each individual member. Bored of dancing alone!<br> Gather all you party friends to participate in IN10SITY - Group dance event.</p>
+            
+                    <p>TBD
+                        </p>
                 </div>
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Hybrid</p>
+                        <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1mr_VHO_w8nI4BlVEV1fPLcrZxufUXKev/edit">
-                            <button class="glow-on-hover">Rulebook</button>
-                        </a>
+                        <button class="glow-on-hover">Rulebook</button>
                     </div>
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
+                    <h3>Event Fees :</h3> 
+                     Upto the player, minimum purchase is of &#8377; 20/- 
 
-                    &#8377;10000 <br>
-                   
+                    
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+
+                    
                 </div>
-                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Nukala Shreya: +91 8185820990 <br>
-                    Lovy Verma: +91 7375983004<br>
-                    Divyasri Pasam: +91 9390269858<br>
-                    </div>
+                    Ekta: 7718052249<br>
+                    Chandan: 7410179276<br>
+                  
+                    
+
+                </div>
             </div>
-            <img alt="not found" src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -76,8 +79,8 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/bg_cult.png');
-		color: black;
+		background-image: url('/assets/info_bg.png');
+		color: white;
 		padding-top: 5vw;
         height: 120vh;
 		font-family: 'Josefin Sans', sans-serif;
@@ -93,8 +96,7 @@
 
 .poster-container{
 flex-basis:70%;
-// height: 80vh;
-// padding-top: 2%;
+padding-top: 3%;
 /* flex-grow: 1; */
 }
 
@@ -112,7 +114,6 @@ flex-basis:70%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
-    
 }
 
 .club-name{
@@ -120,7 +121,6 @@ flex-basis:70%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
-    
 }
 
 img{
@@ -229,7 +229,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -264,19 +266,10 @@ img{
 
 
 @media screen and (max-width:900px){
-    .event-title{
-        padding-bottom: 10%;
-    }
-    .poster1{
-    width:100%;
-}
-    .club-name{
-        padding-bottom: 10%;
-    }
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
-        // height: 200vh;
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;

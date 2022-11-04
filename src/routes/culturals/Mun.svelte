@@ -46,7 +46,7 @@
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
-                    &#8377;10000 <br>
+                    &#8377;12000 <br>
                    
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
