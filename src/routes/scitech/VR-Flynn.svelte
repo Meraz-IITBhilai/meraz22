@@ -29,7 +29,7 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>Each person participating will have to fly the provided drones through an obstacle <br> course, touch down on the ground or obstacle will cause a penalty, rules for which will be discussed on the same day. 1 trial run will be given before actual event and top 3 people with least number of penalties win.</p>
+                    <p>Ever wondered what virtual reality feels like? Come and get an in flight experience <br> of what being a pilot feels like,or if not that, just some stress busting games, don’t worry, we got you covered!</p>
                 </div>
 
                 <div class="sub-container">
@@ -53,8 +53,8 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Mukta Tiwari: +91 84336723923 <br>
-                    Chirag: +91 8053530044 <br>
+                    Sunkara Vamsi Krishna: +91 8341736918 <br>
+                    Arnav Prakash Chaudhary: +91 6307221487 <br>
                     
 
                 </div>
