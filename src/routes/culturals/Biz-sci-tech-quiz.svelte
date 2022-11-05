@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Biz sci tech quiz| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     BIZ SCI TECH QUIZ
                 </h1>
+		    <Register link="https://forms.gle/hNTLr5HqDFYJSH1D6"/>
                 <h2 class="club-name">
                     QUIZZOTICA
                 </h2>
