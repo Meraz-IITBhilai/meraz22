@@ -2,7 +2,7 @@
     import Register from "./Register.svelte";
 </script>
 <svelte:head>
-	<title>Lips Don't Lie | Meraz '22</title>
+	<title>7-UP | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -20,7 +20,7 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    Lips Don't Lie
+                    7-UP
                 </h1>
                 <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
@@ -31,7 +31,7 @@
             <div class="description">
                 <div class="description-container">
             
-                    <p>TBD
+                    <p>7 Up & 7 Down is a classic poker game. 7 Up & 7 Down is one of the best poker game to play. Simply bet and guess the card is it high or low and you could win double. Score more and more and you might be lucky to be featured on our scoreboard.
                         </p>
                 </div>
 
@@ -41,7 +41,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                         <a href="https://docs.google.com/document/d/11FpO819f3hbTyt6-BF0DwAd6SHMQYDyUrYcd9upbnFU/edit"> <button class="glow-on-hover">Rulebook</button> </a>
                     </div>
                 </div>
             </div>
