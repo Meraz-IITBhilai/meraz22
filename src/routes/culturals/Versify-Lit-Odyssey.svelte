@@ -56,7 +56,7 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Amruta Gokhle: +91 8962140798 <br>
+                    Amruta Gokhale: +91 8962140798 <br>
                     Dhruv Deshmukh: +91 9403352566<br>
                     Rishit Agarwal:+91 7665000264<br>
                 </div>
