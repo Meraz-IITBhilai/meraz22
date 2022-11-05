@@ -23,7 +23,7 @@
                 </h1>
 		     <Register link="https://forms.gle/SRjLxyRGr6PxN3wf8"/>
                 <h2 class="club-name">
-                    Google Developement Student Club
+                    GDSC
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
