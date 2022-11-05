@@ -79,7 +79,9 @@
 		background-image: url('/assets/bg_cult.png');
 		color: black;
 		padding-top: 5vw;
-        height: 100vh;
+        height: 120vh;
+        background-size: cover;
+        background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{
