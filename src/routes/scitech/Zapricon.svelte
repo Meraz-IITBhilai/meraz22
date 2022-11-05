@@ -100,7 +100,7 @@ flex-basis:70%;
 }
 
 .poster1{
-    width:76%;
+    width:100%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
