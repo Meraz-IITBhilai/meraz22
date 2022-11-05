@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Skrypted | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     SKRYPTED
                 </h1>
+		     <Register link="https://forms.gle/SRjLxyRGr6PxN3wf8"/>
                 <h2 class="club-name">
                     Google Developement Student Club
                 </h2>
@@ -25,7 +29,7 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>TBD
+                    <p>Every participant will be given some problems which will be based on automating a small task. You are free to use the programming language of your choice.
                         </p>
                 </div>
 
@@ -35,7 +39,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                       <a href="https://docs.google.com/document/d/1JQtApSaGmiU0oJ7jMwvFgQEzx6o4B5yqshDIBeATRNA/edit"> <button class="glow-on-hover">Rulebook</button> </a>
                     </div>
                 </div>
             </div>
