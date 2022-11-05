@@ -2,7 +2,7 @@
     import Register from "./_Register.svelte"
 </script>
 <svelte:head>
-	<title>VersifyLitOdyssey| Meraz '22</title>
+	<title>Versify Lit Odyssey | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
