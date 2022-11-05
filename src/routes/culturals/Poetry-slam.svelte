@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Poetry slam | Meraz '22</title>
 </svelte:head>
@@ -19,6 +22,7 @@
                 <h1 class="event-title">
                     POETRY SLAM
                 </h1>
+		     <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe3zVchUVGXxXXTUc_Jheq-dVAMFO_bO6my6C7EtarxtI5RLA/viewform?usp=pp_url"/>
                 <h2 class="club-name">
                     GOALS
                 </h2>
@@ -32,7 +36,7 @@
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Offline</p>
+                        <p>Event Mode- Offline/Online</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
@@ -56,7 +60,7 @@
 
                     M V Kiran Sooraj: +91 9391436084 <br>
                     Javed Habib: +91 7080779735<br>
-                    Esha Jain:9131007835<br>
+                    Esha Jain:+91 9131007835<br>
                 </div>
             </div>
             <img alt="not found" src="/assets/bottom-design-use-dark.png">

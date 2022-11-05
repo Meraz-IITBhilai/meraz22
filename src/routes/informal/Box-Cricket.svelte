@@ -295,7 +295,9 @@ height: 250vh;
 
    .details-container{
     margin-top:3vh;
-   }
+   }    .poster1{
+    width:100%;
+}
 
 .button-container{
     padding-left: 30%;

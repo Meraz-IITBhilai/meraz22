@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Murder Mystery| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -8,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/MurderM.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/murder mystery.jpg"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     MURDER MYSTERY
                 </h1>
+		    <Register link="https://forms.gle/n4yRieH9rG7PxyhZ7"/>
                 <h2 class="club-name">
                     DRISHYA
                 </h2>

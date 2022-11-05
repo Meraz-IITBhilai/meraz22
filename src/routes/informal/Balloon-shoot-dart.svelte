@@ -59,7 +59,7 @@
 
                     Adarsh Kamal:+91 8700943235 <br>
                     Lalit Gaur:+91 7747929090 <br>
-                    Sudeep Ranjan Sahoo:+91 8341354040
+                    Chella Sudeep:+91 8341354040
                     
 
                 </div>
@@ -284,7 +284,9 @@ height: 250vh;
 
    .details-container{
     margin-top:3vh;
-   }
+   }    .poster1{
+    width:100%;
+}
 
 .button-container{
     padding-left: 30%;
