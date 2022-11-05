@@ -22,7 +22,7 @@
                 <h1 class="event-title">
                     ARTVILLE
                 </h1>
-                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe2pLyYgvOFsPgVkiKGTC4PSJza9PzCNO4Mb8Bgbz_PN_Ua9Q/viewform"/> 
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSf5veicvgvNptLfsBvtzZt38WC8ZUcFhRjErP_aJ6T_o-bQbg/viewform"/> 
                 <h2 class="club-name">
                     DESIGNX
                 </h2>
