@@ -1,5 +1,8 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
-	<title>VersifyLetterate| Meraz '22</title>
+	<title>VersifyInqill| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -16,8 +19,9 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    VERSIFY LETTERATE
+                    VERSIFY INQILL
                 </h1>
+		    <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdYZeqgAxMy9PrLMNjKMym_hg3FAq9eLtdEGiOB9OpJGTKmIg/viewform?usp=pp_url"/>
                 <h2 class="club-name">
                     GOALS
                 </h2>
@@ -26,7 +30,7 @@
             <div class="description">
                 <div class="description-container">
                     <p>
-                        Do you love to write letters, well if you do then Versify's Letterate brings a perfect opportunity to unleash your talent .With bizzare and bind blowing themes, set the sail fellow writers for thy writing contest "Letterate"</p>
+                        Do you love to write letters, well if you do then Versify's Letterate brings a perfect opportunity to unleash your talent .With bizzare and bind blowing themes, set the sail fellow writers for thy writing contest "Inqill"</p>
                 </div>
 
                 <div class="sub-container">
@@ -35,7 +39,8 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1TYUcnc1YWZ1MjJTd4tvzI9wCcvI8xpQjzLEnVpRSytM/edit">
+                       
+             <a href="https://docs.google.com/document/d/1TYUcnc1YWZ1MjJTd4tvzI9wCcvI8xpQjzLEnVpRSytM/edit">
                             <button class="glow-on-hover">Rulebook</button>
                         </a>
                     </div>
@@ -46,7 +51,7 @@
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
                     <h3>Total Prize</h3>
 
-                    &#8377;5000 <br>
+                    &#8377;6000 <br>
                    
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
@@ -55,7 +60,7 @@
 
                     Amruta Gokhle: +91 8962140798 <br>
                     Dhruv Deshmukh: +91 9403352566<br>
-                    Rishit Agarwal:7665000264<br>
+                    Rishit Agarwal:+91 7665000264<br>
                 </div>
             </div>
             <img alt="not found" src="/assets/bottom-design-use-dark.png">
