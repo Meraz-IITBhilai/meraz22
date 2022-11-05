@@ -36,7 +36,7 @@
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Offline</p>
+                        <p>Event Mode- Offline/Online</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
