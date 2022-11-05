@@ -21,7 +21,7 @@
                 <h1 class="event-title">
                     EUPHONY
                 </h1>
-		 <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe2pLyYgvOFsPgVkiKGTC4PSJza9PzCNO4Mb8Bgbz_PN_Ua9Q/viewform"/> 
+		 <Register link="https://forms.gle/1KDv24b2dLU4oPVZA"/> 
                 <h2 class="club-name">
                     SWARA
                 </h2>

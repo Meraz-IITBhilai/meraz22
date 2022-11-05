@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Mun | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     MUN
                 </h1>
+		    <Register link="https://forms.gle/85Mv7a8VbmWbv32y5"/>
                 <h2 class="club-name">
                     GOALS
                 </h2>
@@ -26,7 +30,7 @@
             <div class="description">
                 <div class="description-container">
                     <p>
-                        Meraz'22 brings before you Model United Nations where we try to create a replica of the <br> United Nations where students don the hats of delegates of different countries and come up <br> with solutions to solve world issues. MUN Committees: UNSC(United Nations ,Security Council) Agenda: <br> Jammu and Kashmir border issue. UNHRC(United Nations Human Rights Council) Agenda: A women has the sole right to request an abortion.</p>
+                        Meraz'22 brings before you Model United Nations where we try to create a replica of the <br> United Nations where students don the hats of delegates of different countries and come up <br> with solutions to solve world issues. <br> MUN Committees: UNSC(United Nations ,Security Council) Agenda: Jammu and Kashmir border issue. <br> UNHRC(United Nations Human Rights Council) Agenda: A women has the sole right to request an abortion.</p>
                 </div>
 
                 <div class="sub-container">

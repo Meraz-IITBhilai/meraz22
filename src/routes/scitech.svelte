@@ -340,6 +340,8 @@
 			left:0%;
 			width:80%;
 		}
-	}
-	// $border-width: 2px;
+		.event-title{
+			font-size: 1em;
+		}
+}
 </style>
