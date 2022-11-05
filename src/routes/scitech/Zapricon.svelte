@@ -1,3 +1,7 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
+
 <svelte:head>
 	<title>Zapricon | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +22,7 @@
                 <h1 class="event-title">
                     ZAPRICON
                 </h1>
+		    <Register link="https://unstop.com/competitions/485054/register"/>
                 <h2 class="club-name">
                     OPENLAKE
                 </h2>
@@ -25,7 +30,8 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>TBD</p>
+                    <p>It's Meraz time at IIT Bhilai and we have just the right amount of Open Source to get your contributor juices flowing.
+The theme of the hackathon is to build a mobile application for the dreamy student life we've all wanted on a campus.</p>
                 </div>
 
                 <div class="sub-container">
@@ -34,7 +40,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a href="https://unstop.com/p/zapricon-hackthon-smart-inti-application-indian-institute-of-technology-iit-bhilai-485054"> <button class="glow-on-hover">Rulebook</button> </a>
                     </div>
                 </div>
             </div>
