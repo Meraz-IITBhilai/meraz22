@@ -1,3 +1,7 @@
+
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
 	<title>Phantom | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +22,7 @@
                 <h1 class="event-title">
                     PHANTOM
                 </h1>
+		     <Register link="https://forms.gle/zwLU56ZLe3Rei8T68"/>
                 <h2 class="club-name">
                     DESIGNX
                 </h2>
@@ -52,7 +57,6 @@
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
-
                     Sarvesh Kumar: +91 7204229027 <br>
                     Abhay: +91 9478715450<br>
                     Elavartha Nikhil Reddy: +91 8790367047<br>

@@ -34,7 +34,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+<!--                         <button class="glow-on-hover">Rulebook</button> -->
                     </div>
                 </div>
             </div>

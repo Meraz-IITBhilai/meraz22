@@ -5,7 +5,7 @@
     },
     {
         "name":"Artville",
-        "tagline":"Meraz is cool"
+        "tagline":"Every great design begins with an even better story."
     },
     {
         "name":"Attire-spectra",
@@ -13,11 +13,11 @@
     },
     {
         "name":"Biz-sci-tech-quiz",
-        "tagline":"Meraz is cool"
+        "tagline":"Anything and everything from the world of Business, Science and Technology"
     },
     {
         "name":"Cinemaestro",
-        "tagline":"Meraz is cool"
+        "tagline":"Take 22, Action!"
     },
     {
         "name":"Depth-of-dance",
@@ -25,7 +25,7 @@
     },
     {
         "name":"Euphony",
-        "tagline":"Meraz is cool"
+        "tagline":"When words leave off, music begins."
     },
     {
         "name":"Fest-in-a-flash",
@@ -33,7 +33,7 @@
     },
     {
         "name":"Fiction-on-canvas",
-        "tagline":"Meraz is cool"
+        "tagline":"Make your superhero now!!! "
     },
     {
         "name":"Final-masquerade",
@@ -53,7 +53,7 @@
     },
     {
         "name":"Motification",
-        "tagline":"Meraz is cool"
+        "tagline":"Adding Creativity through Brush"
     },
     {
         "name":"Mun",
@@ -65,7 +65,7 @@
     },
     {
         "name":"Nsfw-quiz",
-        "tagline":"Meraz is cool"
+        "tagline":"Carefully disguised as a responsible adult."
     },
     {
         "name":"Nukkad-natak",
@@ -73,7 +73,7 @@
     },
     {
         "name":"Phantom",
-        "tagline":"Meraz is cool"
+        "tagline":"Ease of use may be invisible, but its absence sure isn’t!"
     },
     {
         "name":"Photostory",
@@ -81,34 +81,34 @@
     },
     {
         "name":"Pixel-files",
-        "tagline":"Meraz is cool"
+        "tagline":"The world through your lens"
     },
     {
         "name":"Poetry-slam",
-        "tagline":"Meraz is cool"
+        "tagline":"Bask in the warmth of poetry."
     },
     {
         "name":"Potdf",
-        "tagline":"Meraz is cool"
+        "tagline":"Ready. Set. Wow!"
     },
     {
         "name":"Shredded",
-        "tagline":"Meraz is cool"
+        "tagline":"Here Comes Da BOOM!"
     },
     {
         "name":"Surreal",
-        "tagline":"Meraz is cool"
+        "tagline":"Let your soul sing"
     },
     {
         "name":"Time-capsule-quiz",
-        "tagline":"Meraz is cool"
+        "tagline":"Omniscience Unlocked!"
     },
     {
-        "name":"Versify-letterate",
-        "tagline":"Meraz is cool"
+        "name":"Versify-Inqill",
+        "tagline":"Inqill as in Ink-Quill"
     },
     {
-        "name":"Versify-prompt-writing",
-        "tagline":"Meraz is cool"
+        "name":"Versify-Lit-Odyssey",
+        "tagline":"Sew your own story"
     }
 ]

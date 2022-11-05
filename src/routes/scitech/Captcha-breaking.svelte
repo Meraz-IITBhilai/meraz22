@@ -1,3 +1,7 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
+
 <svelte:head>
 	<title>Captcha Breaking | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +22,7 @@
                 <h1 class="event-title">
                     CAPTCHA BREAKING
                 </h1>
+		    <Register link="https://forms.gle/L8XssjRVXLtv3kYYA"/>
                 <h2 class="club-name">
                     DSAI
                 </h2>
@@ -34,7 +39,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
+                        <a href="https://docs.google.com/document/d/1jc4fcleyGP4uFHH-HUTj3KN9SljrcbShmyaFxX1j-Ws/edit?usp=sharing"> <button class="glow-on-hover">Rulebook</button> </a>
                     </div>
                 </div>
             </div>
@@ -90,8 +95,7 @@ height: 120vh;
 
 .poster-container{
 flex-basis:70%;
-// height: 80vh;
-// padding-top: 2%;
+padding-top: 3%;
 /* flex-grow: 1; */
 }
 
@@ -109,7 +113,6 @@ flex-basis:70%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
-    
 }
 
 .club-name{
@@ -117,7 +120,6 @@ flex-basis:70%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
-    
 }
 
 img{
@@ -226,7 +228,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -261,15 +265,10 @@ img{
 
 
 @media screen and (max-width:900px){
-    .event-title{
-        padding-bottom: 10%;
-    }
-    .club-name{
-        padding-bottom: 10%;
-    }
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;

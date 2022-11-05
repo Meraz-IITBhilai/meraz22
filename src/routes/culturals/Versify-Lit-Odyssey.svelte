@@ -1,5 +1,8 @@
+<script>
+    import Register from "./_Register.svelte"
+</script>
 <svelte:head>
-	<title>VersifypromptWriting| Meraz '22</title>
+	<title>Versify Lit Odyssey | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
@@ -16,8 +19,9 @@
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    VERSIFY
+                    VERSIFY LIT ODYSSEY
                 </h1>
+		     <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdYZeqgAxMy9PrLMNjKMym_hg3FAq9eLtdEGiOB9OpJGTKmIg/viewform?usp=pp_url"/>
                 <h2 class="club-name">
                     GOALS
                 </h2>
@@ -25,12 +29,12 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
             <div class="description">
                 <div class="description-container">
-                <p>TBD </p>
+                <p>The future is unseen but what if it's already written. The writer's dilemma entails the situation perfectly. Well put your thoughts on hold and put 'em on the ink that binds the love of paper and the creator. Versify presents the "Lit Odyssey", choose a prompt and cook a spicy story on it.</p>
                 </div>
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Offline</p>
+                        <p>Event Mode- Online</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
@@ -52,9 +56,9 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Amruta Gokhle: +91 8962140798 <br>
+                    Amruta Gokhale: +91 8962140798 <br>
                     Dhruv Deshmukh: +91 9403352566<br>
-                    Rishit Agarwal:7665000264<br>
+                    Rishit Agarwal:+91 7665000264<br>
                 </div>
             </div>
             <img alt="not found" src="/assets/bottom-design-use-dark.png">
