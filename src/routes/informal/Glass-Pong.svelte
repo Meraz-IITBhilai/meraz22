@@ -41,9 +41,9 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <div class="button-container">
+<!--                     <div class="button-container">
                         <button class="glow-on-hover">Rulebook</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="details-container">
