@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte"; 
+</script>
 <svelte:head>
 	<title>Euphony | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     EUPHONY
                 </h1>
+		 <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe2pLyYgvOFsPgVkiKGTC4PSJza9PzCNO4Mb8Bgbz_PN_Ua9Q/viewform"/> 
                 <h2 class="club-name">
                     SWARA
                 </h2>
@@ -94,7 +98,7 @@ flex-basis:70%;
 }
 
 .poster1{
-    width:85%;
+    width:90%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -225,6 +229,115 @@ img{
 
 /* ----------------- button animation ends ---------------------- */
 
+
+/* 7 */
+.event-title{
+    display: flex;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-7 {
+background: black;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  margin-left: 50%;
+  float: right;
+//   float: right;
+
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: black;
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover{
+  color:black;
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: black;
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+.registertext{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    letter-spacing:0.15rem;
+}
+
+
+
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -269,9 +382,7 @@ img{
         padding-bottom: 10%;
     }
 .bodyy{
-height: 250vh;
-		// background-image: url(/assets/about_bg.png);
-        // height: 180vh;
+        height: 250vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
@@ -296,5 +407,14 @@ height: 250vh;
     min-width:17vw;
     min-height:2.3vh;
    }
+   .btn-7{
+    float: left;
+    margin-bottom: 5%;
+    // margin-right: 100%;
+    left: -50%;
+}
+.top-text{
+    display: inline;
+}
 }
 </style>
