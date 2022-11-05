@@ -12,7 +12,7 @@
     </div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/timecapsule.png"  border="0">
         </div>
         <div class="text-container">
             
@@ -79,7 +79,9 @@
 		background-image: url('/assets/bg_cult.png');
 		color: black;
 		padding-top: 5vw;
-        height: 120vh;
+height: 120vh;
+        background-size: cover;
+        background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{

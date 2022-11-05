@@ -71,7 +71,9 @@
 		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
-        height: 120vh;
+height: 120vh;
+        background-size: cover;
+        background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{

@@ -62,8 +62,6 @@
                     Vaishnavi: +91 6307636996 <br>
                     Pranjal: +91 7839282055<br>
                     Harshita Sankhla: +91 7568335745<br>
-                    Sanskar: +91 7415756769<br>
-                    Esha Jain: +91 9131007835<br>
                     Penti Ruchith: +91 9390763125<br>
                     
                 </div>
@@ -85,6 +83,8 @@
 		color: black;
 		padding-top: 5vw;
         height: 120vh;
+        background-size: cover;
+        background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.main-container{
