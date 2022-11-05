@@ -53,8 +53,8 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Sunkara Vamsi Krishna: +91 8341736918 <br>
-                    Arnav Prakash Chaudhary: +91 6307221487 <br>
+                    Vamsi Krishna: +91 8341736918 <br>
+                    Arnav Chaudhary: +91 6307221487 <br>
                     
 
                 </div>
