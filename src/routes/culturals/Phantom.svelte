@@ -58,7 +58,7 @@
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Ankith Masa: +91 9652924327 <br>
+                    Sarvesh Kumar : +91 7204229027<br>
                     Abhay: +91 9478715450<br>
                     Elavartha Nikhil Reddy: +91 8790367047<br>
 
