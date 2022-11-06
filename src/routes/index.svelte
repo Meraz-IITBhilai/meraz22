@@ -37,14 +37,14 @@
 </div> -->
 
 
-<!-- <div class="section1">
-  <h1 class="text">Lose your self in found stories
+<div class="section1">
+  <h1 class="text"> To step up the music meter
   </h1>
-  <img alt="not found" class="lost lost2" src="/assets/loststories.png">
+  <img alt="not found" class="lost lost2" src="/assets/gaj.png">
   <video  class="video" autoplay loop muted>
-      <source src="/assets/LostStories.mp4" type="video/mp4">
+      <source src="/assets/Gajendra.mp4" type="video/mp4">
     </video>    
-</div> -->
+</div>
 
 
 <div class="section2">
@@ -127,7 +127,7 @@
   .video{
     position:absolute;
     width:40vw;
-    top: 3%;
+    top: 10%;
     left:5%
   }
   .video1{
@@ -378,13 +378,13 @@
   position: relative;
   // margin-top: 2%;
   width: 100%;
-  height: 80vh;
+  height:80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden; 
   // background-color: black;
-  background:url("/assets/bg3.png") center top/auto 100% no-repeat;
+  background:url("/assets/gajendra.png") center top/auto 100% no-repeat;
 
   background-size: contain;
   // background-repeat: no-repeat;
