@@ -60,8 +60,7 @@
                     <h3>Point Of Contact:</h3>
 
                     Jashraj: +91 9490607603 <br>
-                    Srihan: 7702495546 <br>
-                    Amar Budhiraja: 7710543281
+                    Srihan: 7702495546
 
                     
 
