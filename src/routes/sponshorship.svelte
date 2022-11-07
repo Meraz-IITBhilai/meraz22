@@ -22,7 +22,7 @@
 				<div class="content" id={name.name}>
 					<a class="event-item" >
 						<div class="content-overlay" />
-						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
+<!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
 						<div class="content-details fadeIn-top">
 							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
 						</div>

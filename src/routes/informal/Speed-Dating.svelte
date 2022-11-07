@@ -104,7 +104,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:80%;
+    width:100%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -287,9 +287,7 @@ height: 250vh;
 
    .details-container{
     margin-top:3vh;
-   }    .poster1{
-    width:100%;
-}
+   }
 
 .button-container{
     padding-left: 30%;
