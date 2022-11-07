@@ -12,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1"  src="/assets/poster/poster_sci.png"  border="0">
+            <img alt="not found" class="poster1"  src="/assets/poster/Circuit Disrupt.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
@@ -43,7 +43,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://drive.google.com/file/d/1J6oYOcApzRX1U6aUHSfvVklieznLYLRr/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1J6oYOcApzRX1U6aUHSfvVklieznLYLRr/view?usp=drivesdk">
                         <button class="glow-on-hover">Rulebook</button>
                     </a>
                     </div>

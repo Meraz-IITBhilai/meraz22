@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/casino.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Escape Room.png"  border="0">
         </div>
         
         <div class="text-container">
@@ -65,7 +65,7 @@ mental health disorders and dealing with them the right way to move forward from
 
                     Gunti Varshini : +91 8096567259 <br>
                     Varad Shinde : +91 8237209290<br>
-                    Kriti Gupta : +91 7081919444<br>
+                    Aishna Jain : +91 9259345788<br>
 
                 </div>
             </div>

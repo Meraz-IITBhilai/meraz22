@@ -1,3 +1,6 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
 <svelte:head>
 	<title>Nukkad Natak| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
                 <h1 class="event-title">
                     NUKKAD NATAK
                 </h1>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe4pkqtOXSfZGl4ybir8nePtVLkH4kzSZcGeud75bFAWV1Eyw/viewform"/>
                 <h2 class="club-name">
                     DRISHYA
                 </h2>
@@ -259,7 +263,9 @@ img{
     text-align:center;
 }
 
-
+// .event-title{
+//     display: flex;
+// }
 @media screen and (max-width:900px){
     .event-title{
         padding-bottom: 10%;

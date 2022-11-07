@@ -1,57 +1,62 @@
 [
-    {
+      {
         "name":"Stand-Up-Comedy",
-        "tagline":"Meraz is Cool"
+        "tagline":"Hasao bhai! Hasao!"
     },
     {
         "name":"Speed-Dating",
-        "tagline":"Meraz is cool"
-    },{
+        "tagline":"For love is in air"
+    },
+      {
         "name":"Balloon-shoot-dart",
-        "tagline":"Meraz is cool"
+        "tagline":"Kya tum shooter ho?"
     },
     
     {
         "name":"Ring-Hoopla-Game",
-        "tagline":"Meraz is cool"
+        "tagline":"Ring it and win it"
     },
     {
         "name":"Dare-to-Dare",
-        "tagline":"Meraz is cool"
+        "tagline":"Up for some action?"
     },
     {
         "name":"Glass-Pong",
-        "tagline":"Meraz is cool"
+        "tagline":"'coz the party is on!"
     },
     {
         "name":"Casino",
-        "tagline":"Meraz is cool"
+        "tagline":"You know telepathy?"
     },
     {
         "name":"Lucky-Draw",
-        "tagline":"Meraz is cool"
+        "tagline":"Wanna get lucky?"
     },
     {
         "name":"Box-Cricket",
-        "tagline":"Meraz is cool"
+        "tagline":"Chalo cricket khele"
     },
     {
         "name":"Housie",
-        "tagline":"Meraz is cool"
+        "tagline":"BINGO!"
     },
     {
         "name":"7-UP",
-        "tagline":"Meraz is cool"
+        "tagline":"Down for poker?"
     },
     {
         "name":"Beg-Borrow-Steal",
-        "tagline":"Meraz is cool"
+        "tagline":"Kaise bhi lao"
     },
     {
         "name":"Buzzer-Game",
-        "tagline":"Meraz is cool"
+        "tagline":"Focus or fail"
     },
-    {
+      {
+        "name":"Matched",
+        "tagline":"Let's find your clone :)"
+    },
+     {
         "name":"Escape room",
         "tagline":"Fight your demons"
     },

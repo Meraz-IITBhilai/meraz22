@@ -3,6 +3,14 @@
         "name":"Aviatya",
         "tagline":"Fly your way through Meraz"
     },
+     {
+        "name":"VR-Flynn",
+        "tagline":"Experience virtuality in reality"
+    },
+      {
+        "name":"Stargazing",
+        "tagline":"From proximity to infinity"
+    },
     {
         "name":"Break-the-blocks",
         "tagline":"Unleashing the glitch in the matrix"
@@ -17,18 +25,12 @@
         "tagline":"Charge thy mind"
 
     },
-    {
-        "name":"Matched",
-        "tagline":"Let's find your clone :)"
-    },
+   
     {
         "name":"Over-flow",
         "tagline":"Gotta catch 'em all! "
     },
-    {
-        "name":"Stargazing",
-        "tagline":"From proximity to infinity"
-    },
+  
     {
         "name":"Robo-kabaddi",
         "tagline":"no-one plays kabaddi better than the engineers"
@@ -45,10 +47,7 @@
         "name":"Skrypted",
         "tagline":"Bring out the bot in you"
     },
-    {
-        "name":"VR-Flynn",
-        "tagline":"Experience virtuality in reality"
-    },
+   
     {
         "name":"Zapricon",
         "tagline":"1. Eat 2. Sleep 3. Hack 4. Go-to 1."
