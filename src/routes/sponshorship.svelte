@@ -47,7 +47,7 @@
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-					<img alt="not found" class="event-img" src={`/assets/sponsors/${name.name}.jpg`} />
+					<img  class="event-img" src={`/assets/sponsors/${name.name}.jpg`} alt="not found" />
 					<a class="event-item">
 						<div class="content-overlay" />
 						<!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
