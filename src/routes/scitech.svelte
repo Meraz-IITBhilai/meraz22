@@ -93,7 +93,7 @@
 	}
 	$yellow: gold;
 
-	$border-width: 2px;
+	$border-width: 5px;
 
 
 	.event-item {
@@ -133,7 +133,7 @@
 
 			border-width: 0px;
 			border-style: solid;
-			border-image: linear-gradient(180deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+			border-image: linear-gradient(180deg, #28b3e9, rgb(122, 19, 156), rgb(122, 19, 156), #28b3e9) 1 round;
 		}
 
 		&::before {
