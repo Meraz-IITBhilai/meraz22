@@ -33,11 +33,11 @@
 		<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`}  />
 	<h1 class="name">IOCL</h1>
 </div>
-<div class="content content2" >
+<div class="content content3" >
 	<h1 class="event co-sponsor" > Production Partners</h1>
 
 	<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`}  />
-<h1 class="name">IOCL</h1>
+<h1 class="name">Gigmakers</h1>
 </div>
 
 
@@ -49,13 +49,10 @@
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
+						<img alt="not found" class="event-img" src={`/assets/sponsors/${name.name}.jpg`}  />
 					<a class="event-item" >
 						<div class="content-overlay" />
 <!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
-						<div class="content-details fadeIn-top">
-							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
-						</div>
 					</a>
 
 					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
@@ -244,7 +241,7 @@
 		grid-gap: 30px;
 		grid-template-columns: 45% 40% ;
 		width: 100%;
-		position: relative;
+		position: absolute;
 		left: 12%;
 		// margin-right: 15%;
 		// margin-left: 10%;
@@ -282,6 +279,7 @@
 		width: 100%;
 		height: 150%;
 		object-fit: contain;
+		display: grid;
 
 		// //border: #7ce7ec 2px ridge;
 		// border-radius: 10px;
