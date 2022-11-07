@@ -66,7 +66,7 @@
                     <h3>Point Of Contact:</h3>
 
                     Mansi Garg-9711413075 <br>
-                    Harshil Tarang- <br>
+                    Harshil Tarang- 8368592541<br>
                     Ayush  Kataria-8169932210<br>
 
                     

@@ -1,28 +1,23 @@
-<script>
-    import Register from "./Register.svelte";
-</script>
 <svelte:head>
-	<title>Buzzer Game | Meraz '22</title>
+	<title>Paper Dance| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
-    	<div class="empty">
+    <div class="empty">
 
 	</div>
     <div class="main-container">
         <div class="poster-container">
             <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
         </div>
-        
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    BUZZER GAME
+                    PAPER DANCE
                 </h1>
-                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
                     INFORMALS
                 </h2>
@@ -30,8 +25,17 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-            
-                    <p>Think you have the focus and skills of a shaolin master? Show off your motor skills<br> and hand eye coordination in the Buzz game. Don't let the ring touch the wire <br>and win exciting prizes!
+                    <p><bold>1.</bold> Participation is allowed only in pairs (2 girls/ 2 boys / 1 boy+1 girl).<br>
+                        <bold>2.</bold> As the music starts, the pair is expected to dance on a sheet of paper
+                        which will be subsequently folded with the proceeding rounds.<br>
+                        <bold>3.</bold> The pair has to make sure that they don’t step out of the sheet.<br>
+                        <bold>4.</bold> If the pair is not found to be dancing while the song is playing, they will
+                        be eliminated.<br>
+                        <bold>5.</bold> There will be few bonus rounds in between whose winners can proceed
+                        to the next round without folding the paper for that round.<br>
+                        <bold>6.</bold> The pair which will be able to endure the diminishing sheet till the end
+                        will win.<br>
+                        <bold>7.</bold> Judges’ decision will be final in all cases.
                         </p>
                 </div>
 
@@ -40,29 +44,25 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-<!--                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
-                    </div> -->
+                    <div class="button-container">
+<!--                         <button class="glow-on-hover">Rulebook</button> -->
+                    </div>
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    
-                     
-
-                    
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-
+                    <h3>Total Prize</h3>
+                        
                     
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Jashraj: +91 9490607603 <br>
-                    Srihan: 7702495546 <br>
-                    Amar Budhiraja: 7710543281
-
+                    Vanisha: 9981090998<br>
+                    Nidhi: 7676778443 <br>
+                    Vidhi: 
                     
 
                 </div>
@@ -80,7 +80,7 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/info_bg.png');
+		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
 height: 120vh;
@@ -99,7 +99,8 @@ height: 120vh;
 
 .poster-container{
 flex-basis:70%;
-padding-top: 3%;
+// height: 80vh;
+// padding-top: 2%;
 /* flex-grow: 1; */
 }
 
@@ -117,6 +118,7 @@ padding-top: 3%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
+    
 }
 
 .club-name{
@@ -124,6 +126,7 @@ padding-top: 3%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
+    
 }
 
 img{
@@ -232,9 +235,7 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-.event-title{
-    display: flex;
-}
+
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -269,16 +270,21 @@ img{
 
 
 @media screen and (max-width:900px){
+    .event-title{
+        padding-bottom: 10%;
+    }
+    .club-name{
+        padding-bottom: 10%;
+    }
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
-        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
 	}
 	.empty {
-		height: 80px;
+		height: 130px;
 	}
 
    .main-container{
@@ -287,9 +293,7 @@ height: 250vh;
 
    .details-container{
     margin-top:3vh;
-   }    .poster1{
-    width:100%;
-}
+   }
 
 .button-container{
     padding-left: 30%;
