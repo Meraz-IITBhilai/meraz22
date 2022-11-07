@@ -102,7 +102,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:80%;
+    width:100%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
