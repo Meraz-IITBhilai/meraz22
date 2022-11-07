@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Cultural Events | Meraz '22</title>
+	<title>Sponsors | Meraz '22</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,36 @@
 	<div class="meraz">
 		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
 	</div>
-	<h1 class="event">CULTURALS</h1>
+	<h1 class="event">SPONSORS</h1>
+
+
+ 
+	<div class="content content1" >
+		<h1 class="event title-sponsor" > Title Sponsor</h1>
+
+		<img alt="not found" class="event-img" src={`/assets/event-images/SBI.jpg`}  />
+		<h1 class="name">SBI</h1>
+	</div>
+
+
+
+	<div class="content content2" >
+		<h1 class="event co-sponsor" > Co Sponsor</h1>
+
+		<img alt="not found" class="event-img" src={`/assets/event-images/IOCL.jpg`}  />
+	<h1 class="name">IOCL</h1>
+</div>
+
+
 	<div class="parent">
 		
+		
+
+
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
+						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.png`}  />
 					<a class="event-item" >
 						<div class="content-overlay" />
 <!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
@@ -27,6 +51,7 @@
 							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
 						</div>
 					</a>
+
 					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
 				</div>
 				
@@ -38,7 +63,7 @@
 
 <style lang="scss">
 	.bodyy{
-		background-image:url(/assets/bg_cult.png);
+		background-image: url(/assets/about_bg.png);
 		padding-bottom: 200px;
 		background-attachment: fixed;
 		background-size: cover;
@@ -58,8 +83,8 @@
 		font-weight: bolder;
 		font-size: 100px;
 		position: absolute;
-		left:35%;
-		top:2%;
+		left:38%;
+		top:10%;
 		margin:0%;
 	}
 	.content {
@@ -69,9 +94,10 @@
 		margin: auto;
 		margin-top: 50px;
 		overflow: hidden;
-		left:30%;
-		top:20%
+		// left:30%;
+		top:0%
 	}
+	
 
 	.content .content-overlay {
 		background: rgba(0, 0, 0, 0.7);
@@ -210,13 +236,14 @@
 	.parent {
 		display: grid;
 		grid-gap: 30px;
-		grid-template-columns: 25% 25% 25%;
+		grid-template-columns: 45% 40% ;
 		width: 100%;
 		position: relative;
-		left: 10%;
+		left: 12%;
 		// margin-right: 15%;
 		// margin-left: 10%;
-		padding-top:10%;
+		// top: 50%;
+		padding-top:60%;
 	}
 	.event-item {
 		display: flex;
@@ -239,7 +266,7 @@
 		font-family: 'Audiowide', cursive;
 		color: transparent;
 		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
-		background: black;
+		background: white;
 		background-clip: text;
 		padding-left: 2vw;
 		-webkit-background-clip: text;
@@ -252,7 +279,7 @@
 
 		// //border: #7ce7ec 2px ridge;
 		// border-radius: 10px;
-		cursor: pointer;
+		// cursor: pointer;
 	}
 	.event-title {
 		
@@ -292,11 +319,50 @@
 		top:7%;
 		height:100vh;
 		width:200px;
-		background-color: #01313F;
+		background-color: #5E305A;
 	}
 	h1{
 		padding: 0;
 	}
+	.content1{
+position: absolute;
+top: 25%;
+left: 40%;
+}
+.content2{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+
+
+.title-sponsor{
+	// z-index: 60;
+	font-family: 'Oswald', sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
+		position: absolute;
+		left: 40%;
+		// top: %;
+
+}
+
+
+.co-sponsor{
+	// z-index: 60;
+	font-family: 'Oswald', sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
+		position: absolute;
+		left: 40%;
+		// top: %;
+
+}
+
+
+
+
+
 	@media (max-width: 900px) {
 		.bodyy{
 			padding-bottom: 100%;
