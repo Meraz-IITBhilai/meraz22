@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Sponsors | Meraz '22</title>
+	<title>Cultural Events | Meraz '22</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 	<div class="meraz">
 		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
 	</div>
-	<h1 class="event">SPONSORS</h1>
+	<h1 class="event">CULTURALS</h1>
 	<div class="parent">
 		
 		{#each culturals as name}
@@ -22,7 +22,7 @@
 				<div class="content" id={name.name}>
 					<a class="event-item" >
 						<div class="content-overlay" />
-						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
+<!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
 						<div class="content-details fadeIn-top">
 							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
 						</div>
@@ -59,7 +59,7 @@
 		font-size: 100px;
 		position: absolute;
 		left:35%;
-		top:5%;
+		top:2%;
 		margin:0%;
 	}
 	.content {

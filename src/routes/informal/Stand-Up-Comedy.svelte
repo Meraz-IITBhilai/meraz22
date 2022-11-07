@@ -30,9 +30,9 @@
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>There will be a 2 hour event for stand up comedy in which every participant will be given 5-6 min
-                        to present their performance.
-                        The best among them will be awarded<br>
+                    <p>There will be a 2 hour event for stand up comedy in which every participant will be given 5-6 min <br> to present their performance. Initially, the contestants will have to upload a 2-3 minute video and <br> best will be chosen among them
+                        Around 16-17 participants will be chosen , then they will do their stand up in front of judges at meraz, and the best among them will get a prize and all of them will get momento or a gift. <br>
+                        
                         Stand up will bring a smile to Meraz 22'.
                         </p>
                 </div>
@@ -104,7 +104,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:80%;
+    width:100%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
