@@ -1,13 +1,5 @@
 [
-     {
-        "name":"Escape room",
-        "tagline":"Fight your demons"
-    },
-    {
-        "name":"Breaking Barriers 2.0",
-        "tagline":"Because beauty has no gender"
-    },
-    {
+      {
         "name":"Stand-Up-Comedy",
         "tagline":"Meraz is Cool"
     },
@@ -62,6 +54,14 @@
       {
         "name":"Matched",
         "tagline":"Let's find your clone :)"
+    },
+     {
+        "name":"Escape room",
+        "tagline":"Fight your demons"
+    },
+    {
+        "name":"Breaking Barriers 2.0",
+        "tagline":"Because beauty has no gender"
     }
     
 ]
