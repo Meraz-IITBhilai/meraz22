@@ -1,67 +1,71 @@
-<script>
-    import Register from "./_Register.svelte"
-</script>
 <svelte:head>
-	<title>Versify Lit Odyssey | Meraz '22</title>
+	<title> Breaking Barriers 2.0 | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
-    <div class="empty">
+    	<div class="empty">
 
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/Versify-1.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/casino.png"  border="0">
         </div>
+        
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    VERSIFY LIT ODYSSEY
+                    BREAKING BARRIERS 2.0
                 </h1>
-		     <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdYZeqgAxMy9PrLMNjKMym_hg3FAq9eLtdEGiOB9OpJGTKmIg/viewform?usp=pp_url"/>
                 <h2 class="club-name">
-                    GOALS
+                    NIRVANA
                 </h2>
             </div>
-            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                <p>The future is unseen but what if it's already written. The writer's dilemma entails the situation perfectly. Well put your thoughts on hold and put 'em on the ink that binds the love of paper and the creator. Versify presents the "Lit Odyssey", choose a prompt and cook a spicy story on it.</p>
+            
+                    <p>This event promote aesthetics that are gender non-
+conforming to break the gender barriers. We will be keeping multiple booths where we focus on what are
+perceived as feminine aesthetics. This event aims at casting out toxic masculinity and few gender related
+stereotypes.
+So gear up for Breaking Barriers 2.0 and get your nails, eye makeup or mehndi done while having (or not
+having) a nice chat about gender and sexuality!
+                    
                 </div>
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Online</p>
+                        <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1TYUcnc1YWZ1MjJTd4tvzI9wCcvI8xpQjzLEnVpRSytM/edit">
-                            <button class="glow-on-hover">Rulebook</button>
-                        </a>
+                        <a href="https://drive.google.com/drive/folders/1CVUx279l1zaXV5w9PfVAHn5N03HiQ3sW?usp=sharing">
+                        <button class="glow-on-hover">Rulebook</button></a>
                     </div>
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
+                     
 
-                    &#8377;5000 <br>
-                   
+                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+
+                    
                 </div>
-                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Amruta Gokhale: +91 8962140798 <br>
-                    Dhruv Deshmukh: +91 9403352566<br>
-                    Rishit Agarwal:+91 7665000264<br>
+                    Santaz Sahithi : +91 95734 24443 <br>
+                    Srilekha Kadambala : +91 93900 99543<br>
+                    Sri Koumudi : +91 89195 59221<br>
+
                 </div>
             </div>
-            <img alt="not found" src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -74,8 +78,8 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/bg_cult.png');
-		color: black;
+		background-image: url('/assets/info_bg.png');
+		color: white;
 		padding-top: 5vw;
 height: 120vh;
         background-size: cover;
@@ -93,8 +97,7 @@ height: 120vh;
 
 .poster-container{
 flex-basis:70%;
-// height: 80vh;
-// padding-top: 2%;
+padding-top: 3%;
 /* flex-grow: 1; */
 }
 
@@ -112,7 +115,6 @@ flex-basis:70%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
-    
 }
 
 .club-name{
@@ -120,7 +122,6 @@ flex-basis:70%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
-    
 }
 
 img{
@@ -229,7 +230,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -264,18 +267,10 @@ img{
 
 
 @media screen and (max-width:900px){
-    .event-title{
-        padding-bottom: 10%;
-    }
-    .poster1{
-    width:100%;
-}
-    .club-name{
-        padding-bottom: 10%;
-    }
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
@@ -290,7 +285,9 @@ height: 250vh;
 
    .details-container{
     margin-top:3vh;
-   }
+   }    .poster1{
+    width:100%;
+}
 
 .button-container{
     padding-left: 30%;
