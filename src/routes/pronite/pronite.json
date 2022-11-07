@@ -1,13 +1,15 @@
 [
-    {
-        "name":"Vipul Goyal",
-        "tagline":"to tickle your funny bones"
-    },
+	{
+		"name": "Gajendra Verma",
+		"tagline": "To step up the music meter"
+	},
+	{
+		"name": "Vipul Goyal",
+		"tagline": "to tickle your funny bones"
+	},
 
-   
-    {
-        "name":"Nemophilis",
-        "tagline":"Rock off Rave on"
-    }
-    
+	{
+		"name": "Nemophilis",
+		"tagline": "Rock off Rave on"
+	}
 ]
