@@ -55,7 +55,7 @@
 
 <style lang="scss">
 	.bodyy{
-		background-image:url(/assets/bg_cult.png);
+		background-image: url(/assets/about_bg.png);
 		padding-bottom: 200px;
 		background-attachment: fixed;
 		background-size: cover;
@@ -258,7 +258,7 @@
 		font-family: 'Audiowide', cursive;
 		color: transparent;
 		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
-		background: black;
+		background: white;
 		background-clip: text;
 		padding-left: 2vw;
 		-webkit-background-clip: text;
@@ -311,7 +311,7 @@
 		top:7%;
 		height:100vh;
 		width:200px;
-		background-color: #01313F;
+		background-color: #5E305A;
 	}
 	h1{
 		padding: 0;
