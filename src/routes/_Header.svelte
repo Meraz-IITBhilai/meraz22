@@ -44,7 +44,7 @@
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdVrwsIUO-_cpOIcANsYEnIkhzIroS8HoFADNup8s6DztpYRw/viewform">Accomodation </a>
 		</li>
 		<li style={`background-color: ${txtColor}; `} class="part7"> 
-			<a href="/sponshorship">Sponsors </a>
+			<a href="/">Sponsors </a>
 		</li>
 		<li style={`background-color: ${txtColor}; `} class="part4"> 
 			<a href="/about">About</a>
