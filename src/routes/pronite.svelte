@@ -92,7 +92,7 @@
 	}
 	$yellow: gold;
 
-	$border-width: 2px;
+	$border-width: 5px;
 
 	.event-item {
 		//   A duration of .5s in transition of text color (Effective when hovered)

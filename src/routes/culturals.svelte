@@ -91,18 +91,18 @@
 	.content:hover .content-overlay {
 		opacity: 1;
 	}
-	$yellow: gold;
+	$yellow: rgb(61, 104, 191);
 
-	$border-width: 2px;
+	$border-width: 5px;
 
 	.event-item {
 		//   A duration of .5s in transition of text color (Effective when hovered)
 		transition: 0.5s color ease-in-out;
 
 		// Change text color to $yellow on hover
-		&:hover {
-			color: $yellow;
-		}
+		// &:hover {
+		// 	color: $yellow;
+		// }
 
 		// Start ::after in same position as ::before
 		&::before,
@@ -132,7 +132,7 @@
 
 			border-width: 0px;
 			border-style: solid;
-			border-image: linear-gradient(180deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+			border-image: linear-gradient(180deg, #28b3e9, yellow, yellow, #28b3e9) 1 round;
 		}
 
 		&::before {
