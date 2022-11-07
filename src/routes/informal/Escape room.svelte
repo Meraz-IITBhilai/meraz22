@@ -1,67 +1,75 @@
 <script>
-    import Register from "./_Register.svelte"
+    import Register from "./Register.svelte";
 </script>
 <svelte:head>
-	<title>Versify Lit Odyssey | Meraz '22</title>
+	<title>Escape Room | Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
-    <div class="empty">
+    	<div class="empty">
 
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/Versify-1.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/casino.png"  border="0">
         </div>
+        
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    VERSIFY LIT ODYSSEY
+                    ESCAPE ROOM
                 </h1>
-		     <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdYZeqgAxMy9PrLMNjKMym_hg3FAq9eLtdEGiOB9OpJGTKmIg/viewform?usp=pp_url"/>
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSe1JPrJPqgMR8tO23_IN4ctttLLShaPPI126mbZXkT27SjsKg/viewform"/>
                 <h2 class="club-name">
-                    GOALS
+                    NIRVANA
                 </h2>
             </div>
-            <img alt="not found" class="top-design-class" src="/assets/top-design-use-dark.png">
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                <p>The future is unseen but what if it's already written. The writer's dilemma entails the situation perfectly. Well put your thoughts on hold and put 'em on the ink that binds the love of paper and the creator. Versify presents the "Lit Odyssey", choose a prompt and cook a spicy story on it.</p>
+            
+                    <p> Escape your mental
+prison, figure out how to crack the room’s exit by fighting your inner demons, using your knowledge about
+mental health disorders and dealing with them the right way to move forward from one clue to another.
+                    
                 </div>
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Online</p>
+                        <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1TYUcnc1YWZ1MjJTd4tvzI9wCcvI8xpQjzLEnVpRSytM/edit">
-                            <button class="glow-on-hover">Rulebook</button>
-                        </a>
+                        <a href="https://drive.google.com/drive/folders/1SEhoCiPKJCqbxJs1Dl62UgF-J8dlmVtT">
+                        <button class="glow-on-hover">Rulebook</button></a>
                     </div>
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
+                     
+
+                      <h3>Total Prize</h3>
 
                     &#8377;5000 <br>
-                   
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+
+                    
                 </div>
-                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use-dark.png">
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Amruta Gokhale: +91 8962140798 <br>
-                    Dhruv Deshmukh: +91 9403352566<br>
-                    Rishit Agarwal:+91 7665000264<br>
+                    Gunti Varshini : +91 8096567259 <br>
+                    Varad Shinde : +91 8237209290<br>
+                    Kriti Gupta : +91 7081919444<br>
+
                 </div>
             </div>
-            <img alt="not found" src="/assets/bottom-design-use-dark.png">
+            <img alt="not found" src="/assets/bottom-design-use.png">
         </div>
     </div>
 </div>
@@ -74,8 +82,8 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/bg_cult.png');
-		color: black;
+		background-image: url('/assets/info_bg.png');
+		color: white;
 		padding-top: 5vw;
 height: 120vh;
         background-size: cover;
@@ -93,8 +101,7 @@ height: 120vh;
 
 .poster-container{
 flex-basis:70%;
-// height: 80vh;
-// padding-top: 2%;
+padding-top: 3%;
 /* flex-grow: 1; */
 }
 
@@ -112,7 +119,6 @@ flex-basis:70%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
-    
 }
 
 .club-name{
@@ -120,7 +126,6 @@ flex-basis:70%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
-    
 }
 
 img{
@@ -229,7 +234,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -264,18 +271,10 @@ img{
 
 
 @media screen and (max-width:900px){
-    .event-title{
-        padding-bottom: 10%;
-    }
-    .poster1{
-    width:100%;
-}
-    .club-name{
-        padding-bottom: 10%;
-    }
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
@@ -290,7 +289,9 @@ height: 250vh;
 
    .details-container{
     margin-top:3vh;
-   }
+   }    .poster1{
+    width:100%;
+}
 
 .button-container{
     padding-left: 30%;

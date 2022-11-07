@@ -50,5 +50,14 @@
     {
         "name":"Buzzer-Game",
         "tagline":"Meraz is cool"
+    },
+    {
+        "name":"Escape room"
+        "tagline":"Fight your demons"
+    },
+    {
+        "name":"Breaking Barriers 2.0"
+        "tagline":"Because beauty has no gender"
     }
+    
 ]
