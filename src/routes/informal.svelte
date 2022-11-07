@@ -316,7 +316,7 @@
 		}
 		.event{
 			position: absolute;
-				left:20%;
+				left:18%;
 				padding-top: 20%;
 				top:1%;
 				font-size: 70px;
