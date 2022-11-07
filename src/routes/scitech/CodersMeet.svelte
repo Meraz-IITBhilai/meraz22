@@ -277,10 +277,12 @@ height: 250vh;
 		background-size: cover;
 		background-repeat:no-repeat ;
 	}
+    .poster1{
+        width: 100%;
+    }
 	.empty {
 		height: 80px;
 	}
-
    .main-container{
     flex-direction:column;
    }
