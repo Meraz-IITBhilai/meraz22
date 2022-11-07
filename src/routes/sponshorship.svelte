@@ -21,7 +21,7 @@
 	<div class="content content1" >
 		<h1 class="event title-sponsor" > Title Sponsor</h1>
 
-		<img alt="not found" class="event-img" src={`/assets/event-images/SBI.jpg`}  />
+		<img alt="not found" class="event-img" src={`/assets/sponsors/sbi.png`}  />
 		<h1 class="name">SBI</h1>
 	</div>
 
@@ -30,8 +30,14 @@
 	<div class="content content2" >
 		<h1 class="event co-sponsor" > Co Sponsor</h1>
 
-		<img alt="not found" class="event-img" src={`/assets/event-images/IOCL.jpg`}  />
+		<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`}  />
 	<h1 class="name">IOCL</h1>
+</div>
+<div class="content content2" >
+	<h1 class="event co-sponsor" > Production Partners</h1>
+
+	<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`}  />
+<h1 class="name">IOCL</h1>
 </div>
 
 
@@ -43,7 +49,7 @@
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.png`}  />
+						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
 					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
 				</div>
 				
