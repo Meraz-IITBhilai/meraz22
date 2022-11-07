@@ -83,7 +83,7 @@
 		font-size: 100px;
 		position: absolute;
 		left: 38%;
-		top: 10%;
+		top: 3%;
 		margin: 0%;
 	}
 	.content {
@@ -236,19 +236,20 @@
 		grid-gap: 30px;
 		grid-template-columns: 45% 40%;
 		width: 100%;
-		position: absolute;
+		position: relative;
 		left: 12%;
 		// margin-right: 15%;
 		// margin-left: 10%;
 		// top: 50%;
-		padding-top: 100%;
+		padding-top: 10%;
 	}
 	.parent1 {
-		position: absolute;
+		position: relative;
 		display:block;
-		top:30%;
+		// top:7%;
+		padding-top: 15%;
 		width: 90%;
-		left: 10%;
+		left: 5%;
 		// padding-top: 60%;
 		// margin-right: 15%;
 		// margin-left: 10%;
@@ -366,7 +367,7 @@
 			top: 50%;
 			width: 90%;
 			padding-top: 60%;
-			// left:5%;
+			left:7%;
 		}
 		.parent1 {
 			position: relative;
@@ -378,7 +379,7 @@
 		}
 		.event {
 			position: absolute;
-			left: 12%;
+			left: 15%;
 			padding-top: 10%;
 			top: 1%;
 			font-size: 70px;
