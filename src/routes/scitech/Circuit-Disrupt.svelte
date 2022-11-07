@@ -281,6 +281,9 @@ height: 230vh;
 		background-size: cover;
 		background-repeat:no-repeat ;
 	}
+    .poster1{
+        width: 100%;
+    }
 	.empty {
 		height: 80px;
 	}
