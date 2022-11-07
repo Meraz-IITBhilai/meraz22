@@ -83,7 +83,7 @@
 		font-size: 100px;
 		position: absolute;
 		left: 38%;
-		top: 3%;
+		top: 2%;
 		margin: 0%;
 	}
 	.content {
@@ -247,7 +247,7 @@
 		position: relative;
 		display:block;
 		// top:7%;
-		padding-top: 15%;
+		padding-top: 12%;
 		width: 90%;
 		left: 5%;
 		// padding-top: 60%;
