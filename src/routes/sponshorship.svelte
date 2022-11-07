@@ -18,30 +18,30 @@
 		<img alt="not found" class="merazimg" src="/assets/meraz_white.png" />
 	</div>
 	<h1 class="event">SPONSORS</h1>
-<div class="parent1">
-	<div class="content content1">
-		
-		<h1 class="name">Title Sponsor</h1>
-		<img alt="not found" class="event-img" src={`/assets/sponsors/sbi.png`} />
-		
-		<h1 class="name">SBI</h1>
-	</div>
+	<div class="parent1">
+		<div class="content content1">
+			
+			<h1 class="name">Title Sponsor</h1>
+			<img alt="not found" class="event-img" src={`/assets/sponsors/sbi.png`} />
+			
+			<h1 class="name">SBI</h1>
+		</div>
 
-	<div class="content content2">
-		
-		<h1 class="name">Co Sponsor</h1>
-		<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`} />
-		
-		<h1 class="name">IOCL</h1>
+		<div class="content content2">
+			
+			<h1 class="name">Co Sponsor</h1>
+			<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`} />
+			
+			<h1 class="name">IOCL</h1>
+		</div>
+		<div class="content content3">
+			
+			<h1 class="name">Production Partners</h1>
+			<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`} />
+			
+			<h1 class="name">Gigmakers</h1>
+		</div>
 	</div>
-	<div class="content content3">
-		
-		<h1 class="name">Production Partners</h1>
-		<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`} />
-		
-		<h1 class="name">Gigmakers</h1>
-	</div>
-</div>
 
 	<div class="parent">
 		{#each culturals as name}
