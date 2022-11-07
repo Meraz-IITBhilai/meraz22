@@ -14,7 +14,7 @@ import Register from "./_Register.svelte";
     </div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_cult.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Pixel Files.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
