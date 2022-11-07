@@ -1,18 +1,22 @@
 [
   {
-        "name":"SBI"
+        "name":"SBI",
+        "tagline":"State Bank Of India"
     },
     
   {
-        "name":"IOCL"
+        "name":"IOCL",
+        "tagline":"IOCL"
     },
     
   {
-        "name":"Smart City Raipur"
+        "name":"Smart City Raipur",
+        "tagline":"Smart City Raipur"
     },
     
   {
-        "name":"BOB"
+        "name":"BOB",
+        "tagline":"Bank Of Baroda"
     },
   {
         "name":"Dio Mess"
@@ -26,14 +30,19 @@
     },
     
   {
-        "name":"Spark cars"
+        "name":"Spark Cars"
     },
     
   {
         "name":"Batla Furnitures"
     },
     {
-        "name":"Stories by Inside me"
+      "name":"Gig Makers Productions",
+      "tagline":"Gig Makers Productions"
+  },
+   {
+        "name":"Stories by Inside me",
+        "tagline":"Stories by Inside me"
     }
     
     
