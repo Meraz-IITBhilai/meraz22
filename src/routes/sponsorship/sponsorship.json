@@ -1,11 +1,4 @@
 [
-  {
-        "name":"SBI"
-    },
-    
-  {
-        "name":"IOCL"
-    },
     
   {
         "name":"Smart City Raipur"
@@ -14,27 +7,24 @@
   {
         "name":"BOB"
     },
+    {
+      "name":"Sparkcars"
+  },
   {
-        "name":"Dio Mess"
+    "name":"Stories by Inside me"
+},
+  {
+        "name":"Shree Sai Services"
     },
+
   {
         "name":"Tech Cafe"
     },
     
   {
-        "name":"Shakti mess"
-    },
-    
-  {
-        "name":"Spax cars"
-    },
-    
-  {
-        "name":"Batla Furnitures"
-    },
-    {
-        "name":"Stories by Inside me"
+        "name":"Sakthi's Kitchen"
     }
+
     
     
 

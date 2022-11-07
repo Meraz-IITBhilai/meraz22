@@ -3,46 +3,70 @@
 </script>
 
 <svelte:head>
-	<title>Cultural Events | Meraz '22</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald&family=Silkscreen&display=swap" rel="stylesheet">
+	<title>Sponsors | Meraz '22</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald&family=Silkscreen&display=swap"
+		rel="stylesheet"
+	/>
 </svelte:head>
 
 <div class="bodyy">
 	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
+		<img alt="not found" class="merazimg" src="/assets/meraz_white.png" />
 	</div>
-	<h1 class="event">CULTURALS</h1>
-	<div class="parent">
+	<h1 class="event">SPONSORS</h1>
+<div class="parent1">
+	<div class="content content1">
 		
+		<h1 class="name">Title Sponsor</h1>
+		<img alt="not found" class="event-img" src={`/assets/sponsors/sbi.png`} />
+		
+		<h1 class="name">SBI</h1>
+	</div>
+
+	<div class="content content2">
+		
+		<h1 class="name">Co Sponsor</h1>
+		<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`} />
+		
+		<h1 class="name">IOCL</h1>
+	</div>
+	<div class="content content3">
+		
+		<h1 class="name">Production Partners</h1>
+		<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`} />
+		
+		<h1 class="name">Gigmakers</h1>
+	</div>
+</div>
+
+	<div class="parent">
 		{#each culturals as name}
 			<div>
 				<div class="content" id={name.name}>
-					<a class="event-item" >
+					<img  class="event-img" src={`/assets/sponsors/${name.name}.jpg`} alt="not found" />
+					<a class="event-item">
 						<div class="content-overlay" />
-<!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
-						<div class="content-details fadeIn-top">
-							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
-						</div>
+						<!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
 					</a>
+
 					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
 				</div>
-				
 			</div>
 		{/each}
 	</div>
-
 </div>
 
 <style lang="scss">
-	.bodyy{
-		background-image:url(/assets/bg_cult.png);
+	.bodyy {
+		background-image: url(/assets/about_bg.png);
 		padding-bottom: 200px;
 		background-attachment: fixed;
 		background-size: cover;
-		background-repeat:no-repeat ;
+		background-repeat: no-repeat;
 	}
 	*,
 	*:before,
@@ -53,14 +77,14 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-	.event{
+	.event {
 		font-family: 'Oswald', sans-serif;
 		font-weight: bolder;
 		font-size: 100px;
 		position: absolute;
-		left:35%;
-		top:2%;
-		margin:0%;
+		left: 38%;
+		top: 2%;
+		margin: 0%;
 	}
 	.content {
 		position: relative;
@@ -69,8 +93,8 @@
 		margin: auto;
 		margin-top: 50px;
 		overflow: hidden;
-		left:30%;
-		top:20%
+		// left:30%;
+		top: 0%;
 	}
 
 	.content .content-overlay {
@@ -148,7 +172,7 @@
 		}
 		// Change colors
 		&:hover::before {
-			border-width: $border-width ;
+			border-width: $border-width;
 			// -webkit-transition: border-radius 1s;
 			// Commented for now transition
 			transition: width 0s ease-out,
@@ -210,13 +234,26 @@
 	.parent {
 		display: grid;
 		grid-gap: 30px;
-		grid-template-columns: 25% 25% 25%;
+		grid-template-columns: 45% 40%;
 		width: 100%;
 		position: relative;
-		left: 10%;
+		left: 12%;
 		// margin-right: 15%;
 		// margin-left: 10%;
-		padding-top:10%;
+		// top: 50%;
+		padding-top: 10%;
+	}
+	.parent1 {
+		position: relative;
+		display:block;
+		// top:7%;
+		padding-top: 12%;
+		width: 90%;
+		left: 5%;
+		// padding-top: 60%;
+		// margin-right: 15%;
+		// margin-left: 10%;
+		// padding-top:20%;
 	}
 	.event-item {
 		display: flex;
@@ -239,7 +276,7 @@
 		font-family: 'Audiowide', cursive;
 		color: transparent;
 		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
-		background: black;
+		background: white;
 		background-clip: text;
 		padding-left: 2vw;
 		-webkit-background-clip: text;
@@ -249,18 +286,18 @@
 		width: 100%;
 		height: 150%;
 		object-fit: contain;
+		display: grid;
 
 		// //border: #7ce7ec 2px ridge;
 		// border-radius: 10px;
-		cursor: pointer;
+		// cursor: pointer;
 	}
 	.event-title {
-		
 		font-family: 'Oswald', sans-serif;
 		justify-content: center;
 		display: block;
 		text-align: center;
-		font-weight:lighter;	
+		font-weight: lighter;
 		// left: 10px;
 		text-shadow: black 0px 0px 5px;
 		// font-weight: bold;
@@ -270,52 +307,82 @@
 	.event-title-container {
 		width: 100%;
 	}
-	.name{
-		margin-top:3%;
+	.name {
+		margin-top: 3%;
+		margin-bottom: 3%;
 		font-family: 'Oswald', sans-serif;
 		font-weight: bolder;
 		text-transform: uppercase;
 		text-align: center;
-		}
-	.merazimg{
+	}
+	.merazimg {
 		position: relative;
 		// opacity:0.5;
-		top:5%;
-		width:100px;
-		left:20%;
+		top: 5%;
+		width: 100px;
+		left: 20%;
 	}
-	.meraz{
-		
+	.meraz {
 		position: fixed;
 		z-index: 9;
-		left:2%;
-		top:7%;
-		height:100vh;
-		width:200px;
-		background-color: #01313F;
+		left: 2%;
+		top: 7%;
+		height: 100vh;
+		width: 200px;
+		background-color: #5e305a;
 	}
-	h1{
+	h1 {
 		padding: 0;
 	}
+
+
+
+	.title-sponsor {
+		// z-index: 60;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
+		position: absolute;
+		left: 40%;
+		// top: %;
+	}
+
+	.co-sponsor {
+		// z-index: 60;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
+		position: absolute;
+		left: 40%;
+		// top: %;
+	}
+
 	@media (max-width: 900px) {
-		.bodyy{
+		.bodyy {
 			padding-bottom: 100%;
 		}
-		.parent{
+		.parent {
 			position: relative;
-			display:block;
-			top:10%;
+			display: block;
+			top: 50%;
+			width: 90%;
+			padding-top: 60%;
+			left:7%;
+		}
+		.parent1 {
+			position: relative;
+			display: block;
+			top: 10%;
 			width: 90%;
 			padding-top: 60%;
 			// left:5%;
-
 		}
-		.event{
+		.event {
 			position: absolute;
-				left:12%;
-				padding-top: 10%;
-				top:1%;
-				font-size: 70px;
+			left: 15%;
+			padding-top: 10%;
+			top: 1%;
+			font-size: 70px;
 		}
 		$border-width: 0px;
 		// .event-item {
@@ -323,21 +390,21 @@
 		// 	border-style: solid;
 		// 	border-image: linear-gradient(180deg, #ff2600, yellow, yellow, #ff2600) 1 round;
 		// }
-		.meraz{
+		.meraz {
 			position: absolute;
-			width:30px;
-			top:0;
-			left:0;
+			width: 30px;
+			top: 0;
+			left: 0;
 			height: 100%;
 			// z-index: ;
 		}
-		.merazimg{
+		.merazimg {
 			display: none;
 		}
-		.content{
+		.content {
 			margin-top: 30px;
-			left:0%;
-			width:80%;
+			left: 0%;
+			width: 80%;
 		}
 	}
 	// $border-width: 2px;
