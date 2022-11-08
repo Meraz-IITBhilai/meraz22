@@ -1,68 +1,69 @@
 [
-      {
-        "name":"Stand-Up-Comedy",
-        "tagline":"Hasao bhai! Hasao!"
-    },
-    {
-        "name":"Speed-Dating",
-        "tagline":"For love is in air"
-    },
-      {
-        "name":"Balloon-shoot-dart",
-        "tagline":"Kya tum shooter ho?"
-    },
-    
-    {
-        "name":"Ring-Hoopla-Game",
-        "tagline":"Ring it and win it"
-    },
-    {
-        "name":"Dare-to-Dare",
-        "tagline":"Up for some action?"
-    },
-    {
-        "name":"Glass-Pong",
-        "tagline":"'coz the party is on!"
-    },
-    {
-        "name":"Casino",
-        "tagline":"You know telepathy?"
-    },
-    {
-        "name":"Lucky-Draw",
-        "tagline":"Wanna get lucky?"
-    },
-    {
-        "name":"Box-Cricket",
-        "tagline":"Chalo cricket khele"
-    },
-    {
-        "name":"Housie",
-        "tagline":"BINGO!"
-    },
-    {
-        "name":"7-UP",
-        "tagline":"Down for poker?"
-    },
-    {
-        "name":"Beg-Borrow-Steal",
-        "tagline":"Kaise bhi lao"
-    },
-    {
-        "name":"Buzzer-Game",
-        "tagline":"Focus or fail"
-    },
-      {
-        "name":"Matched",
-        "tagline":"Let's find your clone :)"
-    },
-     {
-        "name":"Escape room",
-        "tagline":"Fight your demons"
-    },
-    {
-        "name":"Breaking Barriers 2.0",
-        "tagline":"Because beauty has no gender"
-    }
-    
+	{
+		"name": "7-UP",
+		"tagline": "Down for poker?"
+	},
+	{
+		"name": "Balloon-shoot-dart",
+		"tagline": "Kya tum shooter ho?"
+	},
+	{
+		"name": "Breaking Barriers 2.0",
+		"tagline": "Because beauty has no gender"
+	},
+
+	{
+		"name": "Box-Cricket",
+		"tagline": "Chalo cricket khele"
+	},
+	{
+		"name": "Beg-Borrow-Steal",
+		"tagline": "Kaise bhi lao"
+	},
+	{
+		"name": "Buzzer-Game",
+		"tagline": "Focus or fail"
+	},
+	{
+		"name": "Casino",
+		"tagline": "You know telepathy?"
+	},
+	{
+		"name": "Dare-to-Dare",
+		"tagline": "Up for some action?"
+	},
+	{
+		"name": "Escape room",
+		"tagline": "Fight your demons"
+	},
+	{
+		"name": "Glass-Pong",
+		"tagline": "'coz the party is on!"
+	},
+	{
+		"name": "Housie",
+		"tagline": "BINGO!"
+	},
+
+	{
+		"name": "Lucky-Draw",
+		"tagline": "Wanna get lucky?"
+	},
+	{
+		"name": "Matched",
+		"tagline": "Let's find your clone :)"
+	},
+	{
+		"name": "Ring-Hoopla-Game",
+		"tagline": "Ring it and win it"
+	},
+
+	{
+		"name": "Stand-Up-Comedy",
+		"tagline": "Hasao bhai! Hasao!"
+	},
+	{
+		"name": "Speed-Dating",
+		"tagline": "For love is in air"
+	}
 ]

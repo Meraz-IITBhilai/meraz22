@@ -12,7 +12,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/zapricon.jpg"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Zapricon.png"  border="0">
         </div>
         <div class="text-container">
             <div class="empty">
