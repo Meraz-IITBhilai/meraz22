@@ -19,7 +19,7 @@
 	</div>
 	<h1 class="event">SPONSORS</h1>
 	<div class="parent1">
-		<div class="content content1">
+		<div class="content ">
 			
 			<h1 class="name">Title Sponsor</h1>
 			<img alt="not found" class="event-img" src={`/assets/sponsors/sbi.png`} />
@@ -27,14 +27,21 @@
 			<h1 class="name">SBI</h1>
 		</div>
 
-		<div class="content content2">
+		<div class="content ">
 			
 			<h1 class="name">Co Sponsor</h1>
 			<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`} />
 			
 			<h1 class="name">IOCL</h1>
 		</div>
-		<div class="content content3">
+		<div class="content ">
+			
+			<h1 class="name">Co Sponsor</h1>
+			<img alt="not found" class="event-img" src={`/assets/sponsors/Sparkcars.jpg`} />
+			
+			<h1 class="name">Sparkcars</h1>
+		</div>
+		<div class="content ">
 			
 			<h1 class="name">Production Partners</h1>
 			<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`} />
