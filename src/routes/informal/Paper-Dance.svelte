@@ -1,75 +1,77 @@
+<script>
+	import Register from './Register.svelte';
+</script>
+
 <svelte:head>
-	<title>Paper Dance| Meraz '22</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<title>Paper Dance | Meraz '22</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+		rel="stylesheet"
+	/>
 </svelte:head>
 <div class="bodyy">
-    <div class="empty">
+	<div class="empty" />
+	<div class="main-container">
+		<div class="poster-container">
+			<img alt="not found" class="poster1" src="/assets/poster/poster_info.png" border="0" />
+		</div>
 
+		<div class="text-container">
+			<div class="empty" />
+			<div class="top-text">
+				<h1 class="event-title">PAPER-DANCE</h1>
+				<!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
+				<h2 class="club-name">INFORMALS</h2>
+			</div>
+			<img alt="not found" class="top-design-class" src="/assets/top-design-use.png" />
+			<div class="description">
+				<div class="description-container">
+
+                    <p> Participation is allowed only in pairs (2 girls/ 2 boys / 1 boy+1 girl).<br>
+                        ● As the music starts, the pair is expected to dance on a sheet of paper which will be subsequently folded with the proceeding rounds.<br>
+                        ● The pair has to make sure that they don’t step out of the sheet.<br>
+                        ● If the pair is not found to be dancing while the song is playing, they will be eliminated. <br>
+                        ● There will be few bonus rounds in between whose winners can proceed to the next round without folding the paper for that round.<br>
+                        ● The pair which will be able to endure the diminishing sheet till the end will win.<br>
+                        ● Judges’ decision will be final in all cases.
+                        
+                    </p>
+					
+				</div>
+
+				<div class="sub-container">
+					<div class="text">
+						<p>Event Mode- Offline</p>
+						<!-- <p>Registration Fee- Absolutely Free!</p> -->
+					</div>
+					<div class="button-container">
+						<a
+							href="https://docs.google.com/document/d/11FpO819f3hbTyt6-BF0DwAd6SHMQYDyUrYcd9upbnFU/edit"
+						>
+							<button class="glow-on-hover">Rulebook</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="details-container">
+				<div class="prize-col">
+					<h3>Event Fees :</h3>
+					!!to be decided...
+
+					<!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+				</div>
+				<img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png" />
+				<div class="poc-col">
+					<h3>Point Of Contact:</h3>
+
+					Vanisha: 99810090998<br />
+					Vidhi: 8340134981<br />
+                    Nidhi: 7676778443<br />
+				</div>
+			</div>
+			<img alt="not found" src="/assets/bottom-design-use.png" />
+		</div>
 	</div>
-    <div class="main-container">
-        <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
-        </div>
-        <div class="text-container">
-            <div class="empty">
-
-            </div>
-            <div class="top-text">
-                <h1 class="event-title">
-                    PAPER DANCE
-                </h1>
-                <h2 class="club-name">
-                    INFORMALS
-                </h2>
-            </div>
-            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
-            <div class="description">
-                <div class="description-container">
-                    <p><bold>1.</bold> Participation is allowed only in pairs (2 girls/ 2 boys / 1 boy+1 girl).<br>
-                        <bold>2.</bold> As the music starts, the pair is expected to dance on a sheet of paper
-                        which will be subsequently folded with the proceeding rounds.<br>
-                        <bold>3.</bold> The pair has to make sure that they don’t step out of the sheet.<br>
-                        <bold>4.</bold> If the pair is not found to be dancing while the song is playing, they will
-                        be eliminated.<br>
-                        <bold>5.</bold> There will be few bonus rounds in between whose winners can proceed
-                        to the next round without folding the paper for that round.<br>
-                        <bold>6.</bold> The pair which will be able to endure the diminishing sheet till the end
-                        will win.<br>
-                        <bold>7.</bold> Judges’ decision will be final in all cases.
-                        </p>
-                </div>
-
-                <div class="sub-container">
-                    <div class="text">
-                        <p>Event Mode- Offline</p>
-                        <!-- <p>Registration Fee- Absolutely Free!</p> -->
-                    </div>
-                    <div class="button-container">
-<!--                         <button class="glow-on-hover">Rulebook</button> -->
-                    </div>
-                </div>
-            </div>
-            <div class="details-container">
-                <div class="prize-col">
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
-
-
-                </div>
-                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
-                <div class="poc-col">
-                    <h3>Point Of Contact:</h3>
-
-                    Vanisha: 9981090998<br>
-                    Nidhi: 7676778443 <br>
-                    Vidhi: 
-
-
-                </div>
-            </div>
-            <img alt="not found" src="/assets/bottom-design-use.png">
-        </div>
-    </div>
 </div>
 
 <style lang="scss">
@@ -83,7 +85,7 @@
 		background-image: url('/assets/info_bg.png');
 		color: white;
 		padding-top: 5vw;
-height: 120vh;
+height: 137vh;
         background-size: cover;
         background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
@@ -99,13 +101,12 @@ height: 120vh;
 
 .poster-container{
 flex-basis:70%;
-// height: 80vh;
-// padding-top: 2%;
+padding-top: 3%;
 /* flex-grow: 1; */
 }
 
 .poster1{
-    width:80%;
+    width:100%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -118,7 +119,6 @@ flex-basis:70%;
 .event-title{
     font-size: 5vh;
     padding-left:1vw;
-
 }
 
 .club-name{
@@ -126,7 +126,6 @@ flex-basis:70%;
     padding-top:0.5vw;
     font-family: 'Josefin Sans', sans-serif;
     padding-left:1vw;
-
 }
 
 img{
@@ -235,7 +234,9 @@ img{
 }
 
 /* ----------------- button animation ends ---------------------- */
-
+.event-title{
+    display: flex;
+}
 .details-container{
     padding:2.2vw;
     display:grid;
@@ -270,21 +271,16 @@ img{
 
 
 @media screen and (max-width:900px){
-    .event-title{
-        padding-bottom: 10%;
-    }
-    .club-name{
-        padding-bottom: 10%;
-    }
 .bodyy{
 height: 250vh;
 		// background-image: url(/assets/about_bg.png);
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
 	}
 	.empty {
-		height: 130px;
+		height: 80px;
 	}
 
    .main-container{
