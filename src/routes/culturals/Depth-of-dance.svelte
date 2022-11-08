@@ -1,3 +1,7 @@
+<script>
+    import Register from "./_Register.svelte";
+</script>
+
 <svelte:head>
 	<title>Depth of dance| Meraz '22</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -18,6 +22,7 @@
                 <h1 class="event-title">
                     DEPTH OF DANCE
                 </h1>
+		    <Register link="https://docs.google.com/forms/d/e/1FAIpQLSfg9lnPwgoDYssrxZOvUkECZl1v8ixuKokW1XoMfJ6dgCYWQQ/viewform"/>
                 <h2 class="club-name">
                     BEATHACKERS
                 </h2>
