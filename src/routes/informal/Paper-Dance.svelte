@@ -46,7 +46,7 @@
 					</div>
 					<div class="button-container">
 						<a
-							href="https://docs.google.com/document/d/11FpO819f3hbTyt6-BF0DwAd6SHMQYDyUrYcd9upbnFU/edit"
+							href="https://drive.google.com/file/d/1Ywr2Lu0yYZMiX3rdFR1r0TvfKB2t42w6/view"
 						>
 							<button class="glow-on-hover">Rulebook</button>
 						</a>
@@ -55,8 +55,9 @@
 			</div>
 			<div class="details-container">
 				<div class="prize-col">
-					<h3>Event Fees :</h3>
-					!!to be decided...
+					<h3>Prizes worth :</h3> 5000
+                    <h3>Entry Fee :</h3> 20
+				
 
 					<!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
 				</div>
@@ -64,7 +65,7 @@
 				<div class="poc-col">
 					<h3>Point Of Contact:</h3>
 
-					Vanisha: 99810090998<br />
+					Vanisha: 9981090998<br />
 					Vidhi: 8340134981<br />
                     Nidhi: 7676778443<br />
 				</div>
@@ -85,7 +86,7 @@
 		background-image: url('/assets/info_bg.png');
 		color: white;
 		padding-top: 5vw;
-height: 137vh;
+height: 125vh;
         background-size: cover;
         background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
@@ -100,7 +101,7 @@ height: 137vh;
 }
 
 .poster-container{
-flex-basis:70%;
+flex-basis:55%;
 padding-top: 3%;
 /* flex-grow: 1; */
 }
