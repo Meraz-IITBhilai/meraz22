@@ -22,7 +22,7 @@
                 <h1 class="event-title">
                     STAND UP COMEDY
                 </h1>
-                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSfOZb25AZ7OCbA0XUnw7bv2z79Su-_h5u6KWPrqxjLhA8bhKA/viewform"/>
                 <h2 class="club-name">
                     INFORMALS
                 </h2>
