@@ -50,7 +50,7 @@
 			<div class="details-container">
 				<div class="prize-col">
 					<h3>Event Fees :</h3>
-					Upto the player, minimum purchase is of &#8377; 20/-
+					Upto the player, minimum purchase is of &#8377; 30/-
 
 					<!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
 				</div>
