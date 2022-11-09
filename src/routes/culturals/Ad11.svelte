@@ -32,7 +32,7 @@
             <div class="description">
                 <div class="description-container">
                     <p>
-                        This competition will give all the filming enthusiasts a platform to showcase their talent <br> in the field of advertisement making. The submission will be taken online through mail. <br> There will be a set deadline and no late submission will be accepted. You can select any product to make an advertisement.</p>
+                        This competition will give all the filming enthusiasts a platform to showcase their talent <br> in the field of advertisement making. The submission will be taken online through form. <br> There will be a set deadline and no late submission will be accepted. You can select any product to make an advertisement.</p>
                 </div>
 
                 <div class="sub-container">
