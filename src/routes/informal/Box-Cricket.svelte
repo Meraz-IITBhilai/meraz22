@@ -47,9 +47,9 @@
                         <p>Event Mode- Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <!-- <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
-                    </div> -->
+                    <div class="button-container">
+                        <a href="https://docs.google.com/document/d/19yg2HtQMjRFn52maMz3Ob4_ZXchpSTtvxYuIijIwe-g/edit?usp=sharing"><button class="glow-on-hover">Rulebook</button></a>
+                    </div>
                 </div>
             </div>
             <div class="details-container">
@@ -57,6 +57,7 @@
                     <h3>Event Fees for each team :</h3> 
                     &#8377;150/- 
 
+                    
                     
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
 
