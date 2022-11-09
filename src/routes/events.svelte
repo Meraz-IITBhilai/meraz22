@@ -27,7 +27,9 @@
 			<a href="/scitech"><img alt="not found" class="img3" src="/assets/sciencetech.png"></a>
 			<a href="/informal"><img alt="not found" class="img4" src="/assets/informals.png"> </a>
 		</div>
-	
+		<div class="butt">
+		<a href="https://docs.google.com/spreadsheets/d/1BIWD_kfGjPanzcsCSX8wsLBqOE7pWeJ7NGUHJ6hR8u4/edit?usp=drivesdk"><div class="btn third"> Schedule </div></a>
+	</div>
 	</div>
 
 </div>
@@ -138,8 +140,68 @@
 		object-fit:cover;
 		
 	}
+	.btn {
+	position: absolute;
+	bottom: 10%;
+	z-index: 3;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+
+
+
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+}
+.butt{
+	position: relative;
+	// padding-top:-50%;
+	margin-top: -67%;
+	// text-align: center;
+	left: 80%;
+
+}
+
 	@media (max-width: 900px) {
-	
+		.butt{
+	position: relative;
+	padding-top: 50%;
+	margin-top: 0%;
+	// text-align: center;
+	left: 15%;
+
+}
 		.empty{
 			height: 100px;
 
