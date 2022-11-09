@@ -22,7 +22,7 @@
                 <h1 class="event-title">
                     BOX CRICKET
                 </h1>
-                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
+                <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdDCRi-VD_iBdJqGvlsaTGOXux80e4oZTq8vqjJly-vIS01Og/viewform?vc=0&c=0&w=1&flr=0"/>
                 <h2 class="club-name">
                     INFORMALS
                 </h2>

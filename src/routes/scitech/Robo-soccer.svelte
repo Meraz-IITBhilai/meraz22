@@ -38,7 +38,7 @@
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
                     <div class="button-container">
-                        <a href="https://drive.google.com/file/d/1b1ihN_hiX4yNDDl10621kU0VUwMG5xsY/view?usp=drivesdk"><button class="glow-on-hover">Rulebook</button></a>
+                        <a href="https://drive.google.com/file/d/1FjrrbRL4JJrRWRQouMhnB_93FveY2Qjg/view?usp=share_link"><button class="glow-on-hover">Rulebook</button></a>
                     </div>
                 </div>
             </div>
