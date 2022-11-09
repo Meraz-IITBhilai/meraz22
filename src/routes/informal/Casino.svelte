@@ -63,7 +63,7 @@
                     <h3>Point Of Contact:</h3>
 
                     Basant : 9460415170 <br>
-                    Damodar : +91 6305795997<br>
+                    Damodaram : +91 6305795997<br>
                     
 
                 </div>
