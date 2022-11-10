@@ -21,6 +21,7 @@
 	</div>
   <div class="timer">
     <Timer />
+    <div class="trailer"><a href="https://www.youtube.com/watch?v=iDtwPVqDfkA">Trailer Out now</a></div>
   </div>
   
 	<img alt="not found" style="display: inline-block" class="newmeraz" src="/assets/newmeraz.png"  srcset="">
@@ -325,9 +326,35 @@
 .timer{
   z-index : 3;
   position: absolute;
-  bottom: 30%;
+  bottom: 25%;
 }
+.trailer{
+  // z-index : 3;
+  background-color: #31E1F7;
+		font-family: 'Metal Mania', sans-serif;
+		z-index: 3;
+		letter-spacing: 3px;
+		
+		// font-family: nouty;
+		// letter-spacing: 3px;
 
+		// background-image: url('/assets/gold-texture.jpg');
+		// background-repeat: repeat-x;
+		// background-position: 0 0;
+		// font-size: 100%;
+		text-transform: uppercase;
+		text-align: center;
+		color: transparent;
+		-webkit-font-smoothing: antialiased;
+
+		background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+text-align: center;
+font-size: 1.7rem;
+  // position: absolute;
+  // bottom: 30%;
+}
 // Basic Button Style
 .btn {
 	position: absolute;

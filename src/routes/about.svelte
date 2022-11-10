@@ -48,10 +48,10 @@
 
 			<section class="glimpses">
 				<div class="title">
-					<h1 style="font-weight: normal">MERAZ'22 TEASER</h1>
+					<h1 style="font-weight: normal">MERAZ'22 TRAILER</h1>
 				</div>
 				<iframe class="youtube"
-					src="https://www.youtube.com/embed/W0VIHUbZ680"
+					src="https://www.youtube.com/embed/iDtwPVqDfkA"
 					title="Meraz'19 Trailer"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
