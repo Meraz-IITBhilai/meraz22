@@ -11,7 +11,7 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
+            <img alt="not found" class="poster1" src="/assets/poster/Hoopla.png"  border="0">
         </div>
         
         <div class="text-container">
@@ -106,7 +106,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -279,6 +279,9 @@ height: 250vh;
 		background-size: cover;
 		background-repeat:no-repeat ;
 	}
+    .poster1{
+        width: 100%;
+    }
 	.empty {
 		height: 80px;
 	}

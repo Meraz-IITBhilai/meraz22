@@ -113,7 +113,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -290,6 +290,9 @@ height: 250vh;
 		height: 80px;
 	}
 
+    .poster1{
+    width:100%;
+}
    .main-container{
     flex-direction:column;
    }

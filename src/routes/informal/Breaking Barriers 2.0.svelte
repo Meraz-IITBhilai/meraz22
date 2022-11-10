@@ -28,9 +28,9 @@
                 <div class="description-container">
             
                     <p>This event promote aesthetics that are gender non-
-conforming to break the gender barriers. We will be keeping multiple booths where we focus on what are
-perceived as feminine aesthetics. This event aims at casting out toxic masculinity and few gender related
-stereotypes.
+conforming to break the gender barriers. <br> We will be keeping multiple booths where we focus on what are
+perceived as feminine aesthetics. <br> This event aims at casting out toxic masculinity and few gender related
+stereotypes. <br>
 So gear up for Breaking Barriers 2.0 and get your nails, eye makeup or mehndi done while having (or not
 having) a nice chat about gender and sexuality!
                     
@@ -102,7 +102,7 @@ padding-top: 3%;
 }
 
 .poster1{
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid teal;
     border-radius: 2px;
@@ -278,7 +278,9 @@ height: 250vh;
 	.empty {
 		height: 80px;
 	}
-
+.poster1{
+    width: 100%;
+}
    .main-container{
     flex-direction:column;
    }
