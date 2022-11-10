@@ -26,8 +26,8 @@
 </script>
 
 {#if complete}
-	<!-- <div class="complete-message">Nov 8-10, 2019</div> -->
-	<div class="complete-message">Stay Tuned</div>
+	<div class="complete-message">Nov 11-13, 2022</div>
+	<!-- <div class="complete-message">Stay Tuned</div> -->
 {:else}
 	<div class="parent">
 		<div class="box">
@@ -46,7 +46,9 @@
 			{timeLeft.seconds}
 			<span>Seconds</span>
 		</div>
+		
 	</div>
+	<!-- <div class="complete-message new1">Trailer Out Now</div> -->
 {/if}
 
 <style lang="scss">
@@ -54,6 +56,8 @@
 		display: flex;
 		justify-content: space-around;
 		margin: 0;
+		// position: absolute;
+		// top: 5%;
 	}
 
 	.complete-message,
@@ -82,7 +86,10 @@
 
 	.complete-message {
 		padding-top: 30px;
+		font-size: 3rem;
+
 	}
+
 
 	@keyframes BackgroundAnimated {
 		from {
