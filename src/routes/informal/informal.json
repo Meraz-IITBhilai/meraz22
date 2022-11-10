@@ -1,5 +1,9 @@
 [
 	{
+		"name": "Esports",
+		"tagline": "Watch Them Run!"
+	},
+	{
 		"name": "7-UP",
 		"tagline": "Down for poker?"
 	},
@@ -11,7 +15,6 @@
 		"name": "Breaking Barriers 2.0",
 		"tagline": "Because beauty has no gender"
 	},
-
 	{
 		"name": "Box-Cricket",
 		"tagline": "Chalo cricket khele"
@@ -28,7 +31,7 @@
 		"name": "Casino",
 		"tagline": "You know telepathy?"
 	},
-    {
+	{
 		"name": "Paper-Dance",
 		"tagline": "Paper Dance"
 	},
@@ -48,7 +51,6 @@
 		"name": "Housie",
 		"tagline": "BINGO!"
 	},
-
 	{
 		"name": "Lucky-Draw",
 		"tagline": "Wanna get lucky?"
@@ -61,7 +63,6 @@
 		"name": "Ring-Hoopla-Game",
 		"tagline": "Ring it and win it"
 	},
-
 	{
 		"name": "Stand-Up-Comedy",
 		"tagline": "Hasao bhai! Hasao!"
