@@ -276,6 +276,9 @@ img{
     flex-direction: column;
     text-align:center;
 }
+.event-title{
+    display: flex;
+}
 
 
 @media screen and (max-width:900px){
