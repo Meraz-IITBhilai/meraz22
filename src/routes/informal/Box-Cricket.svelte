@@ -37,7 +37,8 @@
                         ● Boys will be only allowed to bowl underarm. <br>
                         ● Boys are restricted to play only grounded shots, while girls can freely swing the bat.<br>
                         ● At Least 1 girl should open the innings for each team and the other can bat at no.2 or no.3.<br>
-                        ● Apart from the above mentioned rules, ICC rules will be followed.
+                        ● Apart from the above mentioned rules, ICC rules will be followed.<br>
+                        ● Offline Registration will also be open.
                         
                         </p>
                 </div>
@@ -61,7 +62,7 @@
                     
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
 
-                    
+                    <h3>Venue: Basketball Court</h3>
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
