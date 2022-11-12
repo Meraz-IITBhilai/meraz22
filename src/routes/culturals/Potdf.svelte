@@ -21,7 +21,7 @@
                 <h1 class="event-title">
                     POTDF
                 </h1>
-                <Register link="https://forms.gle/sVyoFxpX2T4jchYA6"/>
+                <Register link="https://forms.gle/A2b324i9vQeSjSAq9"/>
 
                 <h2 class="club-name">
                     TPS
