@@ -6,7 +6,7 @@ Meraz'22 college fest website https://meraz.in
 
 
 Managed & led by:
-  - Sarvesh Kumar(https://github.com/Sarvesh2459)
+  - [Sarvesh Kumar](https://github.com/Sarvesh2459)
 
 Made by:
   - Sudeep Ranjan Sahoo(https://github.com/srs-sudeep)
