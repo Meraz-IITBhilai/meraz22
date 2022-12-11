@@ -10,7 +10,7 @@ Managed & led by:
 
 Made by:
   - [Sudeep Ranjan Sahoo](https://github.com/srs-sudeep)
-  - [Ayush Kumar Das](https://github.com/Ayush249)
+  - [Ayush Kumar Das](https://github.com/Ayushk249)
   - [Shreyas Sachin Pande](https://github.com/shreyaspande2003)
   - [Aditya Sankhla](https://github.com/adismort14)
   - [Sonu Kumar](https://github.com/sonu856)
