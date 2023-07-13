@@ -34,9 +34,9 @@
 			</h2>
 			<ul>
 				<!-- <li>Gourav Borkar (Sponsorship Head) ‐ <a href="tel:+918999739404">8999739404</a></li> -->
-				<li>Chinmay Ratnaparkhe (CoSA Events Head)‐ <a href="tel:+91 8764117666">8764117666</a></li>
-				<li>Yash Teckchandani (CoSA President) ‐ <a href="tel:+91 6309244545">6309244545</a></li>
-				<li>Rajagopalan R (CoSA Treasurer) ‐ <a href="tel:+918667083459">8667083459</a></li>
+				<li>Elavartha Nikhil Reddy (CoSA Events Head)‐ <a href="tel:+91 8790367047">8790367047</a></li>
+				<li>Sooraj Reddy (CoSA President) ‐ <a href="tel:+91 9391436084">9391436084</a></li>
+				<li>Atharva Bhatnagar (CoSA Treasurer) ‐ <a href="tel:+91 8447973545">8447973545</a></li>
 				<!-- <li>Aryavrata Singh (Informals Incharge)- <a href="tel:+919725123743">9725123743</a></li> -->
 			</ul>
 			<br />
