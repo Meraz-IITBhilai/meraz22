@@ -1,0 +1,1387 @@
+{
+  "node_modules/@fontsource/metal-mania/files/metal-mania-latin-ext-400-normal.woff2": {
+    "file": "immutable/assets/metal-mania-latin-ext-400-normal-e7cd37e9.woff2",
+    "src": "node_modules/@fontsource/metal-mania/files/metal-mania-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/metal-mania/files/metal-mania-latin-400-normal.woff2": {
+    "file": "immutable/assets/metal-mania-latin-400-normal-7976f10e.woff2",
+    "src": "node_modules/@fontsource/metal-mania/files/metal-mania-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/metal-mania/files/metal-mania-all-400-normal.woff": {
+    "file": "immutable/assets/metal-mania-all-400-normal-eca8ef5e.woff",
+    "src": "node_modules/@fontsource/metal-mania/files/metal-mania-all-400-normal.woff"
+  },
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "immutable/start-937fa90e.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "_index-84c6ea1d.js",
+      "_preload-helper-4c397a37.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/about.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/culturals/Ad11.svelte",
+      "src/routes/culturals/Artville.svelte",
+      "src/routes/culturals/Attire-spectra.svelte",
+      "src/routes/culturals/Biz-sci-tech-quiz.svelte",
+      "src/routes/culturals/Cinemaestro.svelte",
+      "src/routes/culturals/Depth-of-dance.svelte",
+      "src/routes/culturals/Euphony.svelte",
+      "src/routes/culturals/Fest-in-a-flash.svelte",
+      "src/routes/culturals/Fiction-on-canvas.svelte",
+      "src/routes/culturals/Final-masquerade.svelte",
+      "src/routes/culturals/Hue-tube.svelte",
+      "src/routes/culturals/In10sity.svelte",
+      "src/routes/culturals/Mimic.svelte",
+      "src/routes/culturals/Motification.svelte",
+      "src/routes/culturals/Mun.svelte",
+      "src/routes/culturals/Murder Mystery.svelte",
+      "src/routes/culturals/Nsfw-quiz.svelte",
+      "src/routes/culturals/Nukkad-natak.svelte",
+      "src/routes/culturals/Phantom.svelte",
+      "src/routes/culturals/Photostory.svelte",
+      "src/routes/culturals/Pixel-files.svelte",
+      "src/routes/culturals/Poetry-slam.svelte",
+      "src/routes/culturals/Potdf.svelte",
+      "src/routes/culturals/Shredded.svelte",
+      "src/routes/culturals/Surreal.svelte",
+      "src/routes/culturals/Time-capsule-quiz.svelte",
+      "src/routes/culturals/Versify-Inqill.svelte",
+      "src/routes/culturals/Versify-Lit-Odyssey.svelte",
+      "src/routes/culturals.svelte",
+      "src/routes/events/cultural-events.svelte",
+      "src/routes/events/scitech-events.svelte",
+      "src/routes/events.svelte",
+      "src/routes/index.svelte",
+      "src/routes/informal/7-UP.svelte",
+      "src/routes/informal/Balloon-shoot-dart.svelte",
+      "src/routes/informal/Beg-Borrow-Steal.svelte",
+      "src/routes/informal/Box-Cricket.svelte",
+      "src/routes/informal/Breaking Barriers 2.0.svelte",
+      "src/routes/informal/Buzzer-Game.svelte",
+      "src/routes/informal/Casino.svelte",
+      "src/routes/informal/Dare-to-Dare.svelte",
+      "src/routes/informal/Escape room.svelte",
+      "src/routes/informal/Esports.svelte",
+      "src/routes/informal/Glass-Pong.svelte",
+      "src/routes/informal/Housie.svelte",
+      "src/routes/informal/Lucky-Draw.svelte",
+      "src/routes/informal/Matched.svelte",
+      "src/routes/informal/Paper-Dance.svelte",
+      "src/routes/informal/Register.svelte",
+      "src/routes/informal/Ring-Hoopla-Game.svelte",
+      "src/routes/informal/Speed-Dating.svelte",
+      "src/routes/informal/Stand-Up-Comedy.svelte",
+      "src/routes/informal.svelte",
+      "src/routes/pronite.svelte",
+      "src/routes/scitech/Aviatya.svelte",
+      "src/routes/scitech/Break-the-blocks.svelte",
+      "src/routes/scitech/Captcha-breaking.svelte",
+      "src/routes/scitech/Circuit-Disrupt.svelte",
+      "src/routes/scitech/CodersMeet.svelte",
+      "src/routes/scitech/Over-flow.svelte",
+      "src/routes/scitech/Robo-kabaddi.svelte",
+      "src/routes/scitech/Robo-soccer.svelte",
+      "src/routes/scitech/Skrypted.svelte",
+      "src/routes/scitech/Stargazing.svelte",
+      "src/routes/scitech/VR-Flynn.svelte",
+      "src/routes/scitech/Zapricon.svelte",
+      "src/routes/scitech.svelte",
+      "src/routes/sponshorship.svelte",
+      "src/routes/startup.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "immutable/pages/__layout.svelte-769d7bdf.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "_index.es-29adbfae.js",
+      "_index-84c6ea1d.js"
+    ],
+    "css": [
+      "immutable/assets/__layout-e6c4c594.css"
+    ],
+    "assets": [
+      "immutable/assets/metal-mania-latin-ext-400-normal-e7cd37e9.woff2",
+      "immutable/assets/metal-mania-all-400-normal-eca8ef5e.woff",
+      "immutable/assets/metal-mania-latin-400-normal-7976f10e.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "immutable/error.svelte-d90550dd.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "immutable/pages/about.svelte-da335612.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-4c397a37.js",
+      "_index-06c56749.js"
+    ],
+    "dynamicImports": [
+      "node_modules/lite-youtube-embed/src/lite-yt-embed.js"
+    ],
+    "css": [
+      "immutable/assets/about-6ba903af.css",
+      "immutable/assets/lite-yt-embed-84fffdea.css"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "immutable/pages/contact.svelte-44b9c98f.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "_index.es-29adbfae.js"
+    ],
+    "css": [
+      "immutable/assets/contact-c5f70b22.css"
+    ]
+  },
+  "src/routes/culturals/Ad11.svelte": {
+    "file": "immutable/pages/culturals/Ad11.svelte-b66e38e5.js",
+    "src": "src/routes/culturals/Ad11.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Ad11-472ca093.css"
+    ]
+  },
+  "src/routes/culturals/Artville.svelte": {
+    "file": "immutable/pages/culturals/Artville.svelte-fa425c4b.js",
+    "src": "src/routes/culturals/Artville.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Artville-67cda80a.css"
+    ]
+  },
+  "src/routes/culturals/Attire-spectra.svelte": {
+    "file": "immutable/pages/culturals/Attire-spectra.svelte-e025edbc.js",
+    "src": "src/routes/culturals/Attire-spectra.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Attire-spectra-9f2c4dde.css"
+    ]
+  },
+  "src/routes/culturals/Biz-sci-tech-quiz.svelte": {
+    "file": "immutable/pages/culturals/Biz-sci-tech-quiz.svelte-780736cb.js",
+    "src": "src/routes/culturals/Biz-sci-tech-quiz.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Biz-sci-tech-quiz-d53467c3.css"
+    ]
+  },
+  "src/routes/culturals/Cinemaestro.svelte": {
+    "file": "immutable/pages/culturals/Cinemaestro.svelte-ce2b8167.js",
+    "src": "src/routes/culturals/Cinemaestro.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Cinemaestro-9ef543d0.css"
+    ]
+  },
+  "src/routes/culturals/Depth-of-dance.svelte": {
+    "file": "immutable/pages/culturals/Depth-of-dance.svelte-f7361c2b.js",
+    "src": "src/routes/culturals/Depth-of-dance.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Depth-of-dance-9ef543d0.css"
+    ]
+  },
+  "src/routes/culturals/Euphony.svelte": {
+    "file": "immutable/pages/culturals/Euphony.svelte-47ed77dd.js",
+    "src": "src/routes/culturals/Euphony.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Euphony-67cda80a.css"
+    ]
+  },
+  "src/routes/culturals/Fest-in-a-flash.svelte": {
+    "file": "immutable/pages/culturals/Fest-in-a-flash.svelte-6b078592.js",
+    "src": "src/routes/culturals/Fest-in-a-flash.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Fest-in-a-flash-2292a4b6.css"
+    ]
+  },
+  "src/routes/culturals/Fiction-on-canvas.svelte": {
+    "file": "immutable/pages/culturals/Fiction-on-canvas.svelte-4e63a75d.js",
+    "src": "src/routes/culturals/Fiction-on-canvas.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Fiction-on-canvas-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/Final-masquerade.svelte": {
+    "file": "immutable/pages/culturals/Final-masquerade.svelte-9f6bb02b.js",
+    "src": "src/routes/culturals/Final-masquerade.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Final-masquerade-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/Hue-tube.svelte": {
+    "file": "immutable/pages/culturals/Hue-tube.svelte-2fca6f53.js",
+    "src": "src/routes/culturals/Hue-tube.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Hue-tube-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/In10sity.svelte": {
+    "file": "immutable/pages/culturals/In10sity.svelte-8457732e.js",
+    "src": "src/routes/culturals/In10sity.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/In10sity-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/Mimic.svelte": {
+    "file": "immutable/pages/culturals/Mimic.svelte-ad11e35b.js",
+    "src": "src/routes/culturals/Mimic.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Mimic-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/Motification.svelte": {
+    "file": "immutable/pages/culturals/Motification.svelte-80daf4a8.js",
+    "src": "src/routes/culturals/Motification.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Motification-7dff3772.css"
+    ]
+  },
+  "src/routes/culturals/Mun.svelte": {
+    "file": "immutable/pages/culturals/Mun.svelte-32e6af42.js",
+    "src": "src/routes/culturals/Mun.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Mun-b8b79eb2.css"
+    ]
+  },
+  "src/routes/culturals/Murder Mystery.svelte": {
+    "file": "immutable/pages/culturals/Murder Mystery.svelte-8d16f757.js",
+    "src": "src/routes/culturals/Murder Mystery.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Murder Mystery-d20b0ab2.css"
+    ]
+  },
+  "src/routes/culturals/Nsfw-quiz.svelte": {
+    "file": "immutable/pages/culturals/Nsfw-quiz.svelte-e9718ed9.js",
+    "src": "src/routes/culturals/Nsfw-quiz.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Nsfw-quiz-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/Nukkad-natak.svelte": {
+    "file": "immutable/pages/culturals/Nukkad-natak.svelte-cb830223.js",
+    "src": "src/routes/culturals/Nukkad-natak.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Nukkad-natak-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals/Phantom.svelte": {
+    "file": "immutable/pages/culturals/Phantom.svelte-b45df9e8.js",
+    "src": "src/routes/culturals/Phantom.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Phantom-91340757.css"
+    ]
+  },
+  "src/routes/culturals/Photostory.svelte": {
+    "file": "immutable/pages/culturals/Photostory.svelte-d3cfd063.js",
+    "src": "src/routes/culturals/Photostory.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Photostory-b7d070e4.css"
+    ]
+  },
+  "src/routes/culturals/Pixel-files.svelte": {
+    "file": "immutable/pages/culturals/Pixel-files.svelte-c2a44260.js",
+    "src": "src/routes/culturals/Pixel-files.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Pixel-files-7dff3772.css"
+    ]
+  },
+  "src/routes/culturals/Poetry-slam.svelte": {
+    "file": "immutable/pages/culturals/Poetry-slam.svelte-4686d744.js",
+    "src": "src/routes/culturals/Poetry-slam.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Poetry-slam-15abcb01.css"
+    ]
+  },
+  "src/routes/culturals/Potdf.svelte": {
+    "file": "immutable/pages/culturals/Potdf.svelte-8ca071db.js",
+    "src": "src/routes/culturals/Potdf.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Potdf-c8d8b2e3.css"
+    ]
+  },
+  "src/routes/culturals/Shredded.svelte": {
+    "file": "immutable/pages/culturals/Shredded.svelte-91bb6dd0.js",
+    "src": "src/routes/culturals/Shredded.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Shredded-a30f136f.css"
+    ]
+  },
+  "src/routes/culturals/Surreal.svelte": {
+    "file": "immutable/pages/culturals/Surreal.svelte-59e067a1.js",
+    "src": "src/routes/culturals/Surreal.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Surreal-ff3b965e.css"
+    ]
+  },
+  "src/routes/culturals/Time-capsule-quiz.svelte": {
+    "file": "immutable/pages/culturals/Time-capsule-quiz.svelte-34133eb5.js",
+    "src": "src/routes/culturals/Time-capsule-quiz.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Time-capsule-quiz-91340757.css"
+    ]
+  },
+  "src/routes/culturals/Versify-Inqill.svelte": {
+    "file": "immutable/pages/culturals/Versify-Inqill.svelte-f33be622.js",
+    "src": "src/routes/culturals/Versify-Inqill.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Versify-Inqill-ae979779.css"
+    ]
+  },
+  "src/routes/culturals/Versify-Lit-Odyssey.svelte": {
+    "file": "immutable/pages/culturals/Versify-Lit-Odyssey.svelte-3e447b59.js",
+    "src": "src/routes/culturals/Versify-Lit-Odyssey.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-361a7288.js"
+    ],
+    "css": [
+      "immutable/assets/Versify-Lit-Odyssey-a6fa66ef.css"
+    ]
+  },
+  "src/routes/culturals.svelte": {
+    "file": "immutable/pages/culturals.svelte-f6852aa1.js",
+    "src": "src/routes/culturals.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/culturals-2c1c403d.css"
+    ]
+  },
+  "src/routes/events/cultural-events.svelte": {
+    "file": "immutable/pages/events/cultural-events.svelte-39319246.js",
+    "src": "src/routes/events/cultural-events.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ]
+  },
+  "src/routes/events/scitech-events.svelte": {
+    "file": "immutable/pages/events/scitech-events.svelte-1cd657e5.js",
+    "src": "src/routes/events/scitech-events.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ]
+  },
+  "src/routes/events.svelte": {
+    "file": "immutable/pages/events.svelte-f5f4c7a5.js",
+    "src": "src/routes/events.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/events-ba3eedf3.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "immutable/pages/index.svelte-209b10cf.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/index-2054c9b3.css",
+      "immutable/assets/lite-yt-embed-84fffdea.css"
+    ]
+  },
+  "src/routes/informal/7-UP.svelte": {
+    "file": "immutable/pages/informal/7-UP.svelte-04e8a57b.js",
+    "src": "src/routes/informal/7-UP.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/7-UP-3061c43c.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Balloon-shoot-dart.svelte": {
+    "file": "immutable/pages/informal/Balloon-shoot-dart.svelte-9d394561.js",
+    "src": "src/routes/informal/Balloon-shoot-dart.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Balloon-shoot-dart-0e36c6c2.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Beg-Borrow-Steal.svelte": {
+    "file": "immutable/pages/informal/Beg-Borrow-Steal.svelte-b4469623.js",
+    "src": "src/routes/informal/Beg-Borrow-Steal.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Beg-Borrow-Steal-da9e1a66.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Box-Cricket.svelte": {
+    "file": "immutable/pages/informal/Box-Cricket.svelte-45c597ec.js",
+    "src": "src/routes/informal/Box-Cricket.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "src/routes/informal/Register.svelte"
+    ],
+    "css": [
+      "immutable/assets/Box-Cricket-f3ca6f61.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Register.svelte": {
+    "file": "immutable/pages/informal/Register.svelte-b1ffe6e2.js",
+    "src": "src/routes/informal/Register.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Breaking Barriers 2.0.svelte": {
+    "file": "immutable/pages/informal/Breaking Barriers 2.0.svelte-d1fb3c1b.js",
+    "src": "src/routes/informal/Breaking Barriers 2.0.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Breaking Barriers 2.0-c47ee15d.css"
+    ]
+  },
+  "src/routes/informal/Buzzer-Game.svelte": {
+    "file": "immutable/pages/informal/Buzzer-Game.svelte-6f9561d7.js",
+    "src": "src/routes/informal/Buzzer-Game.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Buzzer-Game-0e36c6c2.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Casino.svelte": {
+    "file": "immutable/pages/informal/Casino.svelte-ad1131e5.js",
+    "src": "src/routes/informal/Casino.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Casino-3061c43c.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Dare-to-Dare.svelte": {
+    "file": "immutable/pages/informal/Dare-to-Dare.svelte-8a598017.js",
+    "src": "src/routes/informal/Dare-to-Dare.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Dare-to-Dare-da9e1a66.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Escape room.svelte": {
+    "file": "immutable/pages/informal/Escape room.svelte-a536bac4.js",
+    "src": "src/routes/informal/Escape room.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "src/routes/informal/Register.svelte"
+    ],
+    "css": [
+      "immutable/assets/Escape room-3061c43c.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Esports.svelte": {
+    "file": "immutable/pages/informal/Esports.svelte-cb860225.js",
+    "src": "src/routes/informal/Esports.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Esports-db69bcb9.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Glass-Pong.svelte": {
+    "file": "immutable/pages/informal/Glass-Pong.svelte-f52c1505.js",
+    "src": "src/routes/informal/Glass-Pong.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Glass-Pong-da9e1a66.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Housie.svelte": {
+    "file": "immutable/pages/informal/Housie.svelte-2ee23fa5.js",
+    "src": "src/routes/informal/Housie.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Housie-da9e1a66.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Lucky-Draw.svelte": {
+    "file": "immutable/pages/informal/Lucky-Draw.svelte-32150e4a.js",
+    "src": "src/routes/informal/Lucky-Draw.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Lucky-Draw-da9e1a66.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Matched.svelte": {
+    "file": "immutable/pages/informal/Matched.svelte-5dcb2cd0.js",
+    "src": "src/routes/informal/Matched.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Matched-5cca2a3e.css"
+    ]
+  },
+  "src/routes/informal/Paper-Dance.svelte": {
+    "file": "immutable/pages/informal/Paper-Dance.svelte-ef510be7.js",
+    "src": "src/routes/informal/Paper-Dance.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Paper-Dance-29735eef.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Ring-Hoopla-Game.svelte": {
+    "file": "immutable/pages/informal/Ring-Hoopla-Game.svelte-c50b203c.js",
+    "src": "src/routes/informal/Ring-Hoopla-Game.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Ring-Hoopla-Game-3537c383.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Speed-Dating.svelte": {
+    "file": "immutable/pages/informal/Speed-Dating.svelte-eddf76a5.js",
+    "src": "src/routes/informal/Speed-Dating.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/Speed-Dating-da9e1a66.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal/Stand-Up-Comedy.svelte": {
+    "file": "immutable/pages/informal/Stand-Up-Comedy.svelte-e66d6deb.js",
+    "src": "src/routes/informal/Stand-Up-Comedy.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "src/routes/informal/Register.svelte"
+    ],
+    "css": [
+      "immutable/assets/Stand-Up-Comedy-eee8b3b1.css",
+      "immutable/assets/Register-20faf398.css"
+    ]
+  },
+  "src/routes/informal.svelte": {
+    "file": "immutable/pages/informal.svelte-0597d27a.js",
+    "src": "src/routes/informal.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/informal-592200cb.css"
+    ]
+  },
+  "src/routes/pronite.svelte": {
+    "file": "immutable/pages/pronite.svelte-08b6902e.js",
+    "src": "src/routes/pronite.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/pronite-b411c014.css"
+    ]
+  },
+  "src/routes/scitech/Aviatya.svelte": {
+    "file": "immutable/pages/scitech/Aviatya.svelte-635f395e.js",
+    "src": "src/routes/scitech/Aviatya.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Aviatya-6afd9697.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Break-the-blocks.svelte": {
+    "file": "immutable/pages/scitech/Break-the-blocks.svelte-606f6f9e.js",
+    "src": "src/routes/scitech/Break-the-blocks.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Break-the-blocks-6afd9697.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Captcha-breaking.svelte": {
+    "file": "immutable/pages/scitech/Captcha-breaking.svelte-1a7f6ca4.js",
+    "src": "src/routes/scitech/Captcha-breaking.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Captcha-breaking-6afd9697.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Circuit-Disrupt.svelte": {
+    "file": "immutable/pages/scitech/Circuit-Disrupt.svelte-636f5da0.js",
+    "src": "src/routes/scitech/Circuit-Disrupt.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Circuit-Disrupt-35d09090.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/CodersMeet.svelte": {
+    "file": "immutable/pages/scitech/CodersMeet.svelte-651a21ca.js",
+    "src": "src/routes/scitech/CodersMeet.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/CodersMeet-891b075e.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Over-flow.svelte": {
+    "file": "immutable/pages/scitech/Over-flow.svelte-f62cd243.js",
+    "src": "src/routes/scitech/Over-flow.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Over-flow-bc48430e.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Robo-kabaddi.svelte": {
+    "file": "immutable/pages/scitech/Robo-kabaddi.svelte-26d74bfa.js",
+    "src": "src/routes/scitech/Robo-kabaddi.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Robo-kabaddi-bc48430e.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Robo-soccer.svelte": {
+    "file": "immutable/pages/scitech/Robo-soccer.svelte-d0c98d6c.js",
+    "src": "src/routes/scitech/Robo-soccer.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Robo-soccer-6361a4bf.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Skrypted.svelte": {
+    "file": "immutable/pages/scitech/Skrypted.svelte-4afe6a45.js",
+    "src": "src/routes/scitech/Skrypted.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Skrypted-a79ffd75.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Stargazing.svelte": {
+    "file": "immutable/pages/scitech/Stargazing.svelte-81e954f1.js",
+    "src": "src/routes/scitech/Stargazing.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Stargazing-fecca3e4.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/VR-Flynn.svelte": {
+    "file": "immutable/pages/scitech/VR-Flynn.svelte-811db728.js",
+    "src": "src/routes/scitech/VR-Flynn.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/VR-Flynn-fecca3e4.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech/Zapricon.svelte": {
+    "file": "immutable/pages/scitech/Zapricon.svelte-3e5d379a.js",
+    "src": "src/routes/scitech/Zapricon.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js",
+      "__Register-89d2fc1b.js"
+    ],
+    "css": [
+      "immutable/assets/Zapricon-384427c2.css",
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "src/routes/scitech.svelte": {
+    "file": "immutable/pages/scitech.svelte-a04de09f.js",
+    "src": "src/routes/scitech.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/scitech-ed239409.css"
+    ]
+  },
+  "src/routes/sponshorship.svelte": {
+    "file": "immutable/pages/sponshorship.svelte-76fdca12.js",
+    "src": "src/routes/sponshorship.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/sponshorship-b88ca8fb.css"
+    ]
+  },
+  "src/routes/startup.svelte": {
+    "file": "immutable/pages/startup.svelte-16fffc0e.js",
+    "src": "src/routes/startup.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-4c397a37.js",
+      "_index-06c56749.js"
+    ],
+    "dynamicImports": [
+      "node_modules/lite-youtube-embed/src/lite-yt-embed.js"
+    ],
+    "css": [
+      "immutable/assets/startup-1d7af0ba.css",
+      "immutable/assets/lite-yt-embed-84fffdea.css"
+    ]
+  },
+  "_index-06c56749.js": {
+    "file": "immutable/chunks/index-06c56749.js"
+  },
+  "_index-84c6ea1d.js": {
+    "file": "immutable/chunks/index-84c6ea1d.js",
+    "imports": [
+      "_index-06c56749.js"
+    ]
+  },
+  "_preload-helper-4c397a37.js": {
+    "file": "immutable/chunks/preload-helper-4c397a37.js"
+  },
+  "_index.es-29adbfae.js": {
+    "file": "immutable/chunks/index.es-29adbfae.js",
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/index-af927694.css"
+    ]
+  },
+  "__Register-361a7288.js": {
+    "file": "immutable/chunks/_Register-361a7288.js",
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "__Register-89d2fc1b.js": {
+    "file": "immutable/chunks/_Register-89d2fc1b.js",
+    "imports": [
+      "_index-06c56749.js"
+    ],
+    "css": [
+      "immutable/assets/_Register-20faf398.css"
+    ]
+  },
+  "node_modules/lite-youtube-embed/src/lite-yt-embed.js": {
+    "file": "immutable/chunks/lite-yt-embed-5a450833.js",
+    "src": "node_modules/lite-youtube-embed/src/lite-yt-embed.js",
+    "isDynamicEntry": true
+  },
+  "src/routes/__layout.css": {
+    "file": "immutable/assets/__layout-e6c4c594.css",
+    "src": "src/routes/__layout.css"
+  },
+  "src/routes/culturals/Ad11.css": {
+    "file": "immutable/assets/Ad11-472ca093.css",
+    "src": "src/routes/culturals/Ad11.css"
+  },
+  "src/routes/about.css": {
+    "file": "immutable/assets/about-6ba903af.css",
+    "src": "src/routes/about.css"
+  },
+  "lite-yt-embed.css": {
+    "file": "immutable/assets/lite-yt-embed-84fffdea.css",
+    "src": "lite-yt-embed.css"
+  },
+  "src/routes/contact.css": {
+    "file": "immutable/assets/contact-c5f70b22.css",
+    "src": "src/routes/contact.css"
+  },
+  "index.css": {
+    "file": "immutable/assets/index-af927694.css",
+    "src": "index.css"
+  },
+  "_Register.css": {
+    "file": "immutable/assets/_Register-20faf398.css",
+    "src": "_Register.css"
+  },
+  "src/routes/culturals/Artville.css": {
+    "file": "immutable/assets/Artville-67cda80a.css",
+    "src": "src/routes/culturals/Artville.css"
+  },
+  "src/routes/culturals/Attire-spectra.css": {
+    "file": "immutable/assets/Attire-spectra-9f2c4dde.css",
+    "src": "src/routes/culturals/Attire-spectra.css"
+  },
+  "src/routes/culturals/Cinemaestro.css": {
+    "file": "immutable/assets/Cinemaestro-9ef543d0.css",
+    "src": "src/routes/culturals/Cinemaestro.css"
+  },
+  "src/routes/culturals/Biz-sci-tech-quiz.css": {
+    "file": "immutable/assets/Biz-sci-tech-quiz-d53467c3.css",
+    "src": "src/routes/culturals/Biz-sci-tech-quiz.css"
+  },
+  "src/routes/culturals/Fest-in-a-flash.css": {
+    "file": "immutable/assets/Fest-in-a-flash-2292a4b6.css",
+    "src": "src/routes/culturals/Fest-in-a-flash.css"
+  },
+  "src/routes/culturals/Depth-of-dance.css": {
+    "file": "immutable/assets/Depth-of-dance-9ef543d0.css",
+    "src": "src/routes/culturals/Depth-of-dance.css"
+  },
+  "src/routes/culturals/Euphony.css": {
+    "file": "immutable/assets/Euphony-67cda80a.css",
+    "src": "src/routes/culturals/Euphony.css"
+  },
+  "src/routes/culturals/Fiction-on-canvas.css": {
+    "file": "immutable/assets/Fiction-on-canvas-a6fa66ef.css",
+    "src": "src/routes/culturals/Fiction-on-canvas.css"
+  },
+  "src/routes/culturals/Final-masquerade.css": {
+    "file": "immutable/assets/Final-masquerade-a6fa66ef.css",
+    "src": "src/routes/culturals/Final-masquerade.css"
+  },
+  "src/routes/culturals/Mun.css": {
+    "file": "immutable/assets/Mun-b8b79eb2.css",
+    "src": "src/routes/culturals/Mun.css"
+  },
+  "src/routes/culturals/Motification.css": {
+    "file": "immutable/assets/Motification-7dff3772.css",
+    "src": "src/routes/culturals/Motification.css"
+  },
+  "src/routes/culturals/Mimic.css": {
+    "file": "immutable/assets/Mimic-a6fa66ef.css",
+    "src": "src/routes/culturals/Mimic.css"
+  },
+  "src/routes/culturals/Hue-tube.css": {
+    "file": "immutable/assets/Hue-tube-a6fa66ef.css",
+    "src": "src/routes/culturals/Hue-tube.css"
+  },
+  "src/routes/culturals/In10sity.css": {
+    "file": "immutable/assets/In10sity-a6fa66ef.css",
+    "src": "src/routes/culturals/In10sity.css"
+  },
+  "src/routes/culturals/Surreal.css": {
+    "file": "immutable/assets/Surreal-ff3b965e.css",
+    "src": "src/routes/culturals/Surreal.css"
+  },
+  "src/routes/culturals/Poetry-slam.css": {
+    "file": "immutable/assets/Poetry-slam-15abcb01.css",
+    "src": "src/routes/culturals/Poetry-slam.css"
+  },
+  "src/routes/culturals/Potdf.css": {
+    "file": "immutable/assets/Potdf-c8d8b2e3.css",
+    "src": "src/routes/culturals/Potdf.css"
+  },
+  "src/routes/culturals/Shredded.css": {
+    "file": "immutable/assets/Shredded-a30f136f.css",
+    "src": "src/routes/culturals/Shredded.css"
+  },
+  "src/routes/culturals/Phantom.css": {
+    "file": "immutable/assets/Phantom-91340757.css",
+    "src": "src/routes/culturals/Phantom.css"
+  },
+  "src/routes/culturals/Murder Mystery.css": {
+    "file": "immutable/assets/Murder Mystery-d20b0ab2.css",
+    "src": "src/routes/culturals/Murder Mystery.css"
+  },
+  "src/routes/culturals/Nukkad-natak.css": {
+    "file": "immutable/assets/Nukkad-natak-a6fa66ef.css",
+    "src": "src/routes/culturals/Nukkad-natak.css"
+  },
+  "src/routes/culturals/Pixel-files.css": {
+    "file": "immutable/assets/Pixel-files-7dff3772.css",
+    "src": "src/routes/culturals/Pixel-files.css"
+  },
+  "src/routes/culturals/Versify-Inqill.css": {
+    "file": "immutable/assets/Versify-Inqill-ae979779.css",
+    "src": "src/routes/culturals/Versify-Inqill.css"
+  },
+  "src/routes/culturals/Versify-Lit-Odyssey.css": {
+    "file": "immutable/assets/Versify-Lit-Odyssey-a6fa66ef.css",
+    "src": "src/routes/culturals/Versify-Lit-Odyssey.css"
+  },
+  "src/routes/culturals.css": {
+    "file": "immutable/assets/culturals-2c1c403d.css",
+    "src": "src/routes/culturals.css"
+  },
+  "src/routes/culturals/Time-capsule-quiz.css": {
+    "file": "immutable/assets/Time-capsule-quiz-91340757.css",
+    "src": "src/routes/culturals/Time-capsule-quiz.css"
+  },
+  "src/routes/events.css": {
+    "file": "immutable/assets/events-ba3eedf3.css",
+    "src": "src/routes/events.css"
+  },
+  "src/routes/informal/7-UP.css": {
+    "file": "immutable/assets/7-UP-3061c43c.css",
+    "src": "src/routes/informal/7-UP.css"
+  },
+  "src/routes/index.css": {
+    "file": "immutable/assets/index-2054c9b3.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/informal/Balloon-shoot-dart.css": {
+    "file": "immutable/assets/Balloon-shoot-dart-0e36c6c2.css",
+    "src": "src/routes/informal/Balloon-shoot-dart.css"
+  },
+  "Register.css": {
+    "file": "immutable/assets/Register-20faf398.css",
+    "src": "Register.css"
+  },
+  "src/routes/informal/Box-Cricket.css": {
+    "file": "immutable/assets/Box-Cricket-f3ca6f61.css",
+    "src": "src/routes/informal/Box-Cricket.css"
+  },
+  "src/routes/informal/Breaking Barriers 2.0.css": {
+    "file": "immutable/assets/Breaking Barriers 2.0-c47ee15d.css",
+    "src": "src/routes/informal/Breaking Barriers 2.0.css"
+  },
+  "src/routes/informal/Buzzer-Game.css": {
+    "file": "immutable/assets/Buzzer-Game-0e36c6c2.css",
+    "src": "src/routes/informal/Buzzer-Game.css"
+  },
+  "src/routes/informal/Casino.css": {
+    "file": "immutable/assets/Casino-3061c43c.css",
+    "src": "src/routes/informal/Casino.css"
+  },
+  "src/routes/informal/Dare-to-Dare.css": {
+    "file": "immutable/assets/Dare-to-Dare-da9e1a66.css",
+    "src": "src/routes/informal/Dare-to-Dare.css"
+  },
+  "src/routes/informal/Escape room.css": {
+    "file": "immutable/assets/Escape room-3061c43c.css",
+    "src": "src/routes/informal/Escape room.css"
+  },
+  "src/routes/informal/Esports.css": {
+    "file": "immutable/assets/Esports-db69bcb9.css",
+    "src": "src/routes/informal/Esports.css"
+  },
+  "src/routes/informal/Glass-Pong.css": {
+    "file": "immutable/assets/Glass-Pong-da9e1a66.css",
+    "src": "src/routes/informal/Glass-Pong.css"
+  },
+  "src/routes/informal/Lucky-Draw.css": {
+    "file": "immutable/assets/Lucky-Draw-da9e1a66.css",
+    "src": "src/routes/informal/Lucky-Draw.css"
+  },
+  "src/routes/culturals/Nsfw-quiz.css": {
+    "file": "immutable/assets/Nsfw-quiz-a6fa66ef.css",
+    "src": "src/routes/culturals/Nsfw-quiz.css"
+  },
+  "src/routes/informal/Speed-Dating.css": {
+    "file": "immutable/assets/Speed-Dating-da9e1a66.css",
+    "src": "src/routes/informal/Speed-Dating.css"
+  },
+  "src/routes/informal/Stand-Up-Comedy.css": {
+    "file": "immutable/assets/Stand-Up-Comedy-eee8b3b1.css",
+    "src": "src/routes/informal/Stand-Up-Comedy.css"
+  },
+  "src/routes/informal.css": {
+    "file": "immutable/assets/informal-592200cb.css",
+    "src": "src/routes/informal.css"
+  },
+  "src/routes/pronite.css": {
+    "file": "immutable/assets/pronite-b411c014.css",
+    "src": "src/routes/pronite.css"
+  },
+  "src/routes/scitech/Aviatya.css": {
+    "file": "immutable/assets/Aviatya-6afd9697.css",
+    "src": "src/routes/scitech/Aviatya.css"
+  },
+  "src/routes/scitech/Break-the-blocks.css": {
+    "file": "immutable/assets/Break-the-blocks-6afd9697.css",
+    "src": "src/routes/scitech/Break-the-blocks.css"
+  },
+  "src/routes/scitech/Captcha-breaking.css": {
+    "file": "immutable/assets/Captcha-breaking-6afd9697.css",
+    "src": "src/routes/scitech/Captcha-breaking.css"
+  },
+  "src/routes/scitech/Circuit-Disrupt.css": {
+    "file": "immutable/assets/Circuit-Disrupt-35d09090.css",
+    "src": "src/routes/scitech/Circuit-Disrupt.css"
+  },
+  "src/routes/informal/Housie.css": {
+    "file": "immutable/assets/Housie-da9e1a66.css",
+    "src": "src/routes/informal/Housie.css"
+  },
+  "src/routes/culturals/Photostory.css": {
+    "file": "immutable/assets/Photostory-b7d070e4.css",
+    "src": "src/routes/culturals/Photostory.css"
+  },
+  "src/routes/scitech.css": {
+    "file": "immutable/assets/scitech-ed239409.css",
+    "src": "src/routes/scitech.css"
+  },
+  "src/routes/informal/Paper-Dance.css": {
+    "file": "immutable/assets/Paper-Dance-29735eef.css",
+    "src": "src/routes/informal/Paper-Dance.css"
+  },
+  "src/routes/informal/Matched.css": {
+    "file": "immutable/assets/Matched-5cca2a3e.css",
+    "src": "src/routes/informal/Matched.css"
+  },
+  "src/routes/informal/Ring-Hoopla-Game.css": {
+    "file": "immutable/assets/Ring-Hoopla-Game-3537c383.css",
+    "src": "src/routes/informal/Ring-Hoopla-Game.css"
+  },
+  "src/routes/sponshorship.css": {
+    "file": "immutable/assets/sponshorship-b88ca8fb.css",
+    "src": "src/routes/sponshorship.css"
+  },
+  "src/routes/scitech/Robo-kabaddi.css": {
+    "file": "immutable/assets/Robo-kabaddi-bc48430e.css",
+    "src": "src/routes/scitech/Robo-kabaddi.css"
+  },
+  "src/routes/scitech/Skrypted.css": {
+    "file": "immutable/assets/Skrypted-a79ffd75.css",
+    "src": "src/routes/scitech/Skrypted.css"
+  },
+  "src/routes/scitech/Stargazing.css": {
+    "file": "immutable/assets/Stargazing-fecca3e4.css",
+    "src": "src/routes/scitech/Stargazing.css"
+  },
+  "src/routes/startup.css": {
+    "file": "immutable/assets/startup-1d7af0ba.css",
+    "src": "src/routes/startup.css"
+  },
+  "src/routes/scitech/VR-Flynn.css": {
+    "file": "immutable/assets/VR-Flynn-fecca3e4.css",
+    "src": "src/routes/scitech/VR-Flynn.css"
+  },
+  "src/routes/scitech/Zapricon.css": {
+    "file": "immutable/assets/Zapricon-384427c2.css",
+    "src": "src/routes/scitech/Zapricon.css"
+  },
+  "src/routes/scitech/Robo-soccer.css": {
+    "file": "immutable/assets/Robo-soccer-6361a4bf.css",
+    "src": "src/routes/scitech/Robo-soccer.css"
+  },
+  "src/routes/informal/Beg-Borrow-Steal.css": {
+    "file": "immutable/assets/Beg-Borrow-Steal-da9e1a66.css",
+    "src": "src/routes/informal/Beg-Borrow-Steal.css"
+  },
+  "src/routes/scitech/CodersMeet.css": {
+    "file": "immutable/assets/CodersMeet-891b075e.css",
+    "src": "src/routes/scitech/CodersMeet.css"
+  },
+  "src/routes/scitech/Over-flow.css": {
+    "file": "immutable/assets/Over-flow-bc48430e.css",
+    "src": "src/routes/scitech/Over-flow.css"
+  }
+}
